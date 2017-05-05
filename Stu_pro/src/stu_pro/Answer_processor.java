@@ -23,13 +23,9 @@ public class Answer_processor {
         answer=answer.replace("10rs","10Rs");
         answer=answer.replace("maths","Maths").replace("physics","Physics").replace("humanities","Humanities"); 
         answer=answer.replace("-"," ").replace("none","").replace("  "," ");
-        
-        
-        
-        
-        
-        
-        
+           
+          
+                    
         return answer;
     }
     

@@ -50,7 +50,6 @@ public class Background extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(2147483647, 2147483647));
-        setPreferredSize(new java.awt.Dimension(436, 344));
         getContentPane().setLayout(null);
 
         jTextField2.setFont(new java.awt.Font("Raleway", 0, 18)); // NOI18N
