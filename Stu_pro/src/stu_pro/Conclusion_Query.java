@@ -405,7 +405,7 @@ public class Conclusion_Query implements Global_variables{
         }catch(Exception e){
             //e.printStackTrace();
             //System.out.println("\n Not able to infer exact query. Please try to improve your query.");
-            return y.replace("what-happen","")+" implies\nNothing"+"\n Not able to infer exact query.\nPlease try to improve your query.";
+            return y.replace("what-happen","")+" implies Nothing"+"\nNot able to infer exact query.\nPlease try to improve your query.";
         }
     }
 

@@ -1,4 +1,5 @@
 
+import java.awt.Color;
 import javax.swing.JOptionPane;
 import stu_pro.*;
 import java.io.IOException;
@@ -13,8 +14,9 @@ import java.util.logging.Logger;
  *
  * @author user
  */
-public class Background extends javax.swing.JFrame {
-
+public class Background extends javax.swing.JFrame implements Global_variables{
+    Query_Processor t4=new Query_Processor();
+    
     /**
      * Creates new form Background
      */
@@ -35,6 +37,11 @@ public class Background extends javax.swing.JFrame {
         jTextField2 = new javax.swing.JTextField();
         jTextField3 = new javax.swing.JTextField();
         jTextField4 = new javax.swing.JTextField();
+        jLayeredPane1 = new javax.swing.JLayeredPane();
+        toggle_fc = new javax.swing.JToggleButton();
+        toggle_bc = new javax.swing.JToggleButton();
+        jLabel9 = new javax.swing.JLabel();
+        learn = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         jLabel8 = new javax.swing.JLabel();
@@ -71,6 +78,54 @@ public class Background extends javax.swing.JFrame {
         jTextField4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255), 5));
         getContentPane().add(jTextField4);
         jTextField4.setBounds(660, 220, 250, 40);
+
+        jLayeredPane1.setBackground(new java.awt.Color(255, 255, 255));
+
+        toggle_fc.setBackground(new java.awt.Color(255, 255, 255));
+        toggle_fc.setFont(new java.awt.Font("Raleway", 0, 18)); // NOI18N
+        toggle_fc.setText("Forward Chaining ON");
+        toggle_fc.setMaximumSize(new java.awt.Dimension(200, 23));
+        toggle_fc.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                toggle_fcActionPerformed(evt);
+            }
+        });
+        jLayeredPane1.add(toggle_fc);
+        toggle_fc.setBounds(10, 70, 240, 40);
+
+        toggle_bc.setBackground(new java.awt.Color(255, 255, 255));
+        toggle_bc.setFont(new java.awt.Font("Raleway", 0, 18)); // NOI18N
+        toggle_bc.setText("Backward Chaining ON");
+        toggle_bc.setActionCommand("Backward Chaining ON");
+        toggle_bc.setMaximumSize(new java.awt.Dimension(200, 23));
+        toggle_bc.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                toggle_bcActionPerformed(evt);
+            }
+        });
+        jLayeredPane1.add(toggle_bc);
+        toggle_bc.setBounds(10, 120, 240, 40);
+        toggle_bc.getAccessibleContext().setAccessibleName("Backward Chaining ON");
+
+        jLabel9.setFont(new java.awt.Font("Airborne", 0, 24)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setText("Features");
+        jLayeredPane1.add(jLabel9);
+        jLabel9.setBounds(70, 20, 150, 30);
+
+        learn.setBackground(new java.awt.Color(255, 255, 255));
+        learn.setFont(new java.awt.Font("Raleway", 0, 18)); // NOI18N
+        learn.setText("Learn\n");
+        learn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                learnActionPerformed(evt);
+            }
+        });
+        jLayeredPane1.add(learn);
+        learn.setBounds(10, 170, 240, 40);
+
+        getContentPane().add(jLayeredPane1);
+        jLayeredPane1.setBounds(1020, 150, 260, 240);
 
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Raleway", 0, 20)); // NOI18N
@@ -160,7 +215,7 @@ public class Background extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
     
-    Query_Processor t4=new Query_Processor();    
+        
     String string0, string1, string2, string3, query,result = null;
     string0 = (String) jComboBox1.getSelectedItem();
     // We have to parse the text to a type float.
@@ -221,6 +276,37 @@ public class Background extends javax.swing.JFrame {
         updateState();
     }//GEN-LAST:event_jComboBox1ActionPerformed
 
+    private void toggle_fcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_toggle_fcActionPerformed
+        // TODO add your handling code here:
+        
+        if(toggle_fc.isSelected()){
+            toggle_fc.setText("Forward chaining OFF");
+            Color r = new Color(102,102,225);
+            toggle_fc.setBackground(r);
+        }else{
+            toggle_fc.setText("Forward chaining ON");
+            toggle_fc.setBackground(Color.WHITE);
+        }
+        t4.change_flag(toggle_fc.isSelected(),toggle_bc.isSelected());
+    }//GEN-LAST:event_toggle_fcActionPerformed
+
+    private void toggle_bcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_toggle_bcActionPerformed
+        // TODO add your handling code here:
+        if(toggle_bc.isSelected()){
+            toggle_bc.setText("Backward chaining OFF");
+            Color r = new Color(102,102,225);
+            toggle_bc.setBackground(r);
+        }else{
+            toggle_bc.setText("Backward chaining ON");
+            toggle_bc.setBackground(Color.WHITE);
+        }
+        t4.change_flag(toggle_fc.isSelected(),toggle_bc.isSelected());
+    }//GEN-LAST:event_toggle_bcActionPerformed
+
+    private void learnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_learnActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_learnActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -270,10 +356,15 @@ public class Background extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JLayeredPane jLayeredPane1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
+    private javax.swing.JButton learn;
+    private javax.swing.JToggleButton toggle_bc;
+    private javax.swing.JToggleButton toggle_fc;
     // End of variables declaration//GEN-END:variables
 }

@@ -15,4 +15,5 @@ public interface Global_variables {
     final String template="src\\files\\template.clp";
     final String bc_rule_base="src\\files\\Bacward-chain-rule.clp";
     final String otherdatabase= "src\\files\\clips2.clp";
+    
 }
