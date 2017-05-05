@@ -1,6 +1,6 @@
 
 import javax.swing.JOptionPane;
-import Stu_pro.*;
+import stu_pro.*;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
