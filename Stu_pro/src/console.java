@@ -16,7 +16,7 @@ public class console {
 	
 		f.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
                 f.getContentPane().add(new TextAreaOutputStreamWindow());
-		f.setSize(500,600);
+		f.setSize(510,600);
 		f.setVisible(true);
 	}
 }

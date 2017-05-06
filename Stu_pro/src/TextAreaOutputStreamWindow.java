@@ -36,6 +36,7 @@ class TextAreaOutputStream extends OutputStream {
    private final JTextArea textArea;
    private final StringBuilder sb = new StringBuilder();
    private String title;
+   private int count=0;
 
    public TextAreaOutputStream(final JTextArea textArea, String title) {
       this.textArea = textArea;
@@ -53,11 +54,12 @@ class TextAreaOutputStream extends OutputStream {
 
    @Override
    public void write(int b) throws IOException {
-
+       
       if (b == '\r')
          return;
 
       if (b == '\n') {
+          count=0;
          final String text = sb.toString() + "\n";
          SwingUtilities.invokeLater(new Runnable() {
             public void run() {
@@ -68,7 +70,14 @@ class TextAreaOutputStream extends OutputStream {
          sb.append(title + "> ");
          return;
       }
-
+      if(count>=70){
+          if(b==' '){
+            sb.append("\n");
+            count=0;
+          }
+        
+      }
       sb.append((char) b);
+      count++;
    }
 }
