@@ -1,0 +1,69 @@
+% 1. Title: Question answer dataset
+% 
+% 2. Sources:
+%      (a) Creator: Pooja lodhi
+% 3. Attribute Information:
+%	1. sentence 
+%	2.type of question: (1)what , (2)what-happen , (3)where , (4)when
+
+@RELATION question-tag
+
+@ATTRIBUTE sentence	string
+@ATTRIBUTE questiontag	{what, what-happen, where, when}
+
+@DATA
+'The V.C. is overall incharge of the academic activities including attendance and leave of students.',what
+'Dean Students Welfare (DSW) will deal with the welfare and discipline of all students in the campus', what
+'the Grotto is the Marian place of prayer and reflection',what
+'There is no age limit to apply for Teach For India Fellowship.',what
+'The dimensions of the photograph should be 3.5 x 4.5cm width. ',what
+'TRYST, IIT Delhi is North India largest science, technological and management festival.',what
+'PMB is Plant and Microbial Biotechnology Research Group',what
+'Amity University has been ranked the no. 1 not-for-profit pvt. University ',what
+'PMB works with a mission to provide biotechnology driven solutions for abetting developmental concerns in Environment, Agriculture & Industrial sectors.',what
+'The primary motive of PMB conference is to discuss the advancements in these research areas by people all over the world.',what
+'For security purposes, you will be automatically logged out of MyMedicare.gov after 20 minutes of inactivity',what-happen
+'If paying by credit card or wire transfer, WeWork requires a Service Retainer equal to two and a half months (2.5 months) of your monthly Membership Fee.',what-happen
+'Amity reserves its right to cancel the admission of successful candidate If the candidate fails to furnish the proof of the stipulated minimum qualifications.',what-happen
+'When you finish the first version of your code, click Run Code button to run your solution against one or more small sample test cases.',what-happen
+'If a lot of people have already solved a challenge, the odds are that the issue is in your code.',what-happen
+'once the transfer is made then kindly mail the transfer code to conference organisers.',what-happen
+'there would be no life on Earth Without the Sun',what-happen
+'If one places a tiny amount of liquor on a scorpion, it will instantly go mad and sting itself to death.',what-happen
+'If Texas were a country, its GNP would be the fifth largest of any country in the world.',what-happen
+'If you go blind in one eye you only lose about one fifth of your vision but all your sense of depth.',what-happen
+'If you think there’s been a mistake, you can contact help@getsimpl.com',what-happen
+'When pH is too high, the concentration of hydrogen ions in the blood is too low, so the kidneys excrete bicarbonate',what-happen
+'During the absence of the Chair or while he or she is unable to act, the Vice Chair shall perform the duties and exercise the powers of the Chair.',what-happen
+'If the building of your choice has availability, we will work with you to organize a seamless transfer to the building of your choice.',what-happen
+'Fred is Mike brother son therefore Fred is Mike nephew.',what-happen
+'Failure to pay the fee within the specified date or report for classes after payment of fee will entail cancellation of admission.',what-happen
+'if a cat falls off the seventh floor of a building it has about thirty percent less chance of surviving than a cat that falls off the twentieth floor.',what-happen
+'1959 Lee Kuan Yew became prime minister of Singapore',when
+'Last date to apply for all UG programmes 23 Mar 2017',when
+'The NMN of the institution is held in second week of march every year.',when
+'The Admission procedure may last till late in the evening.',when
+'President Kennedy killed was killed on 1963',when
+'In 1874, Ernst Haeckel divided the animal kingdom into two subkingdoms: Metazoa (multicellular animals) and Protozoa (single-celled animals)',when
+'Deloitte has extended the first round of the EMaverick Challenge till February 27th, 2017.',when
+'Pulse presents Millind Gaba performing LIVE on 4th FEB at 6:00PM.',when
+'Jaypee Institute of Information Technology, was established in the year 2001',when
+'He died in 2006.',when
+'Abstract Submission date 22nd Nov 2016',when
+'Early Bird Registration will close on 15th Jan 2017',when
+'PMB confrence is from 2 to 6 feb 2017',when
+'Registrations are open till March 21st.',when
+'the American president live in The White House',where
+'PMB reserach is group present at the Biotechnology department, JIIT, NOIDA',where
+'The Department of Biotechnology at JIIT, NOIDA',where
+'Qualifying candidates will be informed about the date, time and venue of Admission Procedure on the Admission Microsite ',where
+'Inaugural Program of VPCOE IEEE Women in Engineering Student Branch Affinity Group',where
+'Study material is accessible from system connected to college network. ',where
+%'The article was first published in the journal Analysis',where
+%'the Pinocchio paradox rapidly became popular on the Internet.',where
+%---------------------
+'If you went out into space, you would explode before you suffocated because there is no air pressure.',what-happen
+'If you keep a goldfish in the dark room, it will eventually turn white.',what-happen
+'Whenever any plane or ship disappears in the Triangle, its debris cannot be found.',what-happen
+%------------
+

@@ -1,0 +1,1041 @@
+% 1. Title: Question answer dataset
+% 
+% 2. Sources:
+%      (a) Creator: Pooja lodhi
+% 3. Attribute Information:
+%	1. sentence 
+%	2.type of question: (1)what , (2)what-happen , (3)where , (4)when
+
+@RELATION question-tag
+
+@ATTRIBUTE sentence	string
+@ATTRIBUTE questiontag	{what, what-happen, where, when}
+
+@DATA
+'This list is available at each office reception',where
+'This list is affixed to the inside cover of the Muster',where
+'It has NEVER rained in Calama, a town in the Atacama Desert of Chile.',where
+'It is illegal to hunt camels in the state of Arizona.',where
+'The battle was fought in Kurukshetra near Delhi',where
+'It is situated on the banks of river Yamuna at Agra',where
+'wolves have scent glands between a wolfs toes',where
+'The tallest monument built in the US',where
+'There are more plastic flamingos in the US than real ones.',where
+'It is against the law to burp or sneeze in a church in Omaha, Nebraska.',where
+'Most of the vitamin C in fruit skin.',where
+'500 miles north old Ghana in relation to present Ghana',where
+'LRC is located in ABBIII building basement',where
+'MML lab is in ABBII building',where
+'In Spain, Mr. Clean is known as Don Limpio.',where
+'fileserver has study material',where
+'It is illegal to be overweight in Japan.',where
+'study material has course discrption',where
+'In Utah, it is against the law to fish from the back of a horse.',where
+'time-table is located on filserver'where
+'G1 is in ABBII building',where
+'book is issued from lrc',where
+'students can read newspaper in lrc',where
+'student can view attendence on webkiskok',where
+'alert line can be accessed from any telephone in North America',where
+'fileserver can be accessed from any computer in lrc',where
+'If you are over the age of 21, you may consume alcoholic beverages at official University functions on campus',what-happen
+'Please visit the Information Technology website for information about University computing services and policies',where
+'Noah ark landed on Mount Ararat in Eastern Turkey.',where
+'Tulips, the symbol of Netherlands, originate from Turkey.',where
+'An attendance register is available at the reception in different departments',where
+'Kazakhstan is the largest gray wolf population thought to be found',where
+'Grover Cleveland married in white house',where
+'Qatar telecommunication system centered is in doho',where
+'It is approved for usage in the EU, US and Australia and New Zealand.',where
+'The National Orchid Garden, located within the Singapore Botanic Gardens',where
+'xylophone originated in Indonesia',where
+'harvesting wild turtles is legal in Florida',where
+'frog lay eggs on land',where	
+'Toucans live in tropical and sub-tropical jungle regions',where
+'The Great Barrier Reef in Australia is the largest living structure in the world.',where
+'The Niagara Falls are located on the border of the USA and Canada.',where
+'The Old English word "swan," derived from the Indo-European root "swen", meaning to sound or to sing',where
+'The monarch butterfly is native to the Americas, but in the nineteenth century or before, spread across the world, and is now found in Australia, New Zealand, other parts of Oceania, and the Iberian Peninsula.',where
+'Tesla study electrical engineering at the Austrian Polytechnic in Graz',where
+'Henri Becquerel is from Paris',where
+'Charles Augustin de Coulomb was born in Angoulême in France.',where
+'The construction of Fort Bourbon took place in Martinique.',where
+'Charles-Augustin de Coulomb died in Paris.',where
+'The violincello is held on the shoulder.',where
+'air pollution in Beijing come from	surrounding cities and provinces',where
+'Bullet ants are located in Central and South America.',where
+'The Berliner Dom is located on the Spree Island across from the site of the Berliner Stadtschloss',where
+'Tropical storms that form in the Atlantic or Northeast Pacific',where
+'Popkomm was held in Cologne before moving to Berlin.',where
+'The bust of Queen Nefertiti is in the Altes Museum.',where
+'The Kven language is spoken in Northern Norway.',where
+'I come from Bangkok.',where
+'The movie was filmed in 2009 in Charleston, South Carolina .',where
+'Brisket is a cut of meat from the breast or lower chest of beef or veal .',where
+'Twenty Questions originated in the United States',where
+'Satellites are made at ISRO Satellite Centre (ISAC), Bangalore.',where
+'Rockets / Launch Vehicles are made at Vikram Sarabhai Space Centre (VSSC), Thiruvanathapuram.',where
+'Indian Space Programme began at Thumba Equatorial Rocket Launching Station (TERLS) located at Thumba near Thiruvanathapuram.',where
+'Chandrayaan-1 was launched from Satish Dhawan Space Centre at Sriharikota (SHAR), India.',where
+'the Louvre Museum located in Paris, France',where
+'Snakes are found on every continent of the world except Antarctica.',where
+'Anacondas are large, non-venomous snakes found in South America',where
+'Polar bears live in the Arctic.',where
+'the settings are in the menu bar that can be accessed by clicking on the Airtel movies icon on the left corner of the top bar .',where
+'Mumbai is located in India',where
+'The largest private garden in London is located at Buckingham Palace',where
+'It is situated on the east side of the Kushk river near its junction with the Murghab at Pul-i-Khishti',where
+'a country gentleman house of moderate size, situated on the very banks of the river',where
+'dress is in polybag',where
+'Hurricanes usually form in tropical areas of the world.',where
+'clothes are kept in cupboard',where
+'Inauguration of Student Branch at Sandip Institute of Technology and Research Centre (SITRC), Nashik',where
+'It was befitting that this edition of the Symposium was held in a small town located far away from Mumbai.',where
+'fileserver can be accssed from mobile',where
+'It also played in New York City',where
+'applications for diplomatic and official passports are entertained only at the Consular, Passport and Visa (CPV) Division, Patiala House, New Delhi',where
+'annaporna is located in jiit',where
+'The tadpoles live underwater until they grow lungs.',where
+'In New York, it is illegal to sell a haunted house without telling the buyer.',where
+'In Japan, crooked teeth are considered cute and attractive.',where
+'volta published his invention of the Voltaic pile battery in the Philosophical Transactions of the Royal Society',where
+'bees lives in colonies',where
+'Charles-Augustin de Coulomb was permanently stationed in Paris in 1781.',where
+'Michael Faraday served two terms in the Church of Scotland',where
+'A copy of the Australia Council bylaws is available here.',where
+'OFSIS2017 Conference will be held at The University of Queensland (UQ) within the stunning new Advanced Engineering Building.',where
+'The Australia & New Zealand Student Congress, a biannual event held alternately in Australia and New Zealand, is funded and co-sponsored by the Council.',where
+'the Park of the Reserve is located near the downtown area',where
+'Wilson attended law school at University of Virginia',where
+'You may purchase the policy from the insurance registration portal to enroll.',where
+'Fillmore was born in a log cabin in summerhill , new york',where
+'Commodore Matthew C. Perry send to Japan',where
+'MyMedicare.gov is accessible from a variety of operating systems and web browsers.',where
+'Comments on Telegrams security outside the scope of the contest are welcome at security@telegram.org.',where
+'You can check out the Cracking Contest Description to learn more.',where
+'If you have any other questions, please contact Telegram Support',where
+'For questions about the online Girl Scout Shop not answered here, see the Help/FAQs pages on the Shop.',where
+'The Aquarius Reef Base is an underwater habitat located 9 kilometers off Key Largo in the Florida Keys National Marine Sanctuary.',where
+'The baker contact information is listed on each package.',where
+'To find out which local council serves your area, use the Find Cookies! search box.',where
+'You can find recipes on our Cookie Recipes page or on the websites of our two licensed bakers',where
+'For a list of specific cookie ingredients, please see Meet the Cookies.',where
+'You can also call our Information and Referral Center at (800) GSUSA 4U [(800) 478-7248] or (212) 852-8000 for general questions about Girl Scouts of the USA.',where
+'Charlie meet Sam and Patrick at a football game',where
+'The National Science Centre established in 1992, is a science museum in Delhi, India.',where
+'Pragati Maidan is situated in Central Delhi in the pincode area of 110001.',where
+'It was inaugurated on the 9 January 1992 by the then Prime Minister of India, P.V.Narasimha Rao',where
+'It is located between Okhla and Sarita Vihar stations on the Violet Line.',where
+'Provision items of daily use including bread, butter, biscuits etc. are available on payment at the Tuck shop which is open as per times specified.',where
+'To complete a paper MPN, contact the school financial aid office.',where
+'If you have questions about income-driven repayment plans, information is available at StudentAid.gov.',where
+'You may register for an ORCID identifier at http://orcid.org.',where
+'For more information on membership, benefits, and fees, please see our Membership Page',where
+'For more information, please see our Privacy Policy.',where
+'Butterflies are distributed worldwide except Antarctica, totalling some 18,500 species.',where
+'The ORCID Registry is hosted on Rackspace.',where
+'To learn more about technical developments and resources, please see our Knowledge Base.',where
+'The re-evaluation of answer-scripts is available at the Senior Secondary level in theory papers only.',where
+'The proforma for re-evaluation is available at website.',where
+'ICICCT 2017 AT INDIA INTERNATIONAL CENTRE (IIC) 40, MAX MUELLER MARG, NEW DELHI - 110003, INDIA.',where
+'To register, visit www.icsa2017/registrationforjiit.html',where
+'For further details and related themes, visit the official website www.icsa2017.com',where
+'For questions on the Application Form and Selection process, please see Admission and Application FAQs below.',where
+'For more information on the OCI card, please go to the Ministry of Home Affairs.',where
+'After that he was at Tokyo University of Agriculture and Technology, Japan for over eight years.',where
+'He spent about twelve years teaching at various universities in the US, most of which was at Boston University.',where
+'The International Conference on Information, Communication and Computing Technology (ICICCT-2017) will be held at India International Centre (IIC), 40, Max Mueller Marg, New Delhi - 110003, India',where
+'To apply for the OCI card, please go to the Online OCI Registration Form.',where
+'Frequently Asked Questions have been hosted on website for candidates and Institutions.',where
+'Phone service is currently only available for Private Offices.',where
+'Children have been killed in the same way near the city of Goma by CO2 emissions from the nearby volcano Mt. Nyiragongo.',where
+'For offline registrations please register at: http://www.pmi.org.in/apps/offline and enter your nominations.',where
+'To register guests, please log on to the Member Network or the WeWork app.',where
+'Calcium is produced in supernova nucleosynthesis.',where
+'The Red fort appears on the front of the ₹500 note of the Mahatma Gandhi New Series of the Indian rupee.',where
+'Chawari Bazar is located in front of Red Fort.',where
+'Houston located in Southeast Texas near the Gulf of Mexico',where
+'The oldest reference to the place is found inscribed on a Rashtrakuta Dynasty copper plate dated AD 937',where
+'Pune is situated 560 metres (1,837 feet) above sea level on the Deccan plateau on the right bank of the Mutha river',where
+'Half of the total international students in the country studying in Pune',where
+'The Channel Islands are located off the Southern coast.',where
+'A majority of California cities are located in either the San Francisco Bay Area',where
+'to the northeast of the Mojave lies Death Valley, which contains the lowest and hottest place in North America',where
+'The name comes from the first four letters of Australia (AUST) and the initials of the United States (US).',where
+'Bossaball is a team sport that originated in Spain',where
+'This report will be posted on the website.',where
+'The Peshwas were defeated at the Battle of Khadki',where
+'2nd International Conference on Intelligent Computing and Communication which is to be held at MAEER MIT College of Engineering, Pune, India',where
+'The Second International Conference on Intelligent Computing & Communication-2017 (ICICC-2017) will be held in MIT College of Engineering, Pune.',where
+'The Second Springer International Conference on Intelligent Computing and Communication was successfully launched at MIT College of Engineering, Pune',where
+'Shinde Chhatri , located in Wanawadi, a well known place in Pune, India',where
+'Found in the Pacific Ocean, the Mariana Trench is the deepest known point in the world oceans.',where
+'The Raja Dinkar Kelkar Museum is in Pune, Maharashtra, India.',where
+'The Admission Form is available : Online at www.amity.edu',where
+'To the east of the Sierra Nevada are Owens Valley and Mono Lake, an essential migratory bird habitat.',where
+'In the south is a large inland salt lake, the Salton Sea.',where
+'Qualifying candidates will be informed about the date, time and venue of Admission Procedure on the Admission Microsite',where
+'The main international airport serving Kathmandu and thus Nepal is the Tribhuvan International Airport, located about six kilometers (6 km (3.7 mi)) from the city centre.',where
+'More than half of illegal immigrants originate from Mexico.',where
+'In 1988 Obama enrolled in Harvard Law School',where
+'It lies within area code 650.',where
+'Wakulla Springs, located 14 miles south of Tallahassee, Florida',where
+'Vazhappully Shree Rajarajeshwari temple is a Hindu temple located at Kazhimbram near Valapad in Thrissur District.',where
+'If you have any questions or require additional information please contact Vern Gaw, Worcester County Section PACE Co-Chair, vgaw@ieee.org',where
+'The dinner meeting will be held at Higgins House on the WPI campus in Worcester.',where
+'Directions can be found at http://www.wpi.edu/About/Visitors/index.html.',where
+'It is bordered by Haryana on three sides and by Uttar Pradesh to the east.',where
+'Login credentials for SAP applications inside training systems can be found in the course-specific setup guide by selecting the Course ID link on the My Systems page.',where
+'The 2015 IEEE Worcester County Section Awards Banquet will be held at Tweeds Pub at 231 Grove Street, Worcester',where
+'Please register with the IEEE Vtools system at https://meetings.vtools.ieee.org/m/33859.',where
+'A map to the location is on the Vtools registration page.',where
+'An elevator is located to the left of the main entrance',where
+'located on the state eastern side.',where
+'Rajasthan is India second largest producer of milk.',where
+'Pasta is more consumed in central and south part of the country',where
+'Monte Bianco (White Mountain) at 4,810m is the highest peak in Europe',where
+'It is located on the western side of the country, where it comprises most of the wide and inhospitable Thar Desert',where
+'Beiruti Grand Café is a bright, clean and accessible restaurant located on a quiet street near Victoria Park and Sheppard Avenue.',where
+'The Special Projects Gallery is located in the main lobby of the Joan & Martin Goldfarb Centre for Fine Arts at York University.',where
+'Inauguration of Student Branch at Late G. N. Sapkal College of Engineering',where
+'1st Symposium in this series was organised at UMIT, Mumbai and more information is available at ibss2015.ieeebombay.org',where
+'He did his Schooling from Harcourt Butler Sr. Secondary School, New Delhi, B. Com (P) from University of Delhi and then LL.B.',where
+'One quarter of the bones in your body are in your feet.',where
+'Delhi is located at 28.61°N 77.23°E, and lies in Northern India.',where
+'Turban training centers have opened mostly in main cities of Punjab',where
+'Over 90% of the world supply of fresh water is located in Antarctica',where
+'He received PhD degree in Computer Science from the Institute of Cybernetics, Estonia.',where
+'She has a MS and PhD in Modeling & Simulation from the University of Central Florida, and a BA in Psychology from Susquehanna University.',where
+'It is present in deposits of petroleum and natural gas.',where
+'it occurs naturally in groundwater, rivers and lakes, in ice caps and glaciers and also in seawater.',where
+'Dow died in Portland in 1897 at the age of 93.',where
+'The other batsman, known as the non-striker, waits at the opposite end of the pitch near the bowler.',where
+'The striker "takes guard" on a crease drawn on the pitch four feet in front of the wicket.',where
+'The sport is followed primarily in Australasia, Britain, the Indian subcontinent, southern Africa and the West Indies.',where
+'The cricket field has with a rectangular pitch at the centre.',where
+'There is always an umpire at each end of the pitch.',where
+'Some other countries where Bossaball has been introduced include: Brazil, Argentina and Mexico',where
+'The European, or metropolitan, area of France extends from the Mediterranean Sea to the English Channel',where
+'Rugby league in France is mostly played and followed in the South of France, in cities such as Perpignan and Toulouse.',where
+'Rugby union is popular, particularly in Paris and the southwest of France.'where
+'The sun and the moon are painted on the east and the west of the Otorii roof.',where
+'Miyajima is an island that is located on the Seto Inland Sea.',where
+'It is about 20 km from central Hiroshima.',where
+'Toads are found on all continents except Antarctica and are also not present on isolated islands like New Zealand, New Guinea, and Madagascar.',where
+'The common toad is a large-sized species of toad that is found throughout Europe, extending from Siberia into North Africa.',where
+'Wild zebras live in Africa.',where
+'he vermillion lacquered shrine, located at the beautiful Itsukushima',where
+'PMB reserach is group present at the Biotechnology department, JIIT, NOIDA',where
+'he term is derived from Latin',where
+'A live version of the song recorded at 2004 Coachella',where
+'Chinese martial arts originated during the Xia Dynasty more than 4000 years ago.',where
+'The Department of Biotechnology at JIIT, NOIDA',where
+'There are also stone lanterns standing on the shore of this shrine.',where
+'It is a Sotoshu sect temple located at the foot of Yogaizan',where
+'Super Mario Run is now available on Android',where
+'In France, it is legal to marry a dead person.',where
+'Microsoft Makes VR Drone Fight Simulator Available on GitHub',where
+'The smallest bone found in the human body is located in the middle ear.',where
+'The Hoover Dam, built along the Colorado River',where
+'The nucleus is positively charged and found at the central core of an atom.',where
+'Winston Churchill was born in a ladies room during a dance.',where
+'More than 10 UNESCO World Heritage Sites are located in Turkey.',where
+'The oldest known ceramics originate from Jordan valley and Catal Huyuk in Anatolia, Turkey.',where
+'It is illegal to climb trees in Oshawa, a town in Ontario, Canada.',where
+'Apples are thought to have originated in central Asia.',where
+'The KGB is headquartered at No. 2 Felix Dzerzhinsky Square, Moscow',where
+'In York, it is perfectly legal to shoot a Scotsman with a bow and arrow',where
+'In France, a five year old child can buy an alcoholic drink in a bar',where
+'In England, the Speaker of the House is not allowed to speak.',where
+'In Utah, it is illegal to swear in front of a dead person.',where
+'In New York State, it is illegal to but any alcohol on Sundays before noon.',where
+'It is illegal to spit on the sidewalk in Norfolk, Virginia.',where
+'chaar bagh is located in delhi',where
+'It is illegal to eat oranges while bathing in California.',where
+'Rape is reported every six minutes in the U.S.',where
+'In 1682, Peter the Great became tsar',when
+'In 1917, Russians, unhappy with their government, overthrew the tsar and formed a new elected government.',when
+'In the 1550s, Muscovite ruler Ivan IV became Russia first tsar',when
+'There is a town in Newfoundland, Canada called Dildo.',where
+'Lawn darts are illegal in Canada.',where
+'Latin was originally spoken in Latium, in the Italian Peninsula.',where
+'it became the dominant language, initially in Italy and subsequently throughout the Roman Empire.',where
+'Latin still was the most important language of culture in Europe.',where
+'There are over 300 languages spoken in England.',where
+'In the eastern part of the city, crystalline metamorphic rocks such as gneiss, schist and granites are found',where
+'shimla is in shirinagar',where
+%---where : 
+%---------------------------------------------------------
+'Each phase of play is called an innings.',what
+'Actually the strongest muscle is the lining uterus.',what
+'The most common name in world is Mohammed.',what
+'Love is a variety of different feelings, states, and attitudes that ranges from interpersonal affection to pleasure',what
+'It can refer to an emotion of a strong attraction and personal attachment.',what
+'There are 1,792 steps in the Eiffel Tower',what
+'Lightning is a discharge of electricity in the atmosphere.',what
+'judges mark down scores, as in boxing.',what
+'Ecology is the study of ecosystems and how organisms interact with their environment.',what
+'The common cold is a type of virus.',what
+'Animals that eat plants as their primary food source are known as herbivores.',what
+'Fire is a chemical reaction that releases light and heat.',what
+'Nuclear power uses fission to create heat and electricity.',what
+'Volata ("flow") is a code of football developed and promoted by Italian fascists',what
+'Hydrogen is a chemical element with chemical symbol H and atomic number 1.',what
+'The Romans produced gladiatorial combat as a public spectacle.',what
+'The cricket field is usually circular or oval in shape',what
+'Posters should be printed on A0 (841mm x 1189mm or 33.1″ x 46.8″) size good quality paper, in Portrait Mode.',what
+'The culture of California is a Western culture and most clearly has its modern roots in the culture of the United States',what
+'Delhi officially the National Capital Territory of Delhi or NCT, is a city and a union territory of India.',what
+'The frozen solid form of CO2, known as "dry ice" is used as a refrigerant and as an abrasive in dry-ice blasting.',what
+'Stanford has a no-loan policy.',what
+'Hydrogen safety covers the safe production, handling and use of hydrogen',what
+'The annual Symposia series are referred to as the IEEE Bombay Section Symposia (IBSS).',what
+'aalborg_airport is an airport',what
+'An Affinity Group is the non-technical subunit of one or more IEEE Sections.',what
+'Family is a number one priority in Turkey.',what
+'A Chapter is the technical subunit of one or more IEEE Sections.',what
+'Chapters provide Society members with valuable opportunities to network at a local level - enabling both personal and professional growth.',what
+'IEEE Region 1 is home to organizational units in the Northeastern U.S.',what
+'Cost is $10.00 for students and $15.00 for members and guests.',what
+'The choice of entree is Chicken cordon Bleu, Salmon, or vegetarian.',what
+'About 45 percent of the state total surface area is covered by forests',what
+'The south-central desert is called the Mojave',what
+'About 37,000 earthquakes are recorded each year, but most are too small to be felt.',what
+'California is one of the richest and most diverse parts of the world, and includes some of the most endangered ecological communities.',what
+'Foreign citizens who are not of Indian origin are not eligible to apply',what
+'The Lahori Gate is the main gate to the Red Fort, named for its orientation towards the city of Lahore.',what
+'To prevent terrorist attacks, security is especially strict around the Red Fort on the eve of Indian Independence Day.',what
+'There is an additional fee of $50 per month in all U.S. markets',what
+'Both 1st and 2nd year students are eligible to apply.',what
+'Pune is cultural capital of Maharashtra', what
+'Pune is known as "Oxford of the East"', what
+'Pune is known for its manufacturing and automobile industries, as well as for research institutes of information technology (IT), education, management and training',what
+'The Fellowship Program gives you an opportunity to become a part of the solution and a change agent in the society.',what
+'PayPal Credit is a line of credit offered by Comenity Capital Bank that gives you the flexibility to pay for your purchase now, or pay over time.',what
+'Mukta Vidya Vani is a web based interactive online Personal Contact Programme.',what
+'On Pixabay you may find and share images free of copyrights.',what
+'Admission once registered is valid up to next 5 years.',what
+'There are various formats ranging from Twenty20 to Test cricket.',what
+'Animals are multicellular, eukaryotic organisms of the kingdom Animalia',what
+'The minimum age to take admission in the Senior Secondary Course is 15 years, as on 31st July of the year of admission.',what
+'QALD is a series of evaluation campaigns on question answering over linked data.',what
+'The user interface is built around the device multi-touch screen, including a virtual keyboard.',what
+'Windows Mobile is a family of mobile operating systems developed by Microsoft for smartphones and Pocket PCs.',what
+'Polite and courteous behaviour inside the LRC is expected from all the users and silence must be observed inside the reading rooms.',what
+'Pragati Maidan is a venue for large exhibitions and conventions in New Delhi.',what
+'It is having an area of nearly 150 acres more than 6,25,000 Sq.',what
+'Passport Seva Kendras are extended arms of Passport Offices and render front-end services related to passport issuance',what
+'Passport Offices (PO) are vested with the authority to issue passports, besides revocation and impounding and exercise control over the PSK(s) under them',what
+'KNUTH is a Programming Hub',what
+'Carbon dioxide (chemical formula CO2) is a colorless and odorless gas that is vital to life on Earth.',what
+'Carbon dioxide is colorless.',what
+'In its solid state, carbon dioxide is commonly called dry ice.',what
+'A hurricane is an intense tropical storm with powerful winds and heavy rain.',what
+'Bossaball is a ball game between two teams, combining elements of volleyball, football and gymnastics with music into a sport.',what
+'Wikipedia is a free, open content online encyclopaedia created through the collaborative effort of a community of users known as Wikipedians',what
+'NWWSN is National Workshop on Wireless Sensor Networks and applications',what
+'Huginn and Muninn are the names of Odin ravens',what
+'A pregnant goldfish is called a twit.',what
+'The Great Wall of China is the only man-made structure visible from space',what
+'the Yuan is currency of china',what
+'650-723-2300 is the telephone number of Stanford university',what
+'A sounding rocket is a rocket, which is intended for assessing the physical parameters of the upper atmosphere.',what
+'Colonies that lack queens are called gamergate colonies.',what
+'The Ugly Duckling is the best known story about a swan',what
+'Some VoIP applications use a method called STUN to keep a line of connection open.',what
+'An adult female swan is called a pen',what
+'Plagiarism is a serious breach of professional conduct, with potentially severe ethical and legal consequences.',what
+'Fair Use refers to a set of ideas or concepts intended to limit (under specific circumstances) the near-exclusive rights of the copyright owner.',what
+'The B trumpet is the most common type of trumpet',what
+'violins is made of different types of wood',what
+'the usual pitch range of a violin is from G3 to C8',what
+'baladiyah is the Arabic word for municipalities',what
+'Moldoveanu Peak is the highest mountain in Romania',what
+'4.6 years average life expectancy of a kangaroo',what
+'The mentioned percentages are only the eligibility to apply for scholarship.',what
+'10% Fee concession is offered to Amity students, who continue their higher education at amity Universities without any year gap.',what
+'roo bars is used to protect a vehicale from a Kangaroo',what
+'a pumapard is a hybrid animal resulting from a union between a leopard and a puma',what
+'Surplus killing is defined as the killing of several prey animals too numerous to eat at one sitting.',what
+'minimum attendance should be 60 percent',what 
+'minimum cgpa to pass is 4',what
+'10RS per day is LRC fine',what
+'fileserver is on college network',what
+'T1 is a exam',what
+'learning resource center is also called as LRC',what
+'T&P is training and placement cell',what
+'Blackboard translates the help for some products into other languages.',what
+'JIIT Noida stands 1st in NCR',what
+'JIIT Noida stands 3rd in the Northern Region among all private institutions',what
+'Barbie full name is Barbara Millicent Roberts.',what
+'Magnets are objects that produce an area of magnetic force called a magnetic field.',what
+'Metals such as iron, nickel and cobalt are attracted to magnets.',what
+'The fastest recorded tennis serves are over 155 mph',what
+'Common sports injuries include muscle cramps, muscle pulls, back strains, shin splints, tennis elbow (tendonitis), sprained ankles and plantar fasciitis (foot pain).',what
+'High CGPA is the only criteria which can give u a chance to sit in companies',what
+'mobile is a device',what
+'Dual degree student can issue 4 books',what
+'G1 is a classroom',what
+'MML is multimedia lab',what
+'Water is made up of two elements, hydrogen and oxygen.',what
+'Recycling is the process of turning used waste and materials into new products.',what
+'the atmosphere of Venus made up mainly of carbon dioxide.',what
+'This prevents potentially useful materials from being wasted as well as reducing energy use and pollution.',what
+'Powerful magnets are used to sort through different types of metals.',what
+'Stewardesses is the longest word typed with only the left hand.',what
+'A rhinoceros horn is made of compacted hair.',what
+'A dragonfly has a lifespan of 24 hours.',what
+'Tree resin which has been fossilized is known as amber',what
+'Its chemical formula is H2O.',what
+'Water from a sea or ocean is known as seawater.',what
+'Combination of scholarship is not permitted.',what
+'Toucans are renown for their large colorful bills.',what
+'Magma is the hot liquid rock under the surface of the Earth, it is known as lava after it comes out of a volcano.',what
+'Hawaii is moving towards Japan at the speed of 10cm a year.',what
+'A student can avail only one type of scholarship.'what
+'Students are prohibited from giving shelters to any other student / outsider in their rooms.',what
+'Hostellers are not allowed to park their cars inside the Campus.',what
+'students failing in the subject will be awarded F grade',what
+'RIBOSE is Technical Hub of Biotechnology Department',what
+'The average life span for a dog is around 10 to 14 years.',what
+'A group of cats is called a clowder',what
+'An abnormal fear of spiders is called arachnophobia.',what
+'You are expected to report to work regularly and on time',what 
+'The unauthorized downloading or transferring of copyrighted materials, including movies, video games, software, and music, is not permitted',what
+'The Firm encourages a five-day work week for its professional employers with week-ends off',what
+'The normal working hours from Monday to Friday are 09:30 a.m. to 05:30 p.m.',what
+'Paid-leave is leave that is earned by you',what
+'Caching food is burying it for later consumption',what
+'The suspended cymbal is the second main orchestral use of symbals.',what
+'humans use bees for honey',what
+'the Grotto is the Marian place of prayer and reflection',what
+'TRYST, IIT Delhi is North India largest science, technological and management festival.',what
+'Amity University has been ranked the no. 1 not-for-profit pvt. University',what
+'The great Torii is the boundary between the spirit and the human worlds.',what
+'Manage Bookings is a suite of features, which allows you to retrieve & re-print your bookings and update special requests in your booking record.',what
+'It is an online science competition, open to students between the ages of 13 and 18 from around the world.',what
+'NAT question is a Numerical Answer Questions',what
+'The Inspiring Educator Award honors the contributions of one outstanding educator who goes above and beyond to encourage their students to achieve great things.',what
+'plus-minus sign mean a value that can be of either sign.',what
+'ISRO Stands for Indian Space Research Organisation',what
+'PhonePe wallet is RBI approved semi-closed payment instrument',what
+'hansam is the Sanskrit word for swan',what
+'otter den is called holt',what
+'MRT is Mass Rapid Transit system',what
+'There are laws which allow capital punishment in Singapore for first-degree murder and drug trafficking.',what
+'Swiss franc the national currency of Liechtenstein',what
+'German is the official language of Liechtenstein',what
+'the Emperor Penguin is the largest living species of penguin',what
+'Tobogganing is when penguins slide on their bellies across the snow.',what
+'Registration Fee includes conference material, Tea breaks and Lunch during the conference.',what
+'Registration Fee does not include accommodation charges.',what
+'The menu will be Montreal Sirloin Tips, Baked Stuffed Chicken, Baked Haddock, or a Vegetarian Pasta.',what
+'The dimensions of the photograph should be 3.5 x 4.5cm width.',what
+'A polar bear skin is black in color',what
+'Daisho-in Temple is one of the most prestigious Shingon Temple in the western part of Japan.',what
+'The section has emphasis on quality programmes and such programmes are regular feature for professional development of its members.',what
+'It is intended to help disseminate various technologies developed by farmers, forest based industries and forest research institutes.',what
+'the boiling point of water is dependent on atmospheric pressure',what
+'Secret chats are meant for people who want more secrecy than the average fella.',what
+'With Viber you can send messages of all types and make phone calls to other Viber users for free',what
+'MeraEvents is a one-stop platform dedicated to ticketing of events & trade fair industry.',what
+'MeraEvents allows an organizer to include all the information about an event in an easy listing.',what
+'A seedling is a young plant sporophyte developing out of a plant embryo from a seed.',what
+'ORCID is an acronym, short for Open Researcher and Contributor ID.',what
+'“Specialty ingredients” means the product contains no artificial colors or flavors, and is free of preservatives—this is indicated on the ingredients label.',what
+'With Viber Out you can call from Viber on your phone to any landline and mobile in the world - even if they don not have Viber -  at low rates.',what
+'Telegram is a messaging app with a focus on speed and security, it is super-fast, simple and free.',what
+'The prime objective of ISRO is to develop space technology and its application to various national needs.',what
+'The MPN is a promissory note that can be used to make one or more loans for one or more academic years (up to 10 years).',what
+'Entrance counseling explains the obligations you agree to meet as a condition of receiving a Direct Loan.',what
+'Not all assignments can be resubmitted.',what
+'Calcium metal is used as a deoxidizer, desulfurizer, and decarbonizer for production of some ferrous and nonferrous alloys.',what
+'Calcium is a chemical element with symbol Ca and atomic number 20.',what
+'Calcium plays an important role in building stronger, denser bones early in life and keeping bones strong and healthy later in life.',what
+'There is no age limit to apply for Teach For India Fellowship.',what
+'Copyright is one of a group of intellectual property rights (or laws) that are intended to protect the interests of an author or copyright owner.',what
+'A trademark is a name, title, or graphic design intended to identify an entity or product.',what
+'Copyright rights protect the particular expression of an idea, not the idea itself.',what
+'Trademark and service mark refer to rights meant to protect a name, title, or logo or other identifier of an entity, a service, or a product.',what
+'With a census-estimated 2014 population of 2.239 million people',what
+'Amity University has been ranked the no. 1 not-for-profit pvt. University',what
+'Houston known for railroad center of Texas by 1890',what
+'The study of word origins is called etymology.',what
+'Laughter is a proven way to lose weight.',what
+'The ZIP in Zip-code stands for Zoning Improvement Plan.',what
+'That metal thing shoe salesmen use to measure your feet is called the Brannock device.',what
+'A baseball weighs between 5 and 5.25 ounces.',what
+'All fats, fatty acids, amino acids, and proteins contain oxygen',what
+'Its capital and largest city is Jaipur, also known as Pink City',what
+'MUN is an academic simulation of the United Nations that aims to educate participants about civics, current events, effective communication, globalization and multilateral diplomacy.',what
+'Scanned Class X mark sheet should be in jpg, gif, png, jpeg, bmp, pdf format for online submission.',what
+'Scanned photograph should be in jpg, gif, png, jpeg, bmp format for online submission.',what
+'Students who have completed 10+2 in regular mode only, are eligible to apply for all B Tech / B Tech + MBA /B Tech +M Tech / B Pharm programs',what
+'The Amity University logo is represented in a shield divided into dark blue and golden yellow sections by an upward sweeping line that depicts growth and progress in life, achievable through education.',what
+'UberEATS gets you the food you want from the restaurants you love, faster than anyone else.',what
+'This year theme for the conference is Accelerating Development: Harnessing the power of Project Management',what
+'HackerRank is a place where programmers from all over the world come together to solve problems in a wide range of Computer Science domains such as algorithms, machine learning, or artificial intelligence, as well as to practice different programming paradigms like functional programming.',what
+'Accredited Institutes (AIs) or study centres are those institutes/schools which are authorised by NIOS to provide Support Services.',what
+'Although it accounts for only 1.5 percent of the state economy',what
+'California is the 3rd largest state in the United States in area, after Alaska and Texas.',what
+'In the middle of the state lies the California Central Valley,',what
+'Idealistic lawyers and idealistic scientists often describe themselves as engaging in a search for truth.',what
+'Science is the methodical study of nature including testable explanations and predictions.',what
+'Sheet erosion is the transport of loosened soil particles by overland flow',what
+'Major shopping malls include Select Citywalk, DLF Promenade, DLF Emporio, Metro Walk and Ansal Plaza.',what
+'Buses are the most popular means of road transport catering to about 60% of Delhi total demand.',what
+'‘My Account’ is a one stop for all the information related to your order',what
+'Light is electromagnetic radiation within a certain portion of the electromagnetic spectrum.',what
+'The word usually refers to visible light, which is visible to the human eye and is responsible for the sense of sight.',what
+'A scientist who studies physics is known as a physicist.',what
+'The surface area of an average-sized brick is 79 cm squared.',what
+'Visible light is usually defined as having wavelengths in the range of 400–700 nanometres (nm), or 4.00 × 10−7 to 7.00 × 10−7 m.',what
+'This wavelength means a frequency range of roughly 430–750 terahertz (THz).',what
+'The speed of light in a vacuum is defined to be exactly 299,792,458 m/s',what
+'Members cost for the dinner is $10.00 for members and students, and $15.00 for non-members.',what
+'Distance from Airport to hotel is approximately 20 minutes',what
+'Pomology is the science of apple-growing.',what
+'Malusdomesticaphobia is the fear of apples.',what
+'The bowler objectives are to prevent the scoring of runs and to dismiss the batsman.',what
+'An over is a set of six deliveries bowled by the same bowler.',what
+'A group of toads is often called a knot.',what
+'Child abuse or child maltreatment is physical, sexual, or psychological mistreatment or neglect of a child or children, especially by a parent or other caregiver.',what
+'Its purpose was to formulate and execute research and development projects to expand the frontiers of technology and science, with the aim to reach beyond immediate military requirements.',what
+'The Defense Advanced Research Projects Agency (DARPA) is an agency of the U.S. Department of Defense responsible for the development of emerging technologies for use by the military.',what
+'Airtel Movies is a free video app available on Android and iOS in which you can stream and download unlimited Movies, TV shows, Music videos and Popular video clips across Bollywood, Regional and International content.',what
+'Bicarbonate ions are crucial for regulating blood pH.',what
+'A person breathing rate influences the level of CO2 in their blood.',what
+'Poor ventilation is one of the main causes of excessive CO2 concentrations in closed spaces.',what
+'breathing is stimulated by higher carbon dioxide levels.',what
+'Breathing that is too slow or shallow causes respiratory acidosis',what
+'SBF is normally used for the surface modification of metallic implants',what
+'Oxygen is a chemical element with symbol O and atomic number 8.',what
+'The Java DT is a very useful tool, used by Java applets and applications to help manage getting the right version of Java for a user system.',what
+'The bat is made of wood (usually White Willow) and has the shape of a blade topped by a cylindrical handle.',what
+'Pteronophobia is the fear of being tickled by feathers',what
+'Convex mirror is used as rear view in cars.',what
+'Concave mirror is used for headlights of cars.',what
+'A flock of crows is known as a murder.',what
+'Cherophobia is the fear of fun.',what
+'The court is 29.5 feet x 59 ft',what
+%---what :33
+%----------------------------------------------------------------
+'Early registration ends 1 March 2017.',when
+'It was discovered in 1766 by Henry Cavendish.',when
+'The Pinocchio paradox was thought of in February 2001',when
+'On April 4, 2013, Christopher Abbott left the series',when
+'HBO renewed the series for a second season of ten episodes on April 30, 2012.',when
+'In Australia, it premièred on Showcase on May 28, 2012.',when
+'the Eastman Kodak Company that was founded in 1888',when
+'The first every digital camera to be created was in December 1975.',when
+'29th May is officially “Put a Pillow on Your Fridge Day“.',when
+'William Marston engineered one of the earliest forms of the polygraph in the early 1900',when
+'The Vatican city registered 0 births in 1983',when
+'The festival "Momotesai" is held here on January 20.',when
+'The Solar System formed around 4.6 billion years ago.',when
+'in case of loss of cabin pressure, to apply the oxygen mask to themselves first before helping others',when
+'Seminar on Anti- Counterfeiting - Protecting the interest of the Brand Owners through Criminal and Customs Enforcement on March 25, 2017.',when
+'The timings are 11:45am – 01:45pm.',when
+'He is elevated as Permanent Judge of High Court of Delhi on November 08, 2016.',when
+'In July 2014 he was posted as Registrar (Vigilance) High Court of Delhi, New Delhi.',when
+'He became District & Sessions Judge (North), in March 2013',when
+'Mr. Justice Chander Shekhar born on January 26, 1958',when
+'The warm season lasts from 9 April to 8 July with an average daily high temperature above 36 °C (97 °F).',when
+'The ICICC conference is to be held on 2-4 August,2017',when
+'built in 1732, it was the seat of the Peshwa rulers of the Maratha Empire until 1818.',when
+'In February 2014, the Government of India approved Delhi bid for World Heritage City status.',when
+'the Government of India withdrew its nomination on 21 May 2015.',when
+'A team from UNESCO was scheduled to visit Delhi in September 2014 to validate its claims.',when
+'In 1846, Dow spoke before the legislature in favor of statewide prohibition.',when
+'The first game of Austus was played on 18 July 1943',when
+'Several more games were played as exhibitions in 1943 and 1944.',when
+'By May 21, the town was surrounded.',when
+'The earliest human settlements in Russia arose around A.D. 500',when
+'In April 2013, President Barack Obama announced a scientific grand challenge known as the BRAIN Initiative',when
+'In March 2013, the project backers outlined their goals in the journal Science.',when
+'On June 30, having healed enough to mount a horse again, Dow visited his troops.',when
+'Delhi Metro completed 10 years of operation on 25 December 2012.',when
+'it is first recorded in south-east England in the 16th century.',when
+'Inside the Bermuda Triangle, US Government has AUTEC which is located on the Andros Island of Bahamas.',where
+'Bermuda triangle is a very mysterious area on the Atlantic Ocean',where
+'between 1720 and 1761 the maratha empire expanded',when
+'The citrus soda 7-UP was created in 1929',when
+'The average person falls asleep in seven minutes.',when
+'On June 6, 1959, Florida took delivery of the only “missile mail” in history',when
+'The current Constitution of Florida was ratified on November 5, 1968.',when
+'It spread globally with the expansion of the British Empire, leading to the first international matches in the mid-19th century.',when
+'The court in Guildford heard on Monday, 17 January 1597',when
+'Typically it take 2 – 3 days for all metros & Tier 1 cities.',when
+'Tier 2 & 3 cities may take 3 to 5 days.',when
+'Construction on the Lal Mahal began in 1631 AD',when
+'The cigarette lighter was invented before the match.',when
+'Ketchup was used as a medicine back in the 1930.',when
+'The Lal Mahal was completed in 1640 AD',when
+'Dow was born in 1804 to a Quaker family in Portland, Maine.',when
+'In 1850, Dow was elected president of the Maine Temperance Union, and the next year he was elected mayor of Portland.',when
+'In 1880, Dow headed the Prohibition Party ticket for President of the United States.',when
+'They married on January 20, 1830.',when
+'Pune was known as Punawadi in 13th century',when
+'Pune was the Jagir granted to Maloji Bhosale in 1599',when
+'Chhatrapati Shahu succeeded to the Maratha throne in 1707',when
+'In 1720, Baji Rao I was appointed Peshwa (Prime Minister) of the Maratha Empire',when
+'The Peshwa rule ended with the defeat of Peshwa Bajirao II in 1818',when
+'Early bird registrations will start from 29th August uptill 30th September 2016',when
+'Special session will be held on 17th November 2016 which will be worth 2.5 additional PDUs',when
+'Registrations open on 29th August 2016 and close on 31st October 2016',when
+'Social hour will begin at 6:00 PM and dinner will be served at 7 PM to allow time for those arriving from work.',when
+'Obama was born on August 4, 1961',when
+'Website established on June 13, 1998',when
+'Last updated partially on March 09, 2017',when
+'Last date for submission of Camera-Ready Manuscript is November 30, 2016.',when
+'The Last Date of Submission of Registration Fee is 25th November, 2016.',when
+'Obama formally announced his candidacy in January 2003.',when
+'When the first proteins were rationally designed during the 1970s and 1980s',when
+'In fall 2011, DARPA hosted the 100-Year Starship Symposium',when
+'In February 2011, protests in Libya began against long-time dictator Muammar Gaddafi as part of the Arab Spring.',when
+'Barack Obama presidency ended at noon on January 20, 2017',when
+'Charm quarks were produced almost simultaneously by two teams in November 1974',when
+'In ancient times, numbers in Latin were written only with letters.',when
+'Girls is an American television series on April 15, 2012.',when
+'Girls sixth and final season premiered on February 12, 2017',when
+'In 1977, the bottom quark was observed by a team at Fermilab led by Leon Lederman.',when
+'DARPA was created in February 1958 as the Advanced Research Projects Agency',when
+'The Republic of Venice was founded in 697',when
+'The Annual Management Festival of the institution is generally held in second week of February every year.',when
+'In September 2008, Houston was hit by Hurricane Ike.',when
+'KMC first international relationship was established in 1975 with the city of Eugene, Oregon, United States.',when
+'The Paper Deadline is now extended to the 23rd of November.',when
+'In 2006 someone tried to sell New Zealand on eBay.',when
+'Apple launched a clothing line in 1986.',when
+'Acceptance notification will now be on December 15th.',when
+'The upcoming conference will be hosted at IIT Delhi from 2 Mar - 4 Mar, 2017.',when
+'The ORCID principles were published in December 2010.',when
+'The first meeting of the Central Grant-In-Aid Committee of SPQEM for the year 2010-11 held on 21st September, 2010',when
+'On 31 May 2016, the Digital Health unit was founded.',when
+'According to 2011 census, Delhi city population was about 11 million',when
+'Delhi hosted the first and ninth Asian Games in 1951',when
+'Delhi was ranked as world most polluted city in 2010.',when
+'In 2011 Corona FootVolley European Tour was upgraded to Corona FootVolley World Tour inviting teams from all over the world to play.',when
+'In November 2014, Nokia Technologies launched their first product, the Nokia N1 Android 5.0 tablet computer manufactured by Foxconn.',when
+'The second edition – IEEE Bombay Section Symposium (IBSS-2016) organised as one of the special events celebrating “40 years of Bombay Section” was held during 20 – 22 December, 2016.',when
+'Last date for registration to CPT June 2017 Course with BOS is 1st April, 2017',when
+'The station was opened with the first section of the Line on 3 October 2010 in time for the Commonwealth Games opening ceremony on the same day.',when
+'The National Science Centre established in 1992, is a science museum in Delhi, India.',when
+'It was inaugurated on 3 November 1972 by then Prime Minister Indira Gandhi',when
+'The first Science Museum under this Council, the Birla Industrial & Technological Museum came up on 2 May 1959 at Calcutta.',when
+'It is open all seven days a week from 10:00 AM to 5:30 PM except on the Indian Festival days of Holi and Diwali.',when
+'You can cancel the order within 1 hour from the time it was placed.',when
+'The alpha version of Telegram for Android officially launched on October 20, 2013.',when
+'It was released in June 2003',when
+'The Black Eyed Peas featuring The World was released on August 31, 2016',when
+'On 1st August 1851 he established the Rahnumae Mazdayasne Sabha to renovate the Zoroastrian religion.',when
+'Naoroji set off for England on June 27,1855 to be a part of the production firm of the mercantile Cama family.',when
+'Governor Lawton Chiles founded Florida House in 1973.',when
+'In 1883 he was re- elected to the Bombay Municipal Council.',when
+'In 1855, dentist Robert Arthur was the first to use gold to fill cavities.',when
+'Sugar was first added to chewing gum in 1869',when
+'Leonardo began painting the Mona Lisa in Florence around 1503',when
+'The Ark of the Covenant was last seen in 586 BC.',when
+'The Poona Municipality was established in 1858',when
+'In late 1896, Pune was hit by bubonic plague',when
+'In 1891, Tesla became a citizen of the United States.',when
+'Dadabhai Naoroji left for his heavenly abode on June 30, 1917.',when
+'2017 Donald John Trump became president',when
+'Admit Card can ONLY be downloaded from http://appsgate.iitr.ac.in/ from 5th January 2017.',when
+'the American Civil War end in year 1865',when
+'1954 was Elvis first ever concert',when
+'he cold season lasts from 11 December to 11 February with an average daily high temperature below 18 °C (64 °F).',when
+'From April to October the weather is hot.',when
+'The highest temperature recorded in July was 45 °C (113 °F) in 1931.',when
+'The Gujarat Section, a sub section of Bombay Section, was upgraded to full fledged section on 15th August 1990.',when
+'In 2004 Gujarat Section was adjudged the Outstanding Small Section of Region 10.',when
+'IEEE Delhi Section, which started on May 13, 1976',when
+'Chandrayaan-1 was launched on October 22, 2008',when
+'The first successful launch of SLV-3 took place on July 18, 1980 from SDSC SHAR.',when
+'India first indigenous sounding rocket, RH-75, was launched on November 20, 1967.',when
+'ISRO was formed on August 15, 1969.',when
+'Department of Space (DOS) and the Space Commission were set up in 1972.',when
+'ISRO was brought under DOS on June 1, 1972.',when
+'It escalated in popularity during the late 1940s',when
+'In 1952-53, Wildroot Cream-Oil was the sponsor.',when
+'On August 27, 1990, Vaughan was killed in a helicopter crash',when
+'Carbon dioxide was first liquefied (at elevated pressures) in 1823 by Humphry Davy and Michael Faraday.',when
+'He won the 1921 Nobel Prize in Physics for this work.',when
+'We came to this place five years ago.',when
+'last date of assigment subbmission is 7th jan 2016',when
+'The company was founded on April 1, 1976',when
+'the scheme was established in 1975',when
+'RIT act was passed in 2005',when
+'DFL mall opened in year 2016',when
+'india won worldcup in 2011',when
+'Last date to apply for sports scholarship is : 10th June, 2016.',when
+'The heaviest hailstone was recorded on April 14, 1986.',when
+'His father died in 1651.',when
+'In 1451 Berlin gave up its status as a free Hanseatic city.',when
+'the An Shi Rebellion launched in 755 AD',when
+'Yuan Shikai died in 1916',when
+'the first educational works appear for the cello in the 18th century',when
+'Charles-Augustin de Coulomb born on June 14, 1736',when
+'the pan flute spread to other parts of Europe in 7th century BC',when
+'Anders Celcius publish his observations on the aurora borealis in 1733',when
+'it was opened on 20 October 1995',when
+'Late Spring or Early Summer wolf molt',when
+'Nutella was invented during WWII',when
+'In 1493, Columbus thought he saw mermaids.',when
+'books are issued on weekdays',when
+'college is closed on sunday',when
+'the office is open on Saturdays',when
+'this practice was discontinued after some babies were blinded by the oxygen content being too high.',when
+'Le Figaro was founded in 1826',when
+'The International Boxing Association was established in 1920.',when
+'In 1993 the first Pancrase event was held.',when
+'The official Lunch Break is between 1:00 p.m. to 1:30 p.m.',when
+'The Taj Mahal is a beautiful monument built in 1631',when
+'16th Mar to 18th Mar 2017 there is National Workshop on Wireless Sensor Networks and applications',when
+'The film screened at the Cannes Film Festival in May 1977',when
+'It also played in New York City in September 1977',when
+'The Criterion Collection released the film on Blu-ray on 13 October 2015',when
+'He entered the film industry as a screenwriter in 1953',when
+'In 1974 Scola enjoyed international success with We All Loved Each Other So Much',when
+'lunch break is at 4:00 p.m.',when
+'1957 Ghana achieve independence from the United Kingdom',when
+'Qatar become an independent state in September 3, 1971',when
+'Proto-Uralic language arrived in Finland around 1900 BCE.',when
+'it is recommend that you register 3 to 4 months before your desired test date to reserve your seat.',when
+'Start preparing for the test at least 8 weeks before your test date.',when
+'The Gift Card email is typically sent to the recipient within 24 hours of your purchase.',when
+'He entered the film industry as a screenwriter in 1953',when
+'In 1974 Scola enjoyed international success with We All Loved Each Other So Much',when
+'lunch break is at 4:00 p.m.',when
+'Liechtenstein adopted current constitution on October 1921',when
+'16th Mar to 18th Mar 2017 there is National Workshop on Wireless Sensor Networks and applications',when
+'The film screened at the Cannes Film Festival in May 1977',when
+'It also played in New York City in September 1977',when
+'Last date to apply for all PG programmes 23 Mar 2017',when
+'The Criterion Collection released the film on Blu-ray on 13 jan 2010',when
+'The first records of settlement in Singapore are from the second century AD.',when
+'1959 Lee Kuan Yew became prime minister of Singapore',when
+'President Kennedy killed was killed on 1963',when
+'Jaypee Institute of Information Technology, was established in the year 2001',when
+'He died in 2006.',when
+'Abstract Submission date 22nd Nov 2016',when
+'Early Bird Registration will close on 15th Jan 2017',when
+'PMB confrence is from 2 to 6 feb 2017',when
+'in 1917 raised billions through Liberty loans',when
+'Michael Faraday born on September 22, 1791',when
+'Registrations are open till March 21st.',when
+'Lima was founded on January 18,1535',when
+'May 2006 Arsenal FC leave Highbury stadium',when
+'The institution opened in 1891 on Stanford previous Palo Alto farm.',when
+'The school admitted its first students 126 years ago on October 1, 1891',when
+'The Admission procedure may last till late in the evening.',when
+'The area became a part of Mexico in 1821 following its successful war for independence',when
+'Tuition and fees can be paid immediately upon registration, but no later than Monday, Sept. 12',when
+'The first time a pie was thrown in someone face on film was in 1909.',when
+'Pulse presents Millind Gaba performing LIVE on 4th FEB at 6:00PM.',when
+'It was designated a UNESCO World Heritage Site in 2007 as part of the Red Fort Complex',when
+'Emperor Shah Jahan commissioned construction of the Red Fort on 12 May 1639, when he decided to shift his capital from Agra to Delhi.',when
+'They were built 500 years ago.',when
+'The first Otorii of Itsukushima Shrine was constructed in 1168',when
+'Designated as a Specially Preserved Building on April 5, 1899.',when
+'Designated as a National Important Cultural Property on December 26, 1963.',when
+'In 1874, Ernst Haeckel divided the animal kingdom into two subkingdoms: Metazoa (multicellular animals) and Protozoa (single-celled animals)',when
+'In 1871 pirates seized a Penang junk, murdered its passengers and crew, and took the stolen vessel to Selangor.',when
+'Stanford University was founded in 1885 by Leland and Jane Stanford, dedicated to Leland Stanford Jr, their only child.',when
+'The Stanford Medical Center, completed in 1959, is a teaching hospital with over 800 beds.',when
+'The SLAC National Accelerator Laboratory which was established in 1962, performs research in particle physics.',when
+'The period for enrolment for this year ends on 30 June 16.',when
+'Note that the cut-off date for enrolment for the current year is 30th June 2016.',when
+'A policy taken this year will expire on 31Dec16.',when
+'In 2008, 60% of this land remained undeveloped.',when
+'In 2015 the university announced a development plan.',when
+'In the 1950s Valentino and Nino Cerruti led the world with their stylish creations.',when
+'The Hambledon Club was founded in the 1760s',when
+'Persis Drell became the 13th Provost in February 2017.',when
+'The term gas giant was coined in 1952 by the science fiction writer James Blish',when
+'Between 1900 and 1920, Tug of War was an Olympic event.',when
+'There is a reverse migration in the spring.',when
+'The pre-dinner reception starts at 5:30 PM; dinner will begin at 6:30 and will be followed by the presentation.',when
+'RESERVATIONS ARE REQUIRED, and must be received by February 12th.',when
+'Increasing temperatures tend to increase evaporation which can lead to more precipitation.',when
+'Rain becomes acidic primarily due to the presence of two strong acids, sulfuric acid (H2SO4) and nitric acid (HNO3).',when
+'The Thomas Welton Stanford Gallery, built in 1917, serves as a teaching resource for the Department of Art & Art History as well as an exhibition venue.',when
+'Recently, in December 2015, CSI celebrated its Golden Jubilee celebration',when
+'The International Conference on Information, Communication and Computing Technology (ICICCT-2017) will be held on May 13, 2017',when
+'Conference Dates	May 13, 2017',when
+'Acceptance Notification	April 04, 2017',when
+'In 1862, an English team made the first tour of Australia.',when
+'Test cricket began to expand in 1888–89 when South Africa played England.',when
+'At the end of the Antiquity period, ancient Gaul was divided into several Germanic kingdoms',when
+'The area was annexed in 51 BC by Rome',when
+'In 2006, astronomers changed the definition of a planet.',when
+'The first man made object sent into space was in 1957',when
+'The Uffizi Gallery in Florence was founded in 1560',when
+'The Leaning Tower of Pisa was built in 1173',when
+'The national team has won two Olympic Silver Medals: in 2000 and 1948.',when
+%--- when :22
+%------------------------------------------------------------------
+'If the batsman hits the ball but it is caught by a fielder without bouncing then he is caught out.',what-happen
+'If it is caught by the bowler then he is caught and bowled',what-happen
+'If it is caught by the wicket keeper then he is caught behind.',what-happen
+'When the IRS processes your tax return and approves your refund, you can see your actual personalized refund date.',what-happen
+'If you continue to receive messages about payment errors, contact your financial institution to verify that your payment account is active and verified internationally.',what-happen
+'When heated above 825 °C, calcium carbonate converts calcium oxide',what-happen
+'When added to water, quicklime vigorously reacts to form calcium hydroxide',what-happen
+'After paying registration fees, author will have to scan proofs of transaction and upload these to easychair account',what-happen
+'After confirmation on your Admission Microsite about receipt of your Form, it will normally be processed within 5 working days',what-happen
+'If you plan on bringing a pet to the building, you will be solely responsible for any injury or damage caused by your pet to other members or their property.',what-happen
+'If your team has VoIP phone service that you’d like to maintain, simply plug into the ports in your office at no additional charge.',what-happen
+'If you would like to add mail and package handling, please reach out to the local Community team at your desired location.',what-happen
+'If you would like to have a guest work with you for the day, you are welcome to reserve a conference room.',what-happen
+'If you are not sure how to contact the help desk, look for the technology office on your institutions website.',what-happen
+'A dismissed batsman must leave the field, and a teammate replaces him.',what-happen
+'You would not be able to view confirmation numbers if your institution uses an older version of Blackboard Learn.',what-happen
+'If a fielder retrieves the ball quickly enough to put down the wicket with a batsman not having reached the crease at that end of the pitch, that batsman is dismissed',what-happen
+'After either ten batsmen have been dismissed or a fixed number of overs have been completed, the innings ends and the two teams then swap roles.',what-happen
+'At the start of each game, two batsmen and eleven fielders enter the field of play.',what-happen
+'If you can not and made a mistake, you must contact your instructor to ask for the opportunity to resubmit the assignment.',what-happen
+'The learner may apply for correction to the Regional Director of his/her region within 30 days of declaration of results, if any discrepancy is found in the result.',what-happen
+'In case a learner appears exam at an exam centre other than that allotted, then the result will not be declared and case will be treated as having resorted to unfair means.',what-happen
+'If learner passes in practical but fails in the theory of a subject, his/her practical marks will be retained and he/she can appear again only in theory papers.',what-happen
+'after the loans are paid off, your servicer will communicate and work with you to ensure the successful repayment of your new Direct Consolidation Loan.',what-happen
+'If you select the Standard, Graduated, Extended Fixed, or Extended Graduated repayment plan, you would not need to take additional action.',what-happen
+'We will e-mail you and explain that your consolidation servicer will contact you after reviewing your application and your eligibility for the repayment plan you selected.',what-happen
+'If PLUS Credit Counseling is completed voluntarily and you are determined to have an adverse credit history by the U.S. Department of Education within 30 days of PLUS Credit Counseling completion, your PLUS Credit Counseling requirement will be considered to be fulfilled.',what-happen
+'To view or print a completed Master Promissory Note (MPN), you will need the free Adobe Acrobat Reader.',what-happen
+'If you do not have an FSA ID you would not be able to log in to StudentLoans.gov, or other Federal Student Aid sites.',what-happen
+'If you enroll in college as a freshman and borrow under the Direct Loan Program for all years of study, you may be able to borrow under this one MPN for all academic years.',what-happen
+'If you do not want to receive more than one federal student loan under the same MPN, you must notify your school or your loan servicer in writing each academic year.',what-happen
+'In case of any unauthorized shelter, the student will be liable to disciplinary action.',what-happen
+'when it is raining we use umbrella',what-happen 
+'when it is cold outside we we need to wear a coat',what-happen 
+'when riding in a car we wear a seatbelt',what-happen 
+'Unauthorized occupation / shelter to any outsider will be reported to local administration for suitable action.',what-happen
+'You may be dropped from your classes if your account is not paid or other payment arrangements have not been made by the fee payment deadline.',what-happen
+'Students violating any of the above guidelines will face disciplinary action in which case the decision of Competent authority is final and binding.',what-happen
+'Student found indulged in ragging may be expelled from the Hostel as well as the Institute.',what-happen
+'FIR will also be lodged against student indulging in ragging.',what-happen
+'All students must be present in their respective hostels as per specified times unless specifically permitted to stay out in the night and for a specific reason in writing by the Warden/Dean of Students Welfare.',what-happen
+'Any student, who does not occupy the Hostel room allotted to him within seven days of his registration, shall lose the Hostel seat and the same may be allocated to the next student in the queue.',what-happen
+'Seedlings are generally transplanted when the first pair of true leaves appear.',what-happen
+'A shade may be provided if the area is arid or hot.',what-happen
+'A commercially available vitamin hormone concentrate may be used to avoid transplant shock',what-happen
+'Contact the cookie baker if for any reason you are not satisfied with a package of Girl Scout Cookies you purchased.',what-happen
+'All messages in secret chats use end-to-end encryption. This means only you and the recipient can read those messages',what-happen
+'If a Gift Card has not arrived within a reasonable time-frame please ensure that recipient checks e-mail Spam/Junk inbox before contacting Myntra Customer Support Team.',what-happen
+'I return an item purchased using the PhonePe wallet then Partial or full Payment made through PhonePe wallet will be refunded to the same PhonePe wallet account.',what-happen
+'If you return the product the applicable VAT amount will also be refunded into the source account selected at the time of return initiation.',what-happen
+'if a physical calculator is found in my possession in the examination hall then that will lead to disqualification of the candidature.',what-happen
+'In those instances when you cannot avoid being late for work you must notify your departmental administrator within the first hour of the workday',what-happen
+'student with grades in between A(+) to D, are declared pass',what-happen
+'students failing in the subject will be awarded F grade',what-happen
+'student with minimum CGPA of 6.5 can only be mentors',what-happen
+'Application Form will not get submitted in the absence of the required documents.',what-happen
+'The form may be rejected due to discrepancy in the supporting documents, or any other valid reason.',what-happen
+'Incomplete Forms will be rejected.',what-happen
+'if failed supplemetary exam student get back',what-happen
+'after failing supplemetary exam student get back',what-happen
+'student have to take summer semester after getting back',what-happen
+'student have to pay fine on returing book late',what-happen
+'student have to pay fine on braking rules',what-happen
+'If it is caught by the bowler then he is caught and bowled',what-happen
+'student who have not given T1 have to take makeup exam',what-happen
+'student who have not given T2 have to take makeup exam',what-happen
+'student with attendence less than 60 precent get debarred',what-happen
+'Poor attendance may lead to disciplinary action',what-happen
+'Without the Sun, there would be no life on Earth',what-happen
+'excessive tardiness may lead to disciplinary action',what-happen
+'Unauthorized delay; Professional staff have no grace period whatsoever, in the reporting time',what-happen
+'A serious view will be taken if the Muster is defaced',what-happen
+'A serious view will be taken if the incorrect data is recorded in it',what-happen
+'salary may be deducted for habitual late arrival',what-happen
+'Failure to attend work for any reason, including those beyond the control of the employee will be considered as Leave',what-happen
+'If we take away risk, then capitalism is finished',what-happen
+'If we turn of the water in the shower, then the water will stop pouring.',what-happen
+'If you eat a whole pint of ice cream, then you would not be hungry',what-happen
+'if you avail more leave than is accrued to you, then you will be deemed to be on leave-without-pay',what-happen
+'The unauthorized downloading or transferring of copyrighted materials may subject the user to University disciplinary action',what-happen
+'The unauthorized downloading or transferring of copyrighted materials may subject the user to civil and criminal penalties',what-happen
+'Becquerel accidentally discovered radioactivity in 1896',what-happen
+'The indonesian archipelago became an important trade region when the srivijaya kingdom formed trade links',what-happen
+'If you believe the concern is life threatening, call your University police',what-happen
+'If they hear you complaining about your country, they will tell you that you should not live there at all.',what-happen
+'If you believe the concern is life threatening, call your security department',what-happen
+'If you are over the age of 21, you may consume alcoholic beverages at official University functions on campus',what-happen
+'If Henri Becquerel was alive today then he would be 157 year old',what-happen
+'Once their lungs are present, the tadpoles are able to breathe air and live on land as well as water.',what-happen
+'if we use boiling water on the queen of red fire ants then the nests of red fire ants may be destroyed',what-happen
+'red fire ants die if we use boiling water on the queen',what-happen
+'If a wing is removed the other three will grow to a larger size.',what-happen
+'when a stream of air directed across a hole in the instrument it creates a vibration of air at the hole',what-happen
+'during the period of Late Heavy Bombardment a very large number of the impact craters on the Moon would have formed',what-happen
+'He did not pay his taxes in time, as a result, he was given a penalty !',what-happen
+'I missed the bus and was late to work as a consequence.',what-happen
+'I missed the bus and was late to work as a result.',what-happen
+'The consequence of failing to report missing stock will be termination.',what-happen
+'The molecule has bulky substituents in the ortho positions; as a result, the eclipsed rotamer is energetically disfavored.',what-happen
+'The electron deficiency is a consequence of the presence of the electron-withdrawing group.',what-happen
+'Someone called in a bomb threat. As a result, school was cancelled.',what-happen
+'The athlete was caught using drugs consequently, he was kicked off the team.',what-happen
+'if you are not a facebook user its not a problem you can keep using WhatsApp.',what-happen
+'When you block people on WhatsApp, you will no longer receive WhatsApp messages, calls or status updates from them.',what-happen
+'After the download has completed, go to the location that you saved the file at and double click on the new icon to start the installation.',what-happen
+'If you become disconnected while files are being downloaded through your web browser, reconnect to the internet and retry your download.',what-happen
+'If you need to make a change to your name or date of birth, contact TOEFL Services',what-happen
+'Loss of I-card may invite fine in disciplinary grade or monetary fine as decided from time to time.',what-happen
+'If in a particular class/period more than 50% students are absent, it would be regarded as mass absenteeism and an act of indiscipline.',what-happen
+'Disciplinary action will be taken on the students indulging in mass absentees.',what-happen
+'Violence by any student or group of students will lead to severe disciplinary action.',what-happen
+'in case there is payment delay of beyond 7 days, Simpl can charge a late penalty of upto Rs. 250.',what-happen
+'In case a user informs us about any issue s/he is facing, we withhold the late penalty.',what-happen
+'If your spending limit has reduced, it is mostly due to repeated delayed payments to Simpl.',what-happen
+'If it rains then climate get cold',what-happen
+'if come late then get punishment',what-happen
+'Remember, if your router does not have a UPnP setting, you will have to port forward.',what-happen
+'Note that sometimes when testing your IP from within your network you may not be able to connect to it.',what-happen
+'When the owner of a Lead record is changed from Unassigned to a specific User, the workflow rule fires.',what-happen
+'student have to pay fine on late registration',what-happen
+'when mother lose there chich they sometimes attempt to steal another chick',what-happen
+'if this tunnel later fills with water or freezes, the damage is even more severe.',what-happen
+'A natural levee is formed when the movement of water pushes sediment to the side of rivers and creeks.',what-happen
+'If he hits me, I will kill him.',what-happen
+'If the batsman is successful in striking the ball and it is not caught without bouncing, then the two batsmen may try to score points (runs) for their team.',what-happen
+'If the batsman hits the ball over the field boundary without the ball touching the field, the batting team scores six runs.',what-happen
+'If the ball touches the ground and then reaches the boundary, the batting team scores four runs.',what-happen
+'The batsmen might have started running before the ball reaches the boundary, but those runs do not count.',what-happen
+'In case of a no ball or a wide the batsman can choose to strike the ball, earning runs in addition to the fixed penalty.',what-happen
+'When the batsmen have finished attempting their runs the ball is dead, and is returned to the bowler to be bowled again.',what-happen
+'If the batsman misses the ball they can still attempt extra runs : these are called byes.',what-happen
+'The ball becomes live when he starts his run up.',what-happen
+'A batsman may retire from an innings without being dismissed, usually after reaching a milestone like a hundred runs',what-happen
+'It is considered good luck in Japan when a sumo wrestler makes your baby cry.',what-happen
+'If you try to suppress a sneeze, you can rupture a blood vessel in your head or neck and die.',what-happen
+'Gorillas burp when they are happy',what-happen
+'The umpires can also call an end to the match in case of bad light or weather.',what-happen
+'The match ends when all innings have been completed.',what-happen
+'if you have somebody‘s number saved as a contact and you send them a message, your number also becomes visible to them.',what-happen
+'Anyone who claims that Telegram messages can be deciphered is welcome to prove that claim in our competition and win $300,000.',what-happen
+'Therefore, if a council or troop has cookies left at the end of the sale, it is encouraged to work with local food pantries and other charitable organizations to distribute cookies as a special treat for people seeking food relief services',what-happen
+'In case of cancellation by the event organizer MeraEvents will update it on the event listing and a personal mail will be sent to you.',what-happen
+'If the event that you registered for is a paid event you will also be notified about the fee refund via email.',what-happen
+'In case of any ticket cancellation, no refund will be granted.',what-happen
+'Please email us at apply@teachforindia.org if you have additional queries.',what-happen
+'Fred is Mike brother son therefore Fred is Mike nephew.',what-happen
+'I have never thought of myself as a wise man, and therefore the prize is not for me',what-happen
+'I missed the train; therefore I missed the party.',what-happen
+'I missed the train, so I missed the party.',what-happen
+'When you finish the first version of your code, click Run Code button to run your solution against one or more small sample test cases.',what-happen
+'If a lot of people have already solved a challenge, the odds are that the issue is in your code.',what-happen
+'During the absence of the Chair or while he or she is unable to act, the Vice Chair shall perform the duties and exercise the powers of the Chair.',what-happen
+'In the absence of relevant Sports certificates Scholarship application will not be considered.',what-happen
+'Amity reserves its right to cancel the admission of successful candidate If the fees is not deposited by the stipulated date',what-happen
+'Amity reserves its right to cancel the admission of successful candidate If the candidate does not join the particular programme by the stipulated date even though the fee has been deposited.',what-happen
+'In case you complete the course and obtain the degree on the basis of documents which are later found to be forged, fabricated or false, at any point of time, your degree shall be cancelled/ recalled.',what-happen
+'If you have appeared in a qualifying examination and the result thereof is awaited, you can apply provisionally to go through admission process at your own risk.',what-happen
+'If the soil is saturated, or if the rainfall rate is greater than the rate at which water can infiltrate into the soil, surface runoff occurs.',what-happen
+'If the runoff has sufficient flow energy, it will transport loosened soil particles (sediment) down the slope.'what-happen
+'If their body temperature reaches 40 °C (104 °F), they can orientate themselves with the folded wings edgewise to the sun.',what-happen
+'If saliva cannot dissolve something, you cannot taste it',what-happen
+'After eating too much, your hearing is less sharp.',what-happen
+'Monday is the day of the week when the risk of heart attack is greatest',what-happen
+'When you turn off your brain turns on.',what-happen
+'When metamorphosis is complete, the pupal skin splits, the adult insect climbs out, and after its wings have expanded and dried, it flies off.',what-happen
+'Butterflies can only fly when their temperature is above 27 °C',what-happen
+'when it is cool, they can position themselves to expose the underside of the wings to the sunlight to heat themselves up.',what-happen
+'Once your order has been shipped you will get an e mail and SMS informing you the details of courier partner and AWB number using which you can track your shipment.',what-happen
+'Once your order is placed, one of our logistic partners would pick the product from us and deliver it you',what-happen
+'For any shipment which is getting shipped through India Post, you will be notified at the time of providing your address.',what-happen
+'Once the 1 hour has lapsed, unfortunately you would not be able to cancel the order.',what-happen
+'However if you have paid using credit card/net banking, you may choose not to accept the order and we will refund the amount to you, once the shipment comes back to us.',what-happen
+'COD options are not available for the following reasons Order value is less than Rs. 500 or more than Rs. 5000.',what-happen
+'COD options are not available for the following reasons If your pin code is not COD serviceable',what-happen
+'When an author signs the IEEE Copyright Form, he/she is transferring ownership of the copyright rights in the work to the IEEE.',what-happen
+'In other words, IEEE becomes owner of the paper when the author signs, dates, and submits a corresponding IEEE Copyright Form.',what-happen
+'Plagiarism occurs when an author work has been reused in such a way as to make it appear as someone else work.',what-happen
+'it is compulsory for one of the author to present the paper in the conference to get the paper to be published in IEEE Xplore and conference Souvenir.',what-happen
+'No refunds balance amount will be given in a case where the transfer is being done to someone eligible for a greater discount.',what-happen
+'Minimum One Author registration must, if paper is selected.',what-happen
+'At temperatures and pressures above the critical point, carbon dioxide behaves as a supercritical fluid',what-happen
+'Since it is centrosymmetric, the molecule has no electrical dipole.',what-happen
+'Plagiarism of any type, if detected, will lead to rejection of the articles anytime.',what-happen
+'DO NOT submit multiple copies of same article, which will cause rejection.',what-happen
+'When placed in the mouth, it dissolves (just like other hard candy) and releases the gas bubbles with an audible pop.',what-happen
+'As a result, breathing low-pressure air or a gas mixture with no oxygen at all can lead to loss of consciousness without ever experiencing air hunger.',what-happen
+'a rise in the partial pressure of CO2 or a lower pH will cause offloading of oxygen from hemoglobin',what-happen
+'Standing still for a prolonged period will cause an increase in transcapillary hydrostatic pressure.',what-happen
+'Fire and explosion hazards exist when concentrated oxidants and fuels are brought into close proximity',what-happen
+'If the elbow straightens illegally then the square-leg umpire may call no-ball',what-happen
+'If its concentration is high, the capillaries expand to allow a greater blood flow to that tissue.',what-happen
+'If the ball is hit around, above, or through the block, the defensive players arranged in the rest of the court attempt to control the ball with a dig',what-happen
+'When the ball contacts the floor within the court boundaries, the team on the opposite side of the net is awarded a score.',what-happen
+'When the ball lays still on the bossawall, the point goes to the opponent team.',what-happen
+'If the team batting last is all out, and both sides have scored the same number of runs, then the match is a tie',what-happen
+'If the team that bats last is all out having scored fewer runs than their opponents, the team is said to have "lost by n runs"',what-happen
+'a ball thrown over a distance of at least ten yards could be marked if caught on the full',what-happen
+'Concentrated O2 will allow combustion to proceed rapidly and energetically.',what-happen
+'Points are awarded if the ball hits the ground in the opponents court',what-happen
+'Points are awarded if the opponents commit a fault',what-happen
+'Points are awarded if they fail to return the ball over the net.',what-happen
+'When pH is too high, the concentration of hydrogen ions in the blood is too low, so the kidneys excrete bicarbonate',what-happen
+'If paying by credit card or wire transfer, WeWork requires a Service Retainer equal to two and a half months (2.5 months) of your monthly Membership Fee.',what-happen
+'An incoming call will go to voice mail after ringing just a few times.',what-happen
+'the Java plug-in will continue to work even if the Java DT plug-in is disabled.',what-happen
+'When hippos are upset, their sweat turns red.',what-happen
+'If you lift a kangaroo tail off the ground it can not hop.',what-happen
+'Even when a snake has its eyes closed, it can still see through its eyelids.',what-happen
+'Toads may also play dead, or puff themselves up to appear bigger if they feel threatened by predators.',what-happen
+'If it is in kids mode, then the owner of the phone will need to enter the password to access parental settings or exit the mode.',what-happen
+'If the beam of light is not orthogonal (or rather normal) to the boundary, the change in wavelength results in a change in the direction of the beam.',what-happen
+'When an insect touches the hairs of a Venus Fly Trap it triggers the plant to close, trapping its victim before killing and dissolving it in acid.',what-happen
+'Providing of incorrect information for the purpose of claiming offers or otherwise, will lead to cancellation of registration and the registration amount paid shall not be refunded.',what-happen
+'If the conference organizing committee would like to take subsection approval for technical sponsorship then they have to keep IEEE Bombay Section in the loop for all the communication.',what-happen
+'In case any data that is provided during registration is found to be false and/or incorrect, PMI India reserves right to cancel the registration and no refund will be provided.',what-happen
+'Above 4 °C, water expands when heated',what-happen
+'The noise that is thunder is created when the air around lightning gets rapidly heated and expands at a rate faster than the speed of sound.',what-happen
+'if they are ripe they should have a bouncing quality.',what-happen
+'Above 4 °C, water contracts when cooled',what-happen
+'Supersonic flight is achieved when an object travels at a speed faster than sound',what-happen
+'If two quantities have a ratio of approximately 1.618, they are said to be in the golden ratio.',what-happen
+'When an electric charge builds up on the surface of an object it creates static electricity.',what-happen
+'When traveling at 80 kilometres per hour, cars use around half of their fuel just to overcome wind resistance.',what-happen
+'If you ignore air resistance (drag) then the speed of an object falling to Earth increases by around 9.8 metres per second every second.',what-happen
+'When you die your hair still grows for a couple of months.',what-happen
+'When a male penguin falls in love with female penguin, he searches the entire beach to find the perfect pebble to present to her.',what-happen
+'Whenever a pregnant women suffers from organ damage like heart attack, the fetus sends stem cells to the organ helping it to repair.',what-happen
+'When you blush, the lining of your stomach also turns red.',what-happen
+'If you place a ripe banana next to a green tomato, it will ripen due to the ethylene gas produced by the banana.',what-happen
+'When you urinate in a pool, the nitrogen in urine and chlorine mix to form cyanogens chloride, a toxic chemical.',what-happen
+'When you burn calories your body tears the fat molecules down to their basic carbon atoms, attaches them to oxygen and you exhale them.',what-happen
+'When a bald eagle loses a feather, it will automatically shed the same feather on its other side to maintain balance.',what-happen
+'When three-letter airport codes became standard, airports that had been using two letters simply added an X.',what-happen
+'When fruit flies are infected with a parasite, they self-medicate with booze—they seek out food with higher alcohol content.',what-happen
+'If you put a can of Diet Coke in water, it floats.',what-happen
+'If you plan on exploring cultural monuments, Italy must be on your list',what-happen
+'The ant always falls over on its right side when intoxicated.',what-happen
+'If you keep a Goldfish in the dark room, it will eventually turn white.',what-happen
+'If the population of China walked past you in single file, the line would never end because of the rate of reproduction.',what-happen
+'if you had apple a day, it would take you nearly seven years to eat each kind.',what-happen
+'Apples ripen up to 10 times faster when you leave them out then when you refrigerate them.',what-happen
+'If the entire world water were fit into a 4 litre jug, the fresh water available for us would equal only about one tablespoon',what-happen
+'When cats are happy or pleased, they squeeze their eyes shut.',what-happen
+'Diamonds burn if you heat them somewhere between 1,400 to 1,600 degrees Fahrenheit.',what-happen
+'Fulgurite is formed when lightning strikes sand.',what-happen
+'Some ribbon worms will eat themselves if they can not find any food.',what-happen
+'if you eat a Polar Bear liver, you will die of a vitamin A overdose.',what-happen
+'Female ferrets die if they can not find a mate after going into heat.',what-happen
+'The flamingo can only eat when its head is upside down.',what-happen
+'If you are interested more in this intriguing architectural monument, check out this cool infographic!',what-happen
+'If the horse has both front legs in the air, the person died in battle;',what-happen
+'if the horse has one front leg in the air, the person died as a result of wounds received in battle;',what-happen
+'if the horse has all four legs on the ground, the person died of natural causes.',what-happen
+'When a Hawaiian woman wears a flower over her left ear, it means that she is not available.',what-happen
+'If you feed a seagull Alka-Seltzer, its stomach will explode.',what-happen
+%---- what-happen :17
+%----------------------------
+'the Grotto is the Marian place of prayer and reflection',what
+'The stellar temperature will determine the rate of ionization of various elements',what
+'In Windows XP, it contained other subfolders such as "My Pictures", "My Music" and "My Videos". ',where
+'Their luggage is stored at Bird Song',where
+'the Pinocchio paradox rapidly became popular on the Internet.',where
+'The Keshav Dev Temple was built on the site of Krishna birthplace',where
+'This box contained rat poison',where

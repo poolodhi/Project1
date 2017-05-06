@@ -43,8 +43,9 @@ public class Background extends javax.swing.JFrame implements Global_variables{
         toggle_fc = new javax.swing.JToggleButton();
         toggle_bc = new javax.swing.JToggleButton();
         jLabel9 = new javax.swing.JLabel();
-        learn = new javax.swing.JButton();
+        learngen = new javax.swing.JButton();
         showconsole = new javax.swing.JButton();
+        learnspecific = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         jLabel8 = new javax.swing.JLabel();
@@ -131,22 +132,22 @@ public class Background extends javax.swing.JFrame implements Global_variables{
         featurepane.add(jLabel9);
         jLabel9.setBounds(70, 20, 150, 30);
 
-        learn.setBackground(new java.awt.Color(255, 255, 255));
-        learn.setFont(new java.awt.Font("Raleway", 0, 18)); // NOI18N
-        learn.setText("Learn\n");
-        learn.setBorder(null);
-        learn.setBorderPainted(false);
-        learn.setFocusPainted(false);
-        learn.setFocusable(false);
-        learn.setRequestFocusEnabled(false);
-        learn.setRolloverEnabled(false);
-        learn.addActionListener(new java.awt.event.ActionListener() {
+        learngen.setBackground(new java.awt.Color(255, 255, 255));
+        learngen.setFont(new java.awt.Font("Raleway", 0, 18)); // NOI18N
+        learngen.setText("Learn Generic\n");
+        learngen.setBorder(null);
+        learngen.setBorderPainted(false);
+        learngen.setFocusPainted(false);
+        learngen.setFocusable(false);
+        learngen.setRequestFocusEnabled(false);
+        learngen.setRolloverEnabled(false);
+        learngen.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                learnActionPerformed(evt);
+                learngenActionPerformed(evt);
             }
         });
-        featurepane.add(learn);
-        learn.setBounds(10, 170, 240, 40);
+        featurepane.add(learngen);
+        learngen.setBounds(10, 220, 240, 40);
 
         showconsole.setBackground(new java.awt.Color(255, 255, 255));
         showconsole.setFont(new java.awt.Font("Raleway", 0, 18)); // NOI18N
@@ -163,10 +164,27 @@ public class Background extends javax.swing.JFrame implements Global_variables{
             }
         });
         featurepane.add(showconsole);
-        showconsole.setBounds(10, 220, 240, 40);
+        showconsole.setBounds(10, 270, 240, 40);
+
+        learnspecific.setBackground(new java.awt.Color(255, 255, 255));
+        learnspecific.setFont(new java.awt.Font("Raleway", 0, 18)); // NOI18N
+        learnspecific.setText("Learn Specific\n");
+        learnspecific.setBorder(null);
+        learnspecific.setBorderPainted(false);
+        learnspecific.setFocusPainted(false);
+        learnspecific.setFocusable(false);
+        learnspecific.setRequestFocusEnabled(false);
+        learnspecific.setRolloverEnabled(false);
+        learnspecific.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                learnspecificActionPerformed(evt);
+            }
+        });
+        featurepane.add(learnspecific);
+        learnspecific.setBounds(10, 170, 240, 40);
 
         getContentPane().add(featurepane);
-        featurepane.setBounds(970, 110, 280, 280);
+        featurepane.setBounds(970, 110, 280, 340);
 
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Raleway", 0, 20)); // NOI18N
@@ -347,15 +365,21 @@ public class Background extends javax.swing.JFrame implements Global_variables{
         t4.change_flag(toggle_fc.isSelected(),toggle_bc.isSelected());
     }//GEN-LAST:event_toggle_bcActionPerformed
 
-    private void learnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_learnActionPerformed
+    private void learngenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_learngenActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_learnActionPerformed
+    }//GEN-LAST:event_learngenActionPerformed
 
     private void showconsoleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_showconsoleActionPerformed
         // TODO add your handling code here:
         //f.dispose();
         console c = new console();
     }//GEN-LAST:event_showconsoleActionPerformed
+
+    private void learnspecificActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_learnspecificActionPerformed
+        // TODO add your handling code here:
+        //learn_sepcific_ui l=new learn_sepcific_ui();
+        new learn_specific_ui().setVisible(true);
+    }//GEN-LAST:event_learnspecificActionPerformed
 
     /**
      * @param args the command line arguments
@@ -413,7 +437,8 @@ public class Background extends javax.swing.JFrame implements Global_variables{
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
-    private javax.swing.JButton learn;
+    private javax.swing.JButton learngen;
+    private javax.swing.JButton learnspecific;
     private javax.swing.JButton showconsole;
     private javax.swing.JToggleButton toggle_bc;
     private javax.swing.JToggleButton toggle_fc;
