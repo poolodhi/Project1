@@ -317,7 +317,7 @@ public class Conclusion_Query implements Global_variables{
                 String old_fact_is,old_value,old_compare_value;
                 String fact_is="",value="",compare_value="";
                 //System.out.println("\n\n"+y.replace("what-happen","").replace("-"," ")+" with some basic facts implies");
-                String Ans="\n\n"+y.replace("what-happen","").replace("-"," ")+" with some basic facts implies\n";
+                String Ans=y.replace("what-happen","").replace("-"," ")+" with some basic facts implies\n";
                 for(int i=totaloldfacts;i<factcount;i++){
                     
                     old_fact_is=fact_is;
@@ -350,7 +350,7 @@ public class Conclusion_Query implements Global_variables{
                 if(!answer.equals(".")){
                     return Ans+answer;
                 }else{
-                  return "\n\n"+y.replace("what-happen","")+" implies\nNothing";  
+                  return y.replace("what-happen","")+" implies\nNothing";  
                 }
                 
                 
@@ -362,7 +362,7 @@ public class Conclusion_Query implements Global_variables{
                 String fact_is="",value="",compare_value="";
             boolean f=true;
             //System.out.println("\n\n"+y.replace("what-happen","")+" implies");
-            String Ans="\n\n"+y.replace("what-happen","")+" implies\n";
+            String Ans=y.replace("what-happen","")+" implies\n";
             for(int i=0;i<factcount;i++){
                 
                     old_fact_is=fact_is;
