@@ -23,6 +23,8 @@ public class Background extends javax.swing.JFrame implements Global_variables{
     public Background() {
         initComponents();
         jTextArea1.setEditable(false);
+        featurepane.setBackground(new Color(102, 0, 204, 123));
+        featurepane.setBorder(new SubtleSquareBorder(true));
     }
 
     /**
@@ -37,11 +39,12 @@ public class Background extends javax.swing.JFrame implements Global_variables{
         jTextField2 = new javax.swing.JTextField();
         jTextField3 = new javax.swing.JTextField();
         jTextField4 = new javax.swing.JTextField();
-        jLayeredPane1 = new javax.swing.JLayeredPane();
+        featurepane = new javax.swing.JLayeredPane();
         toggle_fc = new javax.swing.JToggleButton();
         toggle_bc = new javax.swing.JToggleButton();
         jLabel9 = new javax.swing.JLabel();
         learn = new javax.swing.JButton();
+        showconsole = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         jLabel8 = new javax.swing.JLabel();
@@ -56,7 +59,8 @@ public class Background extends javax.swing.JFrame implements Global_variables{
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMinimumSize(new java.awt.Dimension(2147483647, 2147483647));
+        setMaximumSize(new java.awt.Dimension(1250, 680));
+        setMinimumSize(new java.awt.Dimension(1250, 680));
         getContentPane().setLayout(null);
 
         jTextField2.setFont(new java.awt.Font("Raleway", 0, 18)); // NOI18N
@@ -79,53 +83,90 @@ public class Background extends javax.swing.JFrame implements Global_variables{
         getContentPane().add(jTextField4);
         jTextField4.setBounds(660, 220, 250, 40);
 
-        jLayeredPane1.setBackground(new java.awt.Color(255, 255, 255));
+        featurepane.setBackground(new java.awt.Color(102, 0, 204));
+        featurepane.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        featurepane.setFocusable(false);
+        featurepane.setOpaque(true);
 
         toggle_fc.setBackground(new java.awt.Color(255, 255, 255));
         toggle_fc.setFont(new java.awt.Font("Raleway", 0, 18)); // NOI18N
         toggle_fc.setText("Forward Chaining ON");
+        toggle_fc.setBorder(null);
+        toggle_fc.setBorderPainted(false);
+        toggle_fc.setFocusPainted(false);
+        toggle_fc.setFocusable(false);
         toggle_fc.setMaximumSize(new java.awt.Dimension(200, 23));
+        toggle_fc.setRequestFocusEnabled(false);
+        toggle_fc.setRolloverEnabled(false);
+        toggle_fc.setVerifyInputWhenFocusTarget(false);
         toggle_fc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 toggle_fcActionPerformed(evt);
             }
         });
-        jLayeredPane1.add(toggle_fc);
+        featurepane.add(toggle_fc);
         toggle_fc.setBounds(10, 70, 240, 40);
 
         toggle_bc.setBackground(new java.awt.Color(255, 255, 255));
         toggle_bc.setFont(new java.awt.Font("Raleway", 0, 18)); // NOI18N
         toggle_bc.setText("Backward Chaining ON");
-        toggle_bc.setActionCommand("Backward Chaining ON");
+        toggle_bc.setBorder(null);
+        toggle_bc.setBorderPainted(false);
+        toggle_bc.setFocusPainted(false);
+        toggle_bc.setFocusable(false);
         toggle_bc.setMaximumSize(new java.awt.Dimension(200, 23));
+        toggle_bc.setRequestFocusEnabled(false);
+        toggle_bc.setRolloverEnabled(false);
         toggle_bc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 toggle_bcActionPerformed(evt);
             }
         });
-        jLayeredPane1.add(toggle_bc);
+        featurepane.add(toggle_bc);
         toggle_bc.setBounds(10, 120, 240, 40);
-        toggle_bc.getAccessibleContext().setAccessibleName("Backward Chaining ON");
 
         jLabel9.setFont(new java.awt.Font("Airborne", 0, 24)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Features");
-        jLayeredPane1.add(jLabel9);
+        featurepane.add(jLabel9);
         jLabel9.setBounds(70, 20, 150, 30);
 
         learn.setBackground(new java.awt.Color(255, 255, 255));
         learn.setFont(new java.awt.Font("Raleway", 0, 18)); // NOI18N
         learn.setText("Learn\n");
+        learn.setBorder(null);
+        learn.setBorderPainted(false);
+        learn.setFocusPainted(false);
+        learn.setFocusable(false);
+        learn.setRequestFocusEnabled(false);
+        learn.setRolloverEnabled(false);
         learn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 learnActionPerformed(evt);
             }
         });
-        jLayeredPane1.add(learn);
+        featurepane.add(learn);
         learn.setBounds(10, 170, 240, 40);
 
-        getContentPane().add(jLayeredPane1);
-        jLayeredPane1.setBounds(1020, 150, 260, 240);
+        showconsole.setBackground(new java.awt.Color(255, 255, 255));
+        showconsole.setFont(new java.awt.Font("Raleway", 0, 18)); // NOI18N
+        showconsole.setText("Show Console\n");
+        showconsole.setBorder(null);
+        showconsole.setBorderPainted(false);
+        showconsole.setFocusPainted(false);
+        showconsole.setFocusable(false);
+        showconsole.setRequestFocusEnabled(false);
+        showconsole.setRolloverEnabled(false);
+        showconsole.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                showconsoleActionPerformed(evt);
+            }
+        });
+        featurepane.add(showconsole);
+        showconsole.setBounds(10, 220, 240, 40);
+
+        getContentPane().add(featurepane);
+        featurepane.setBounds(970, 110, 280, 280);
 
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Raleway", 0, 20)); // NOI18N
@@ -278,14 +319,15 @@ public class Background extends javax.swing.JFrame implements Global_variables{
 
     private void toggle_fcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_toggle_fcActionPerformed
         // TODO add your handling code here:
-        
         if(toggle_fc.isSelected()){
             toggle_fc.setText("Forward chaining OFF");
             Color r = new Color(102,102,225);
             toggle_fc.setBackground(r);
+            toggle_fc.setForeground(Color.WHITE);
         }else{
             toggle_fc.setText("Forward chaining ON");
             toggle_fc.setBackground(Color.WHITE);
+            toggle_fc.setForeground(Color.BLACK);
         }
         t4.change_flag(toggle_fc.isSelected(),toggle_bc.isSelected());
     }//GEN-LAST:event_toggle_fcActionPerformed
@@ -296,9 +338,11 @@ public class Background extends javax.swing.JFrame implements Global_variables{
             toggle_bc.setText("Backward chaining OFF");
             Color r = new Color(102,102,225);
             toggle_bc.setBackground(r);
+            toggle_bc.setForeground(Color.WHITE);
         }else{
             toggle_bc.setText("Backward chaining ON");
             toggle_bc.setBackground(Color.WHITE);
+            toggle_bc.setForeground(Color.BLACK);
         }
         t4.change_flag(toggle_fc.isSelected(),toggle_bc.isSelected());
     }//GEN-LAST:event_toggle_bcActionPerformed
@@ -306,6 +350,12 @@ public class Background extends javax.swing.JFrame implements Global_variables{
     private void learnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_learnActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_learnActionPerformed
+
+    private void showconsoleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_showconsoleActionPerformed
+        // TODO add your handling code here:
+        //f.dispose();
+        console c = new console();
+    }//GEN-LAST:event_showconsoleActionPerformed
 
     /**
      * @param args the command line arguments
@@ -346,6 +396,7 @@ public class Background extends javax.swing.JFrame implements Global_variables{
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLayeredPane featurepane;
     private javax.swing.JButton jButton1;
     private javax.swing.JComboBox jComboBox1;
     private javax.swing.JLabel jLabel1;
@@ -357,13 +408,13 @@ public class Background extends javax.swing.JFrame implements Global_variables{
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JLayeredPane jLayeredPane1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
     private javax.swing.JButton learn;
+    private javax.swing.JButton showconsole;
     private javax.swing.JToggleButton toggle_bc;
     private javax.swing.JToggleButton toggle_fc;
     // End of variables declaration//GEN-END:variables
