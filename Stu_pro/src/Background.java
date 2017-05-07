@@ -2,6 +2,7 @@
 import java.awt.Color;
 import javax.swing.JOptionPane;
 import stu_pro.*;
+import learning.*;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -16,6 +17,8 @@ import java.util.logging.Logger;
  */
 public class Background extends javax.swing.JFrame implements Global_variables{
     Query_Processor t4=new Query_Processor();
+    trainer train=new trainer();//model is trained in constructer....
+    nlp n=new nlp(train);
     
     /**
      * Creates new form Background
@@ -378,13 +381,13 @@ public class Background extends javax.swing.JFrame implements Global_variables{
     private void learnspecificActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_learnspecificActionPerformed
         // TODO add your handling code here:
         //learn_sepcific_ui l=new learn_sepcific_ui();
-        new learn_specific_ui().setVisible(true);
+        new learn_specific_ui(n).setVisible(true);
     }//GEN-LAST:event_learnspecificActionPerformed
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) throws IOException {
+    public static void main(String args[]) throws IOException, Exception {
         
         Stu_H_Main.main();
         

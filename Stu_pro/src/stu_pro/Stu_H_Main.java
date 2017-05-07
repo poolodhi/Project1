@@ -22,7 +22,7 @@ public class Stu_H_Main {
         BC_fileprocess b=new BC_fileprocess();
         b.fileprocess();
     }
-    public static void main() throws IOException {
+    public static void main() throws IOException, Exception {
         Stu_H_Main t=new Stu_H_Main();
         t.prepocessing();
         //Query_Processor t4=new Query_Processor();

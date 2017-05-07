@@ -1,6 +1,7 @@
 
 import java.awt.Dimension;
 import javax.swing.JOptionPane;
+import learning.*;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -12,12 +13,16 @@ import javax.swing.JOptionPane;
  *
  * @author admin
  */
-public class learn_specific_ui extends javax.swing.JFrame {
-
+public class learn_specific_ui extends javax.swing.JFrame  {
+    nlp n;
     /**
      * Creates new form learn_specific_ui
      */
     public learn_specific_ui() {
+        initComponents();
+    }
+    public learn_specific_ui(nlp n) {
+        this.n=n;
         initComponents();
     }
 
@@ -124,6 +129,9 @@ public class learn_specific_ui extends javax.swing.JFrame {
             dispose();
             loading l=new loading("<html>Doing Learning on<br>"+string+"<br>Please wait</html>");
             l.setVisible(true);
+            Crawl1 c=new Crawl1(n);
+            c.loopcrawl_specific(string);
+            l.settingtext("<html>Learning on <br>"+string+"<br>COMPLETED</html>");
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
