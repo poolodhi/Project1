@@ -81,17 +81,12 @@ public class Crawl1 implements global_variables{
         //System.out.println("total number of links present on that page:"+links.size());
                 
         for (Element link : links){
-            if(link.text().toLowerCase().contains(data)&&!link.attr("href").isEmpty()){
+            if((link.text().toLowerCase().contains(data)||link.attr("href").contains(data.toLowerCase().replace(".","")))
+                    &&!link.attr("href").isEmpty()){
                 String l=link.attr("href");
                 
                 if(!hyperlinks.contains(l) && !l.contains("javascript") && !l.contains("mailto")){
                     hyperlinks.add(l);
-                    /*if(l.startsWith("/")){
-                l=l.substring(1);
-                }
-                if(!l.endsWith("/")){
-                l+="/";
-                }*/
                     if(!l.startsWith("http")){
                     linkslist.add(currentlink+l);
                     }else{
@@ -111,11 +106,16 @@ public class Crawl1 implements global_variables{
         for (Element inputElement : inputElements) {  
             String value = inputElement.text();  
             value=value.toLowerCase();
-            if(value.contains(data.toLowerCase())){
-                //System.out.println(" \nParam value: "+value);  
-                n.sentenceDetector(value);
-            } 
+            if(!value.isEmpty()){
+                if(currentlink.contains(data.toLowerCase().replace(".",""))){
+                    n.sentenceDetector(value);
+                }else if(value.contains(data.toLowerCase())){
+                    //System.out.println(" \nParam value: "+value);  
+                    n.sentenceDetector(value);
+                } 
+            }
         }
+        
         
     }
     
