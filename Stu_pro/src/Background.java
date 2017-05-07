@@ -370,6 +370,11 @@ public class Background extends javax.swing.JFrame implements Global_variables{
 
     private void learngenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_learngenActionPerformed
         // TODO add your handling code here:
+        console c = new console();
+        Crawl1 c1;
+        c1 = new Crawl1(n);
+        c1.loopcrawl_gen();
+        
     }//GEN-LAST:event_learngenActionPerformed
 
     private void showconsoleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_showconsoleActionPerformed

@@ -120,7 +120,8 @@ public class Crawl1 implements global_variables{
     }
     
     
-        public void loopcrawl_gen()throws IOException{
+        public void loopcrawl_gen(){
+            
         linkslist.add("http://www.jiit.ac.in");
         
         for(int i=0;i<linkslist.size();i++){
