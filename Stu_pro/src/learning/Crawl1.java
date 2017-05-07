@@ -110,7 +110,8 @@ public class Crawl1 implements global_variables{
         Elements inputElements = doc.getElementsByTag("p");  
         for (Element inputElement : inputElements) {  
             String value = inputElement.text();  
-            if(value.toLowerCase().contains(data)){
+            value=value.toLowerCase();
+            if(value.contains(data.toLowerCase())){
                 //System.out.println(" \nParam value: "+value);  
                 n.sentenceDetector(value);
             } 
@@ -169,6 +170,7 @@ public class Crawl1 implements global_variables{
         Elements inputElements = doc.getElementsByTag("p");  
         for (Element inputElement : inputElements) {  
             String value = inputElement.text();  
+            value=value.toLowerCase();
             n.sentenceDetector(value);
         }
         
