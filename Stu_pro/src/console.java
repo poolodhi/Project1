@@ -9,6 +9,7 @@
  * @author admin
  */
 import javax.swing.*;
+import learning.*;
 public class console {
 	private final JFrame f = new JFrame("Console");
 	

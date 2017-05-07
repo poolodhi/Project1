@@ -127,11 +127,27 @@ public class learn_specific_ui extends javax.swing.JFrame  {
             JOptionPane.showMessageDialog(null,"Please some value."); 
         }else{
             dispose();
-            loading l=new loading("<html>Doing Learning on<br>"+string+"<br>Please wait</html>");
+            /*
+            loading l=new loading("<html>Doing Learning on"+string+"<br>Please wait</html>");
+            //loading l=new loading();
+            System.out.println("Doing Learning on\n"+string+"\nPlease wait");
             l.setVisible(true);
-            Crawl1 c=new Crawl1(n);
-            c.loopcrawl_specific(string);
-            l.settingtext("<html>Learning on <br>"+string+"<br>COMPLETED</html>");
+            
+            l.settingtext("<html>Learning on "+string+"<br>COMPLETED</html>",string,n);*/
+                    new Thread(new Runnable() {
+                   public void run() {
+                       Crawl1 c=new Crawl1(n);
+                       c.loopcrawl_specific(string);
+                       //System.out.println("Look ma, no hands");
+                   }
+               }).start();
+
+               new Thread(new Runnable() {
+                   public void run() {
+                      console c=new console();
+                       //System.out.println("Look at me, look at me...");
+                   }
+               }).start();
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 

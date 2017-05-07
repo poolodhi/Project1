@@ -57,8 +57,10 @@ public class Crawl1 implements global_variables{
                 System.out.println("title is: " + title);
                 */
                 System.out.println("===============================****=================================");
+                //jTextArea1.append("===============================****=================================\n");
             }catch(Exception e){
                 System.out.println("\ngot exception for ===>"+linkslist.get(i)+"\n");
+                //jTextArea1.append("\ngot exception for ===>"+linkslist.get(i)+"\n");
                 e.printStackTrace();
             }
         }
@@ -67,6 +69,7 @@ public class Crawl1 implements global_variables{
         wtf.writeinrule();
         }catch(Exception e){
             System.out.println("\nnot write in file\n");
+            //jTextArea1.append("\nnot write in file\n");
             e.printStackTrace();
         }
     }
@@ -121,7 +124,7 @@ public class Crawl1 implements global_variables{
     
     
         public void loopcrawl_gen(){
-            
+            System.out.println("====In side Genric learning====");
         linkslist.add("http://www.jiit.ac.in");
         
         for(int i=0;i<linkslist.size();i++){
