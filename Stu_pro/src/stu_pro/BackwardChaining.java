@@ -200,9 +200,11 @@ public class BackwardChaining implements Global_variables {
          
          clips2.load(template);
          clips2.load(fact_base);
+         clips2.load(learn_facts1);
          //clips.eval("(facts)"); 
          clips.load(template);
          clips.load(bc_rule_base);
+         clips.load(bc_rule_learn);
          //clips.load("C:\\Users\\MR. V.P. SINGH\\Desktop\\bc.clp");
          clips.reset();
          clips.run();

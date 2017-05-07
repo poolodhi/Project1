@@ -109,8 +109,13 @@ public class contentextract implements global_variables{
                     if(comparevalue.startsWith(" ")){
                     comparevalue=comparevalue.replaceFirst(" ","");
                     }
-                    value=value.replace(" ","-");
-                    comparevalue=comparevalue.replace(" ","-");
+                    value=value.replace(" ","-").replace("(","").replace(")","")
+                            .replace("\"","").replace("'s","").replace(",","")
+                            .replace("&","and").replace("*","").replace(";","");
+                    comparevalue=comparevalue.replace(" ","-").replace("(","")
+                            .replace(")","").replace("\"","").replace("'s","")
+                            .replace(",","").replace("&","and").replace("*","")
+                            .replace(";","");
                     String data;
                     
                     if(!value.isEmpty()&&!comparevalue.isEmpty()){
@@ -211,9 +216,16 @@ public class contentextract implements global_variables{
                     if(comparevalue.startsWith(" ")){
                         comparevalue=comparevalue.replaceFirst(" ","");
                     }
-                    value=value.replace(" ","-");
-                    fact=fact.replace(" ","-");
-                    comparevalue=comparevalue.replace(" ","-");
+                    value=value.replace(" ","-").replace("(","").replace(")","")
+                            .replace("\"","").replace("'s","").replace(",","")
+                            .replace("&","and").replace("*","").replace(";","");
+                    fact=fact.replace(" ","-").replace("(","").replace(")","")
+                            .replace("\"","").replace("'s","").replace(",","")
+                            .replace("&","and").replace("*","").replace(";","");
+                    comparevalue=comparevalue.replace(" ","-").replace("(","")
+                            .replace(")","").replace("\"","").replace("'s","")
+                            .replace(",","").replace("&","and").replace("*","")
+                            .replace(";","");
 
                     String data;
                     if(value.isEmpty()&&comparevalue.isEmpty()){

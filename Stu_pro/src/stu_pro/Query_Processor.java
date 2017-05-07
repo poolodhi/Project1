@@ -35,7 +35,8 @@ public class Query_Processor implements Global_variables{
         clips.load(template);//rule and fact template
         clips.load(rule_base); //rule base
         clips.load(fact_base); //fact base
-
+        clips.load(learn_rules1);
+        clips.load(learn_facts1);
         if (new File(otherdatabase).exists()){//new facts file load
             clips.load(otherdatabase);
         }//else{throw new FileNotFoundException("new facts file not found");}

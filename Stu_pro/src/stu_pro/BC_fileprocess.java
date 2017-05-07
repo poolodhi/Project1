@@ -21,8 +21,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class BC_fileprocess implements Global_variables{
-    public void write_in_file(StringBuilder s) throws IOException{
-        File file = new File(bc_rule_base);
+    public void write_in_file(StringBuilder s,String filename) throws IOException{
+        File file = new File(filename);
         BufferedWriter writer = null;
         try {
             writer = new BufferedWriter(new FileWriter(file));
@@ -33,7 +33,7 @@ public class BC_fileprocess implements Global_variables{
         }
         
     }
-    public void fileprocess(){
+    public void fileprocess(String filename){
         
         String function_start="(join-ands-start ?adr)";
         String if_condition_part1="(if (eq ?f FALSE) then \n" +"(do-for-fact ((?f1 rules))";
@@ -200,7 +200,7 @@ public class BC_fileprocess implements Global_variables{
             }
             //String everything = sb.toString();
             //System.out.println(everything);
-            write_in_file(sb);
+            write_in_file(sb,filename);
         }catch(FileNotFoundException e){
             System.out.println(rule_base+"File not found");
         }catch(IOException e){
