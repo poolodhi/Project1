@@ -124,7 +124,7 @@ public class contentextract implements global_variables{
                     }else{
                         data="";
                     }
-                    
+                    data=data.toLowerCase();
                     if(!factdata.toString().contains(data)&&!data.isEmpty()){
                         factdata.append(data);
                         factdata.append(System.getProperty("line.separator"));
@@ -240,7 +240,7 @@ public class contentextract implements global_variables{
                                     +")(compare-value "+comparevalue+"))";
                     }
 
-
+                    data=data.toLowerCase();
                     if(!factdata.toString().contains(data)&&!data.isEmpty()){
                         factdata.append(data);
                         factdata.append(System.getProperty("line.separator"));
