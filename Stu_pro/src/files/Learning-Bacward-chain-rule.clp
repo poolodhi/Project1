@@ -1,4 +1,4 @@
-(defrule gen-gen-1494300521557-0
+(defrule gen-1494307753005-0
 ?adr<-(rules (fact-is be-completed-there-is)(value tutorial-practical-work)(compare-value scope-to))
 =>
 (join-ands-start ?adr)
@@ -9,7 +9,7 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300523637-0
+(defrule gen-1494307754985-0
 ?adr<-(rules (fact-is be-accepted)(value tutorial-practical-session-time-up-to-late-submissions))
 =>
 (join-ands-start ?adr)
@@ -20,7 +20,7 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300531447-0
+(defrule gen-1494307762597-0
 ?adr<-(rules (fact-is put)(compare-value sustained-disciplined-work-over-entire-period-of-study))
 =>
 (join-ands-start ?adr)
@@ -31,8 +31,8 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300533447-0
-?adr<-(rules (fact-is be-allocated-to)(value balance-25%)(compare-value Assignments))
+(defrule gen-1494307764627-0
+?adr<-(rules (fact-is be-allocated-to)(value balance-25%)(compare-value assignments))
 =>
 (join-ands-start ?adr)
 (bind ?f (assert(rules (fact-is have)(compare-value total-weight-age-of-75%))))
@@ -42,7 +42,7 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300543257-0
+(defrule gen-1494307774177-0
 ?adr<-(rules (fact-is appointed)(value week-on)(compare-value days-time))
 =>
 (join-ands-start ?adr)
@@ -53,30 +53,30 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300545317-0
+(defrule gen-1494307776217-0
 ?adr<-(rules (fact-is be-declared)(compare-value pass))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is obtaining)(value Grading-System:-Students)(compare-value grades-to-D))))
+(bind ?f (assert(rules (fact-is obtaining)(value grading-system:-students)(compare-value grades-to-d))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is obtaining)(eq ?f1:value Grading-System:-Students)(eq ?f1:compare-value grades-to-D))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is obtaining)(eq ?f1:value grading-system:-students)(eq ?f1:compare-value grades-to-d))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300546849-0
-?adr<-(rules (fact-is be-awarded)(compare-value F-grade))
+(defrule gen-1494307777747-0
+?adr<-(rules (fact-is be-awarded)(compare-value f-grade))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is failing)(value Students)(compare-value subject))))
+(bind ?f (assert(rules (fact-is failing)(value students)(compare-value subject))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is failing)(eq ?f1:value Students)(eq ?f1:compare-value subject))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is failing)(eq ?f1:value students)(eq ?f1:compare-value subject))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300548419-0
-?adr<-(rules (fact-is written)(value components-Theory-Three)(compare-value tests))
+(defrule gen-1494307779257-0
+?adr<-(rules (fact-is written)(value components-theory-three)(compare-value tests))
 =>
 (join-ands-start ?adr)
 (bind ?f (assert(rules (fact-is be-decided)(value grades)(compare-value aggregate-of-evaluation-of))))
@@ -86,7 +86,7 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300553923-0
+(defrule gen-1494307784017-0
 ?adr<-(rules (fact-is be-debarred)(value he/she))
 =>
 (join-ands-start ?adr)
@@ -97,29 +97,29 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300555463-0
+(defrule gen-1494307785527-0
 ?adr<-(rules (fact-is being-debarred)(compare-value due-to-attendance-shortage))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is has-been-awarded)(value student)(compare-value F-grade-because-of))))
+(bind ?f (assert(rules (fact-is has-been-awarded)(value student)(compare-value f-grade-because-of))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is has-been-awarded)(eq ?f1:value student)(eq ?f1:compare-value F-grade-because-of))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is has-been-awarded)(eq ?f1:value student)(eq ?f1:compare-value f-grade-because-of))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300557553-0
+(defrule gen-1494307787567-0
 ?adr<-(rules (fact-is allowing-make)(value policy-for)(compare-value examination-for))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is Make)(compare-value Examinations))))
+(bind ?f (assert(rules (fact-is make)(compare-value examinations))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is Make)(eq ?f1:compare-value Examinations)(eq ?f1:value none))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is make)(eq ?f1:compare-value examinations)(eq ?f1:value none))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300559073-0
+(defrule gen-1494307789077-0
 ?adr<-(rules (fact-is prove)(value documents-to)(compare-value genuineness-of))
 =>
 (join-ands-start ?adr)
@@ -130,7 +130,7 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300560573-0
+(defrule gen-1494307790578-0
 ?adr<-(rules (fact-is attach)(compare-value opinion-of))
 =>
 (join-ands-start ?adr)
@@ -141,41 +141,41 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300562123-0
+(defrule gen-1494307792168-0
 ?adr<-(rules (fact-is be)(value decision)(compare-value final))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be-reviewed-approved)(value genuineness)(compare-value Vice-Chancellor))))
+(bind ?f (assert(rules (fact-is be-reviewed-approved)(value genuineness)(compare-value vice-chancellor))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-reviewed-approved)(eq ?f1:value genuineness)(eq ?f1:compare-value Vice-Chancellor))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-reviewed-approved)(eq ?f1:value genuineness)(eq ?f1:compare-value vice-chancellor))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300563673-0
-?adr<-(rules (fact-is be-notified)(value End-Sem-Exam-dates)(compare-value academic-calendar))
+(defrule gen-1494307793698-0
+?adr<-(rules (fact-is be-notified)(value end-sem-exam-dates)(compare-value academic-calendar))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be-scheduled)(value make-up-examination)(compare-value T2))))
+(bind ?f (assert(rules (fact-is be-scheduled)(value make-up-examination)(compare-value t2))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-scheduled)(eq ?f1:value make-up-examination)(eq ?f1:compare-value T2))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-scheduled)(eq ?f1:value make-up-examination)(eq ?f1:compare-value t2))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300566773-0
+(defrule gen-1494307796768-0
 ?adr<-(rules (fact-is be-allotted-below:)(value marks))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is even)(value student-miss-T1-T2-examination)(compare-value genuine-reason))))
+(bind ?f (assert(rules (fact-is even)(value student-miss-t1-t2-examination)(compare-value genuine-reason))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is even)(eq ?f1:value student-miss-T1-T2-examination)(eq ?f1:compare-value genuine-reason))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is even)(eq ?f1:value student-miss-t1-t2-examination)(eq ?f1:compare-value genuine-reason))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300568353-0
-?adr<-(rules (fact-is be)(value examination-irrespective-of-make-up-for-T1-T-duration-of-exam)(compare-value 1-hour-60))
+(defrule gen-1494307798328-0
+?adr<-(rules (fact-is be)(value examination-irrespective-of-make-up-for-t1-t-duration-of-exam)(compare-value 1-hour-60))
 =>
 (join-ands-start ?adr)
 (bind ?f (assert(rules (fact-is cover)(value exam)(compare-value syllabus))))
@@ -185,19 +185,19 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300569963-0
-?adr<-(rules (fact-is be-notified)(compare-value Registry-after))
+(defrule gen-1494307799878-0
+?adr<-(rules (fact-is be-notified)(compare-value registry-after))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is approved)(value Genuine)(compare-value cases))))
+(bind ?f (assert(rules (fact-is approved)(value genuine)(compare-value cases))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is approved)(eq ?f1:value Genuine)(eq ?f1:compare-value cases))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is approved)(eq ?f1:value genuine)(eq ?f1:compare-value cases))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300573053-0
-?adr<-(rules (fact-is be-put)(value requests)(compare-value supervisors-to-HODs-alternate-date))
+(defrule gen-1494307802948-0
+?adr<-(rules (fact-is be-put)(value requests)(compare-value supervisors-to-hods-alternate-date))
 =>
 (join-ands-start ?adr)
 (bind ?f (assert(rules (fact-is considered)(compare-value genuine))))
@@ -207,41 +207,41 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300575063-0
-?adr<-(rules (fact-is missing-specified)(compare-value Examination))
+(defrule gen-1494307804988-0
+?adr<-(rules (fact-is missing-specified)(compare-value examination))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be-Adopted)(value Procedure-to)(compare-value students-in-case-of))))
+(bind ?f (assert(rules (fact-is be-adopted)(value procedure-to)(compare-value students-in-case-of))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-Adopted)(eq ?f1:value Procedure-to)(eq ?f1:compare-value students-in-case-of))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-adopted)(eq ?f1:value procedure-to)(eq ?f1:compare-value students-in-case-of))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300576607-0
+(defrule gen-1494307806498-0
 ?adr<-(rules (fact-is be-adopted-establishing)(compare-value genuineness-of))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is Following)(compare-value procedure))))
+(bind ?f (assert(rules (fact-is following)(compare-value procedure))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is Following)(eq ?f1:compare-value procedure)(eq ?f1:value none))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is following)(eq ?f1:compare-value procedure)(eq ?f1:value none))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300579647-0
+(defrule gen-1494307809578-0
 ?adr<-(rules (fact-is written)(compare-value communication-by-speed-post))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be)(value It)(compare-value email-at-registrar@jiitacin))))
+(bind ?f (assert(rules (fact-is be)(value it)(compare-value email-at-registrar@jiitacin))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be)(eq ?f1:value It)(eq ?f1:compare-value email-at-registrar@jiitacin))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be)(eq ?f1:value it)(eq ?f1:compare-value email-at-registrar@jiitacin))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300582611-0
-?adr<-(rules (fact-is be-sent-prior-to)(compare-value Examination))
+(defrule gen-1494307812098-0
+?adr<-(rules (fact-is be-sent-prior-to)(compare-value examination))
 =>
 (join-ands-start ?adr)
 (bind ?f (assert(rules (fact-is said)(compare-value report))))
@@ -251,7 +251,7 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300586921-0
+(defrule gen-1494307816178-0
 ?adr<-(rules (fact-is arrange)(compare-value medical-documents-to))
 =>
 (join-ands-start ?adr)
@@ -262,95 +262,95 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300590031-0
-?adr<-(rules (fact-is written)(compare-value sanction-of-VC-in-absence-Dean-mandatory))
+(defrule gen-1494307819258-0
+?adr<-(rules (fact-is written)(compare-value sanction-of-vc-in-absence-dean-mandatory))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is has-to-miss)(value Action-by-students-any-other-reason-In-case-student)(compare-value Examination-due-to-genuine-reason-other-than-medical))))
+(bind ?f (assert(rules (fact-is has-to-miss)(value action-by-students-any-other-reason-in-case-student)(compare-value examination-due-to-genuine-reason-other-than-medical))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is has-to-miss)(eq ?f1:value Action-by-students-any-other-reason-In-case-student)(eq ?f1:compare-value Examination-due-to-genuine-reason-other-than-medical))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is has-to-miss)(eq ?f1:value action-by-students-any-other-reason-in-case-student)(eq ?f1:compare-value examination-due-to-genuine-reason-other-than-medical))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300593601-0
-?adr<-(rules (fact-is have-no-right-to-appeal)(value VC-student)(compare-value same))
+(defrule gen-1494307822798-0
+?adr<-(rules (fact-is have-no-right-to-appeal)(value vc-student)(compare-value same))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is is)(value Important:-Approving-genuineness-in-case)(compare-value prerogative-of))))
+(bind ?f (assert(rules (fact-is is)(value important:-approving-genuineness-in-case)(compare-value prerogative-of))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is)(eq ?f1:value Important:-Approving-genuineness-in-case)(eq ?f1:compare-value prerogative-of))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is)(eq ?f1:value important:-approving-genuineness-in-case)(eq ?f1:compare-value prerogative-of))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300597681-0
-?adr<-(rules (fact-is are)(value due-to-attendance-indulging-in-UFM)(compare-value eligible-to))
+(defrule gen-1494307826848-0
+?adr<-(rules (fact-is are)(value due-to-attendance-indulging-in-ufm)(compare-value eligible-to))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is debarred)(value Eligibility-Students-with-‘F’-grade-Except)(compare-value cases))))
+(bind ?f (assert(rules (fact-is debarred)(value eligibility-students-with-‘f’-grade-except)(compare-value cases))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is debarred)(eq ?f1:value Eligibility-Students-with-‘F’-grade-Except)(eq ?f1:compare-value cases))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is debarred)(eq ?f1:value eligibility-students-with-‘f’-grade-except)(eq ?f1:compare-value cases))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300601231-0
+(defrule gen-1494307830418-0
 ?adr<-(rules (fact-is covered)(compare-value semester))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is cover)(value Supplementary-Examinations)(compare-value entire-syllabus))))
+(bind ?f (assert(rules (fact-is cover)(value supplementary-examinations)(compare-value entire-syllabus))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is cover)(eq ?f1:value Supplementary-Examinations)(eq ?f1:compare-value entire-syllabus))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is cover)(eq ?f1:value supplementary-examinations)(eq ?f1:compare-value entire-syllabus))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300603261-0
+(defrule gen-1494307832468-0
 ?adr<-(rules (fact-is obtained)(compare-value students-in))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be-determined)(value Grade)(compare-value basis-of-marks))))
+(bind ?f (assert(rules (fact-is be-determined)(value grade)(compare-value basis-of-marks))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-determined)(eq ?f1:value Grade)(eq ?f1:compare-value basis-of-marks))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-determined)(eq ?f1:value grade)(eq ?f1:compare-value basis-of-marks))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300606831-0
+(defrule gen-1494307836018-0
 ?adr<-(rules (fact-is are-allowed-to-take)(compare-value supplementary))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is fail)(value Supplementary-of-Laboratory-Courses--students)(compare-value practical-subjects))))
+(bind ?f (assert(rules (fact-is fail)(value supplementary-of-laboratory-courses--students)(compare-value practical-subjects))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is fail)(eq ?f1:value Supplementary-of-Laboratory-Courses--students)(eq ?f1:compare-value practical-subjects))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is fail)(eq ?f1:value supplementary-of-laboratory-courses--students)(eq ?f1:compare-value practical-subjects))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300609891-0
-?adr<-(rules (fact-is be-up-to)(compare-value C+-four-grades))
+(defrule gen-1494307839098-0
+?adr<-(rules (fact-is be-up-to)(compare-value c+-four-grades))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is awarded)(value maximum-grade)(compare-value supplementary-Examination))))
+(bind ?f (assert(rules (fact-is awarded)(value maximum-grade)(compare-value supplementary-examination))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is awarded)(eq ?f1:value maximum-grade)(eq ?f1:compare-value supplementary-Examination))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is awarded)(eq ?f1:value maximum-grade)(eq ?f1:compare-value supplementary-examination))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300611431-0
+(defrule gen-1494307840638-0
 ?adr<-(rules (fact-is have-to-register)(compare-value fresh-in))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is get)(value students)(compare-value F-grade))))
+(bind ?f (assert(rules (fact-is get)(value students)(compare-value f-grade))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is get)(eq ?f1:value students)(eq ?f1:compare-value F-grade))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is get)(eq ?f1:value students)(eq ?f1:compare-value f-grade))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300614451-0
+(defrule gen-1494307843708-0
 ?adr<-(rules (fact-is be-informed)(compare-value same-extra-time-of-10-12-days))
 =>
 (join-ands-start ?adr)
@@ -361,30 +361,30 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300617071-0
-?adr<-(rules (fact-is failed)(value Treatment-of)(compare-value students))
+(defrule gen-1494307846248-0
+?adr<-(rules (fact-is failed)(value treatment-of)(compare-value students))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is fails)(value student)(compare-value Supplementary-Examination-to-for-subject-in-immediate-following-corresponding-regular-semester-subject-offer))))
+(bind ?f (assert(rules (fact-is fails)(value student)(compare-value supplementary-examination-to-for-subject-in-immediate-following-corresponding-regular-semester-subject-offer))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is fails)(eq ?f1:value student)(eq ?f1:compare-value Supplementary-Examination-to-for-subject-in-immediate-following-corresponding-regular-semester-subject-offer))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is fails)(eq ?f1:value student)(eq ?f1:compare-value supplementary-examination-to-for-subject-in-immediate-following-corresponding-regular-semester-subject-offer))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300620161-0
-?adr<-(rules (fact-is be)(value Semester)(compare-value eligible-to))
+(defrule gen-1494307849268-0
+?adr<-(rules (fact-is be)(value semester)(compare-value eligible-to))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is failed-debarred-appearing)(value Student)(compare-value End-Semester-Exam-in))))
+(bind ?f (assert(rules (fact-is failed-debarred-appearing)(value student)(compare-value end-semester-exam-in))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is failed-debarred-appearing)(eq ?f1:value Student)(eq ?f1:compare-value End-Semester-Exam-in))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is failed-debarred-appearing)(eq ?f1:value student)(eq ?f1:compare-value end-semester-exam-in))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300623231-0
-?adr<-(rules (fact-is offered-initially)(value Courses)(compare-value summer-term-at-discretion-of-Institute))
+(defrule gen-1494307852278-0
+?adr<-(rules (fact-is offered-initially)(value courses)(compare-value summer-term-at-discretion-of-institute))
 =>
 (join-ands-start ?adr)
 (bind ?f (assert(rules (fact-is is)(value registration-in-course)(compare-value less-than-5-students-upto-3-days-to-of-summer-term))))
@@ -394,7 +394,7 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300625281-0
+(defrule gen-1494307854308-0
 ?adr<-(rules (fact-is complete)(compare-value industrial-internship-training-during))
 =>
 (join-ands-start ?adr)
@@ -405,7 +405,7 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300626821-0
+(defrule gen-1494307855828-0
 ?adr<-(rules (fact-is doing)(compare-value summer-courses))
 =>
 (join-ands-start ?adr)
@@ -416,205 +416,205 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300638439-0
-?adr<-(rules (fact-is issued)(value original-certificate)(compare-value MOOC-authorities-along-with))
+(defrule gen-1494307867548-0
+?adr<-(rules (fact-is issued)(value original-certificate)(compare-value mooc-authorities-along-with))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is submit-to)(value student)(compare-value Registrar))))
+(bind ?f (assert(rules (fact-is submit-to)(value student)(compare-value registrar))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is submit-to)(eq ?f1:value student)(eq ?f1:compare-value Registrar))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is submit-to)(eq ?f1:value student)(eq ?f1:compare-value registrar))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300639989-0
+(defrule gen-1494307869098-0
 ?adr<-(rules (fact-is be-kept)(value photocopy)(compare-value records))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be-returned)(value original)(compare-value verification-verification-by-Registrar-on))))
+(bind ?f (assert(rules (fact-is be-returned)(value original)(compare-value verification-verification-by-registrar-on))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-returned)(eq ?f1:value original)(eq ?f1:compare-value verification-verification-by-Registrar-on))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-returned)(eq ?f1:value original)(eq ?f1:compare-value verification-verification-by-registrar-on))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300644039-0
+(defrule gen-1494307873238-0
 ?adr<-(rules (fact-is have-to-ensure)(compare-value presence-before-results))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is seeing)(value Students-desirous-of)(compare-value marked-answer-scripts-of-End-Semester-Exam))))
+(bind ?f (assert(rules (fact-is seeing)(value students-desirous-of)(compare-value marked-answer-scripts-of-end-semester-exam))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is seeing)(eq ?f1:value Students-desirous-of)(eq ?f1:compare-value marked-answer-scripts-of-End-Semester-Exam))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is seeing)(eq ?f1:value students-desirous-of)(eq ?f1:compare-value marked-answer-scripts-of-end-semester-exam))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300646559-0
+(defrule gen-1494307875778-0
 ?adr<-(rules (fact-is be-charged)(compare-value students))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is decided)(value fee-of-Rs-1000-per-subject-as)(compare-value Board-from-time-to-time))))
+(bind ?f (assert(rules (fact-is decided)(value fee-of-rs-1000-per-subject-as)(compare-value board-from-time-to-time))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is decided)(eq ?f1:value fee-of-Rs-1000-per-subject-as)(eq ?f1:compare-value Board-from-time-to-time))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is decided)(eq ?f1:value fee-of-rs-1000-per-subject-as)(eq ?f1:compare-value board-from-time-to-time))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300657779-0
-?adr<-(rules (fact-is plan-register)(value student-to)(compare-value Backlog-courses))
+(defrule gen-1494307886938-0
+?adr<-(rules (fact-is plan-register)(value student-to)(compare-value backlog-courses))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be)(value It)(compare-value responsibility-of))))
+(bind ?f (assert(rules (fact-is be)(value it)(compare-value responsibility-of))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be)(eq ?f1:value It)(eq ?f1:compare-value responsibility-of))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be)(eq ?f1:value it)(eq ?f1:compare-value responsibility-of))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300661279-0
-?adr<-(rules (fact-is be-allowed)(value Students)(compare-value registration-for-Backlog-Subjects))
+(defrule gen-1494307890498-0
+?adr<-(rules (fact-is be-allowed)(value students)(compare-value registration-for-backlog-subjects))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is is)(value Number-of-Students)(compare-value less-than-5-course-on-offer-in))))
+(bind ?f (assert(rules (fact-is is)(value number-of-students)(compare-value less-than-5-course-on-offer-in))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is)(eq ?f1:value Number-of-Students)(eq ?f1:compare-value less-than-5-course-on-offer-in))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is)(eq ?f1:value number-of-students)(eq ?f1:compare-value less-than-5-course-on-offer-in))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300662789-0
+(defrule gen-1494307892048-0
 ?adr<-(rules (fact-is be-provided)(value subject-with)(compare-value one-contact-hour-per-week))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be-allotted)(value Such-students)(compare-value Tutor-for))))
+(bind ?f (assert(rules (fact-is be-allotted)(value such-students)(compare-value tutor-for))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-allotted)(eq ?f1:value Such-students)(eq ?f1:compare-value Tutor-for))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-allotted)(eq ?f1:value such-students)(eq ?f1:compare-value tutor-for))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300664339-0
+(defrule gen-1494307893538-0
 ?adr<-(rules (fact-is carry)(compare-value assignment-studies))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is assigned)(value guidance-of)(compare-value Tutor))))
+(bind ?f (assert(rules (fact-is assigned)(value guidance-of)(compare-value tutor))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is assigned)(eq ?f1:value guidance-of)(eq ?f1:compare-value Tutor))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is assigned)(eq ?f1:value guidance-of)(eq ?f1:compare-value tutor))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300665880-0
+(defrule gen-1494307895078-0
 ?adr<-(rules (fact-is be-conducted)(compare-value normal-weightages))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is TA)(value T2-End-Semester-Exam)(compare-value component))))
+(bind ?f (assert(rules (fact-is ta)(value t2-end-semester-exam)(compare-value component))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is TA)(eq ?f1:value T2-End-Semester-Exam)(eq ?f1:compare-value component))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is ta)(eq ?f1:value t2-end-semester-exam)(eq ?f1:compare-value component))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300667980-0
-?adr<-(rules (fact-is notified)(value delete-courses-from-list-of-registered-courses-on-before-date)(compare-value Academic-Calendar))
+(defrule gen-1494307897108-0
+?adr<-(rules (fact-is notified)(value delete-courses-from-list-of-registered-courses-on-before-date)(compare-value academic-calendar))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is have)(value Addition-Deletion-Withdrawal-from-Courses-student)(compare-value option-to-add-on))))
+(bind ?f (assert(rules (fact-is have)(value addition-deletion-withdrawal-from-courses-student)(compare-value option-to-add-on))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is have)(eq ?f1:value Addition-Deletion-Withdrawal-from-Courses-student)(eq ?f1:compare-value option-to-add-on))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is have)(eq ?f1:value addition-deletion-withdrawal-from-courses-student)(eq ?f1:compare-value option-to-add-on))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300672292-0
+(defrule gen-1494307901300-0
 ?adr<-(rules (fact-is be-declared)(compare-value pass))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is obtaining)(value Award-of-Grades-Students)(compare-value grades-to-D))))
+(bind ?f (assert(rules (fact-is obtaining)(value award-of-grades-students)(compare-value grades-to-d))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is obtaining)(eq ?f1:value Award-of-Grades-Students)(eq ?f1:compare-value grades-to-D))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is obtaining)(eq ?f1:value award-of-grades-students)(eq ?f1:compare-value grades-to-d))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300673852-0
-?adr<-(rules (fact-is be-awarded)(compare-value F-grade))
+(defrule gen-1494307903082-0
+?adr<-(rules (fact-is be-awarded)(compare-value f-grade))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is failing)(value Students)(compare-value subject))))
+(bind ?f (assert(rules (fact-is failing)(value students)(compare-value subject))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is failing)(eq ?f1:value Students)(eq ?f1:compare-value subject))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is failing)(eq ?f1:value students)(eq ?f1:compare-value subject))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300677962-0
+(defrule gen-1494307907152-0
 ?adr<-(rules (fact-is is)(compare-value minimum-passing-grade-in))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is stands)(value D-Grade-‘D’-grade)(compare-value marginal-performance-ie))))
+(bind ?f (assert(rules (fact-is stands)(value d-grade-‘d’-grade)(compare-value marginal-performance-ie))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is stands)(eq ?f1:value D-Grade-‘D’-grade)(eq ?f1:compare-value marginal-performance-ie))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is stands)(eq ?f1:value d-grade-‘d’-grade)(eq ?f1:compare-value marginal-performance-ie))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300680572-0
-?adr<-(rules (fact-is Attendance)(compare-value Rules))
+(defrule gen-1494307909682-0
+?adr<-(rules (fact-is attendance)(compare-value rules))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is is-also-awarded)(value ‘F’-grade)(compare-value case-of-poor-attendance-see))))
+(bind ?f (assert(rules (fact-is is-also-awarded)(value ‘f’-grade)(compare-value case-of-poor-attendance-see))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is-also-awarded)(eq ?f1:value ‘F’-grade)(eq ?f1:compare-value case-of-poor-attendance-see))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is-also-awarded)(eq ?f1:value ‘f’-grade)(eq ?f1:compare-value case-of-poor-attendance-see))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300682612-0
+(defrule gen-1494307911722-0
 ?adr<-(rules (fact-is take)(compare-value same-course))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is have-been-obtained)(value other-courses-in-‘F’-grades)(compare-value student))))
+(bind ?f (assert(rules (fact-is have-been-obtained)(value other-courses-in-‘f’-grades)(compare-value student))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is have-been-obtained)(eq ?f1:value other-courses-in-‘F’-grades)(eq ?f1:compare-value student))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is have-been-obtained)(eq ?f1:value other-courses-in-‘f’-grades)(eq ?f1:compare-value student))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300683722-0
-?adr<-(rules (fact-is is-awarded-to)(value W-Grade-W-grade)(compare-value student))
+(defrule gen-1494307912812-0
+?adr<-(rules (fact-is is-awarded-to)(value w-grade-w-grade)(compare-value student))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is is-allowed-to-withdraw)(value he/she)(compare-value entire-Semester))))
+(bind ?f (assert(rules (fact-is is-allowed-to-withdraw)(value he/she)(compare-value entire-semester))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is-allowed-to-withdraw)(eq ?f1:value he/she)(eq ?f1:compare-value entire-Semester))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is-allowed-to-withdraw)(eq ?f1:value he/she)(eq ?f1:compare-value entire-semester))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300691166-0
-?adr<-(rules (fact-is have-to-register)(value Students-desirous-of-improvement-of-Grades-in-subject)(compare-value time-of-registration-for))
+(defrule gen-1494307919662-0
+?adr<-(rules (fact-is have-to-register)(value students-desirous-of-improvement-of-grades-in-subject)(compare-value time-of-registration-for))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be-allowed-only)(value Grade-improvement)(compare-value Theory-subjects-in-subjects-like-Minor-Projects-Major-Projects-Projects-Seminars-Laboratory-Courses-Term-Paper-Colloquium))))
+(bind ?f (assert(rules (fact-is be-allowed-only)(value grade-improvement)(compare-value theory-subjects-in-subjects-like-minor-projects-major-projects-projects-seminars-laboratory-courses-term-paper-colloquium))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-allowed-only)(eq ?f1:value Grade-improvement)(eq ?f1:compare-value Theory-subjects-in-subjects-like-Minor-Projects-Major-Projects-Projects-Seminars-Laboratory-Courses-Term-Paper-Colloquium))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-allowed-only)(eq ?f1:value grade-improvement)(eq ?f1:compare-value theory-subjects-in-subjects-like-minor-projects-major-projects-projects-seminars-laboratory-courses-term-paper-colloquium))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300695829-0
+(defrule gen-1494307924302-0
 ?adr<-(rules (fact-is undertaking)(compare-value subject-for-grade))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be-paid)(value Additional-fee)(compare-value student-for))))
+(bind ?f (assert(rules (fact-is be-paid)(value additional-fee)(compare-value student-for))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-paid)(eq ?f1:value Additional-fee)(eq ?f1:compare-value student-for))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-paid)(eq ?f1:value additional-fee)(eq ?f1:compare-value student-for))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300701409-0
+(defrule gen-1494307929922-0
 ?adr<-(rules (fact-is obtained)(value grade)(compare-value improvement))
 =>
 (join-ands-start ?adr)
@@ -625,40 +625,40 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300702969-0
+(defrule gen-1494307931422-0
 ?adr<-(rules (fact-is be)(compare-value eligible-for))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is having-undertaken)(value Student)(compare-value improvement-of-grades-option))))
+(bind ?f (assert(rules (fact-is having-undertaken)(value student)(compare-value improvement-of-grades-option))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is having-undertaken)(eq ?f1:value Student)(eq ?f1:compare-value improvement-of-grades-option))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is having-undertaken)(eq ?f1:value student)(eq ?f1:compare-value improvement-of-grades-option))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300704539-0
+(defrule gen-1494307932932-0
 ?adr<-(rules (fact-is be-re-sorted)(compare-value such-cases:))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is Following)(compare-value documentation))))
+(bind ?f (assert(rules (fact-is following)(compare-value documentation))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is Following)(eq ?f1:compare-value documentation)(eq ?f1:value none))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is following)(eq ?f1:compare-value documentation)(eq ?f1:value none))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300709269-0
+(defrule gen-1494307937492-0
 ?adr<-(rules (fact-is be-declared-promoted-to)(compare-value next-class))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is have)(value Students-Admitted-in-After-Academic-Year-2011-student)(compare-value CGPA-of-at-least-to))))
+(bind ?f (assert(rules (fact-is have)(value students-admitted-in-after-academic-year-2011-student)(compare-value cgpa-of-at-least-to))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is have)(eq ?f1:value Students-Admitted-in-After-Academic-Year-2011-student)(eq ?f1:compare-value CGPA-of-at-least-to))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is have)(eq ?f1:value students-admitted-in-after-academic-year-2011-student)(eq ?f1:compare-value cgpa-of-at-least-to))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300718989-0
+(defrule gen-1494307947172-0
 ?adr<-(rules (fact-is have)(compare-value 28-hours-of-practical-work))
 =>
 (join-ands-start ?adr)
@@ -669,18 +669,18 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300720549-0
+(defrule gen-1494307948732-0
 ?adr<-(rules (fact-is are-expected-to-be)(value undergraduate-students)(compare-value present-in))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is Attendance)(compare-value Rules))))
+(bind ?f (assert(rules (fact-is attendance)(compare-value rules))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is Attendance)(eq ?f1:compare-value Rules)(eq ?f1:value none))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is attendance)(eq ?f1:compare-value rules)(eq ?f1:value none))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300722119-0
+(defrule gen-1494307950262-0
 ?adr<-(rules (fact-is taken-together)(value course-during-semester-in-lectures-tutorials)(compare-value practical-courses))
 =>
 (join-ands-start ?adr)
@@ -691,29 +691,29 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300723619-0
+(defrule gen-1494307951812-0
 ?adr<-(rules (fact-is be-debarred-appearing)(value course-irrespective-of-performance-in-tests)(compare-value supplementary-exam))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be-awarded)(value student-with-less-than-80%-attendance-in-course)(compare-value ‘F’-grade-in))))
+(bind ?f (assert(rules (fact-is be-awarded)(value student-with-less-than-80%-attendance-in-course)(compare-value ‘f’-grade-in))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-awarded)(eq ?f1:value student-with-less-than-80%-attendance-in-course)(eq ?f1:compare-value ‘F’-grade-in))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-awarded)(eq ?f1:value student-with-less-than-80%-attendance-in-course)(eq ?f1:compare-value ‘f’-grade-in))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300725179-0
+(defrule gen-1494307953372-0
 ?adr<-(rules (fact-is take)(compare-value account))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is awarding)(value Course-Coordinator-while)(compare-value grades))))
+(bind ?f (assert(rules (fact-is awarding)(value course-coordinator-while)(compare-value grades))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is awarding)(eq ?f1:value Course-Coordinator-while)(eq ?f1:compare-value grades))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is awarding)(eq ?f1:value course-coordinator-while)(eq ?f1:compare-value grades))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300726879-0
+(defrule gen-1494307954902-0
 ?adr<-(rules (fact-is is)(value number-of-days)(compare-value medical-other-leave-for-reason))
 =>
 (join-ands-start ?adr)
@@ -724,7 +724,7 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300728599-0
+(defrule gen-1494307956402-0
 ?adr<-(rules (fact-is be-taken-scheduled)(value particular-course-roll-call)(compare-value lecture-tutorial-practical-class))
 =>
 (join-ands-start ?adr)
@@ -735,18 +735,18 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300730159-0
+(defrule gen-1494307957962-0
 ?adr<-(rules (fact-is scheduled)(value purpose-of-attendance)(compare-value class))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is taking)(value Teacher-device-other-method-of)(compare-value attendance-For))))
+(bind ?f (assert(rules (fact-is taking)(value teacher-device-other-method-of)(compare-value attendance-for))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is taking)(eq ?f1:value Teacher-device-other-method-of)(eq ?f1:compare-value attendance-For))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is taking)(eq ?f1:value teacher-device-other-method-of)(eq ?f1:compare-value attendance-for))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300731679-0
+(defrule gen-1494307959472-0
 ?adr<-(rules (fact-is supported)(value continuous-illness-of-two-weeks-more)(compare-value proper-medical-certificate))
 =>
 (join-ands-start ?adr)
@@ -757,18 +757,18 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300735351-0
-?adr<-(rules (fact-is has-submitted)(value basis-of-medical-advice-after-due-approval-of-Dean-Vice-Chancellor)(compare-value authentic-medical-record))
+(defrule gen-1494307963072-0
+?adr<-(rules (fact-is has-submitted)(value basis-of-medical-advice-after-due-approval-of-dean-vice-chancellor)(compare-value authentic-medical-record))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is has-been)(value Semester-Withdrawal-in-Medical-Cases-student)(compare-value absent-from-classes-on))))
+(bind ?f (assert(rules (fact-is has-been)(value semester-withdrawal-in-medical-cases-student)(compare-value absent-from-classes-on))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is has-been)(eq ?f1:value Semester-Withdrawal-in-Medical-Cases-student)(eq ?f1:compare-value absent-from-classes-on))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is has-been)(eq ?f1:value semester-withdrawal-in-medical-cases-student)(eq ?f1:compare-value absent-from-classes-on))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300737921-0
+(defrule gen-1494307965622-0
 ?adr<-(rules (fact-is be-taken)(compare-value minimum-30-days-before))
 =>
 (join-ands-start ?adr)
@@ -779,7 +779,7 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300738981-0
+(defrule gen-1494307966632-0
 ?adr<-(rules (fact-is /-continue-to-be-registered-be-evaluated)(value he)(compare-value performance))
 =>
 (join-ands-start ?adr)
@@ -790,18 +790,18 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300740601-0
-?adr<-(rules (fact-is inform)(value Semester-student)(compare-value Dean-Academic))
+(defrule gen-1494307968122-0
+?adr<-(rules (fact-is inform)(value semester-student)(compare-value dean-academic))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is regarding)(value Information)(compare-value absence-during))))
+(bind ?f (assert(rules (fact-is regarding)(value information)(compare-value absence-during))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is regarding)(eq ?f1:value Information)(eq ?f1:compare-value absence-during))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is regarding)(eq ?f1:value information)(eq ?f1:compare-value absence-during))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300748603-0
+(defrule gen-1494307975792-0
 ?adr<-(rules (fact-is be-given-to)(value fresh-answer-book)(compare-value student-for))
 =>
 (join-ands-start ?adr)
@@ -812,7 +812,7 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300749603-0
+(defrule gen-1494307976792-0
 ?adr<-(rules (fact-is be-recorded-prescribed)(value same)(compare-value form))
 =>
 (join-ands-start ?adr)
@@ -823,41 +823,41 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300757035-0
-?adr<-(rules (fact-is nominated)(value 2--Two-professors)(compare-value VC-Members-Head-of))
+(defrule gen-1494307983412-0
+?adr<-(rules (fact-is nominated)(value 2--two-professors)(compare-value vc-members-head-of))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be:)(value Composition-of-committee)(compare-value Dean-AandR-Chairman))))
+(bind ?f (assert(rules (fact-is be:)(value composition-of-committee)(compare-value dean-aandr-chairman))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be:)(eq ?f1:value Composition-of-committee)(eq ?f1:compare-value Dean-AandR-Chairman))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be:)(eq ?f1:value composition-of-committee)(eq ?f1:compare-value dean-aandr-chairman))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300759085-0
+(defrule gen-1494307985452-0
 ?adr<-(rules (fact-is laying-clearly)(compare-value nature-of))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is submit)(value It)(compare-value recommendations-after))))
+(bind ?f (assert(rules (fact-is submit)(value it)(compare-value recommendations-after))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is submit)(eq ?f1:value It)(eq ?f1:compare-value recommendations-after))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is submit)(eq ?f1:value it)(eq ?f1:compare-value recommendations-after))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300760595-0
+(defrule gen-1494307986952-0
 ?adr<-(rules (fact-is be-taken)(compare-value different-categories-of-offences))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is is-established-following)(value Categories-of-Offences-Punishments-For-student-guilt)(compare-value actions))))
+(bind ?f (assert(rules (fact-is is-established-following)(value categories-of-offences-punishments-for-student-guilt)(compare-value actions))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is-established-following)(eq ?f1:value Categories-of-Offences-Punishments-For-student-guilt)(eq ?f1:compare-value actions))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is-established-following)(eq ?f1:value categories-of-offences-punishments-for-student-guilt)(eq ?f1:compare-value actions))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300762335-0
-?adr<-(rules (fact-is going-to)(value Examination-hall-before-submission-of-answer-sheet-eg-while)(compare-value wash-room))
+(defrule gen-1494307988492-0
+?adr<-(rules (fact-is going-to)(value examination-hall-before-submission-of-answer-sheet-eg-while)(compare-value wash-room))
 =>
 (join-ands-start ?adr)
 (bind ?f (assert(rules (fact-is is-found-to-be-talking-to)(value student)(compare-value person-outside))))
@@ -867,18 +867,18 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300765807-0
+(defrule gen-1494307991532-0
 ?adr<-(rules (fact-is take)(value invigilator-in-charge-of-room-hall)(compare-value possession-of))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is BE)(value ACTION-TO))))
+(bind ?f (assert(rules (fact-is be)(value action-to))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is BE)(eq ?f1:value ACTION-TO)(eq ?f1:compare-value none))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be)(eq ?f1:value action-to)(eq ?f1:compare-value none))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300767427-0
+(defrule gen-1494307993072-0
 ?adr<-(rules (fact-is is-being-cancelled-provide)(compare-value student-with))
 =>
 (join-ands-start ?adr)
@@ -889,40 +889,40 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300771207-0
-?adr<-(rules (fact-is arise)(value Dean-as)(compare-value evaluation-exercise))
+(defrule gen-1494307996602-0
+?adr<-(rules (fact-is arise)(value dean-as)(compare-value evaluation-exercise))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is report)(value Examiners)(compare-value such-cases-to))))
+(bind ?f (assert(rules (fact-is report)(value examiners)(compare-value such-cases-to))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is report)(eq ?f1:value Examiners)(eq ?f1:compare-value such-cases-to))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is report)(eq ?f1:value examiners)(eq ?f1:compare-value such-cases-to))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300773767-0
-?adr<-(rules (fact-is be-cancelled-awarded)(value Examination-of-concerned-paper-to)(compare-value zero-marks))
+(defrule gen-1494307999122-0
+?adr<-(rules (fact-is be-cancelled-awarded)(value examination-of-concerned-paper-to)(compare-value zero-marks))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is BE)(value ACTION-TO))))
+(bind ?f (assert(rules (fact-is be)(value action-to))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is BE)(eq ?f1:value ACTION-TO)(eq ?f1:compare-value none))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be)(eq ?f1:value action-to)(eq ?f1:compare-value none))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300779057-0
+(defrule gen-1494308004212-0
 ?adr<-(rules (fact-is be-awarded-fail)(compare-value grade-in))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is BE)(value ACTION-TO)(compare-value student))))
+(bind ?f (assert(rules (fact-is be)(value action-to)(compare-value student))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is BE)(eq ?f1:value ACTION-TO)(eq ?f1:compare-value student))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be)(eq ?f1:value action-to)(eq ?f1:compare-value student))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300781657-0
+(defrule gen-1494308006742-0
 ?adr<-(rules (fact-is being)(value books-while)(compare-value out-side))
 =>
 (join-ands-start ?adr)
@@ -933,8 +933,8 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300785967-0
-?adr<-(rules (fact-is connected)(value examiner-anybody)(compare-value Institute-Examination-for))
+(defrule gen-1494308010792-0
+?adr<-(rules (fact-is connected)(value examiner-anybody)(compare-value institute-examination-for))
 =>
 (join-ands-start ?adr)
 (bind ?f (assert(rules (fact-is communicating-attempting-to-communicate-directly)(compare-value someone))))
@@ -944,7 +944,7 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300787547-0
+(defrule gen-1494308012292-0
 ?adr<-(rules (fact-is destroying)(compare-value note))
 =>
 (join-ands-start ?adr)
@@ -955,85 +955,85 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300789107-0
-?adr<-(rules (fact-is be-cancelled)(value Examinations-of-registered-courses-for-semester-to)(compare-value student-to-from-in-supplementary-Examinations-for))
+(defrule gen-1494308013872-0
+?adr<-(rules (fact-is be-cancelled)(value examinations-of-registered-courses-for-semester-to)(compare-value student-to-from-in-supplementary-examinations-for))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is BE)(value ACTION-TO))))
+(bind ?f (assert(rules (fact-is be)(value action-to))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is BE)(eq ?f1:value ACTION-TO)(eq ?f1:compare-value none))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be)(eq ?f1:value action-to)(eq ?f1:compare-value none))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300791737-0
-?adr<-(rules (fact-is be-cancelled)(value Examination-to)(compare-value semester-student-to-from-for-Institute-Examination-for))
+(defrule gen-1494308016422-0
+?adr<-(rules (fact-is be-cancelled)(value examination-to)(compare-value semester-student-to-from-for-institute-examination-for))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is BE)(value ACTION-TO))))
+(bind ?f (assert(rules (fact-is be)(value action-to))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is BE)(eq ?f1:value ACTION-TO)(eq ?f1:compare-value none))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be)(eq ?f1:value action-to)(eq ?f1:compare-value none))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300798237-0
-?adr<-(rules (fact-is be-cancelled-to-be-further)(value Examinations-of-semester-to))
+(defrule gen-1494308022542-0
+?adr<-(rules (fact-is be-cancelled-to-be-further)(value examinations-of-semester-to))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is BE)(value ACTION-TO))))
+(bind ?f (assert(rules (fact-is be)(value action-to))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is BE)(eq ?f1:value ACTION-TO)(eq ?f1:compare-value none))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be)(eq ?f1:value action-to)(eq ?f1:compare-value none))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300799777-0
-?adr<-(rules (fact-is found-committing-abetting)(value Examination)(compare-value committal-of))
+(defrule gen-1494308024092-0
+?adr<-(rules (fact-is found-committing-abetting)(value examination)(compare-value committal-of))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is is-not)(value CATEGORY-OF-OFFENCE-person)(compare-value candidate-for))))
+(bind ?f (assert(rules (fact-is is-not)(value category-of-offence-person)(compare-value candidate-for))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is-not)(eq ?f1:value CATEGORY-OF-OFFENCE-person)(eq ?f1:compare-value candidate-for))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is-not)(eq ?f1:value category-of-offence-person)(eq ?f1:compare-value candidate-for))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300800797-0
-?adr<-(rules (fact-is BE)(value ACTION-TO)(compare-value TAKEN:-To-with-Vice-Chancellor-in-appropriate-manner-expulsion-from-Institute))
+(defrule gen-1494308025092-0
+?adr<-(rules (fact-is be)(value action-to)(compare-value taken:-to-with-vice-chancellor-in-appropriate-manner-expulsion-from-institute))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is is)(value he/she)(compare-value student-of-Institute))))
+(bind ?f (assert(rules (fact-is is)(value he/she)(compare-value student-of-institute))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is)(eq ?f1:value he/she)(eq ?f1:compare-value student-of-Institute))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is)(eq ?f1:value he/she)(eq ?f1:compare-value student-of-institute))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300803997-0
-?adr<-(rules (fact-is awarded-so-far)(value severe-punishment)(compare-value UFM-cases-against))
+(defrule gen-1494308028122-0
+?adr<-(rules (fact-is awarded-so-far)(value severe-punishment)(compare-value ufm-cases-against))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is BE)(value ACTION-TO)(compare-value TAKEN:-One-step-higher-punishment-than))))
+(bind ?f (assert(rules (fact-is be)(value action-to)(compare-value taken:-one-step-higher-punishment-than))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is BE)(eq ?f1:value ACTION-TO)(eq ?f1:compare-value TAKEN:-One-step-higher-punishment-than))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be)(eq ?f1:value action-to)(eq ?f1:compare-value taken:-one-step-higher-punishment-than))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300807708-0
-?adr<-(rules (fact-is have-been-detected)(value Examination)(compare-value Examination-declaration-of))
+(defrule gen-1494308031672-0
+?adr<-(rules (fact-is have-been-detected)(value examination)(compare-value examination-declaration-of))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be:-have-occurred)(value offences)(compare-value Examination))))
+(bind ?f (assert(rules (fact-is be:-have-occurred)(value offences)(compare-value examination))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be:-have-occurred)(eq ?f1:value offences)(eq ?f1:compare-value Examination))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be:-have-occurred)(eq ?f1:value offences)(eq ?f1:compare-value examination))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300809238-0
-?adr<-(rules (fact-is Standing)(value departmentinstitute)(compare-value Committee-as))
+(defrule gen-1494308033212-0
+?adr<-(rules (fact-is standing)(value departmentinstitute)(compare-value committee-as))
 =>
 (join-ands-start ?adr)
 (bind ?f (assert(rules (fact-is have-been-found-to-be)(value penalty-in-such-cases-of-unfair-means-plagiarism)(compare-value true-by-appropriate-committees-of))))
@@ -1043,8 +1043,8 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300810788-0
-?adr<-(rules (fact-is considering)(value Vice--Chancellor-after)(compare-value full-facts-report-on-matter-same-penalty))
+(defrule gen-1494308034722-0
+?adr<-(rules (fact-is considering)(value vice--chancellor-after)(compare-value full-facts-report-on-matter-same-penalty))
 =>
 (join-ands-start ?adr)
 (bind ?f (assert(rules (fact-is be)(value imposition-of-such-penalty)(compare-value discretion-of))))
@@ -1054,73 +1054,73 @@
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300813368-0
-?adr<-(rules (fact-is be)(value Examination-student-STATEMENT-OF-STUDENT:-Signature-of-Student-Date-Time-______________________-STATEMENT-OF-INVIGILATOR:-Record-circumstances-of-offences-in-brief-statement)(compare-value definite-unambiguous))
+(defrule gen-1494308037302-0
+?adr<-(rules (fact-is be)(value examination-student-statement-of-student:-signature-of-student-date-time-______________________-statement-of-invigilator:-record-circumstances-of-offences-in-brief-statement)(compare-value definite-unambiguous))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be-signed)(value Attach:-All-materials)(compare-value Invigilator-of))))
+(bind ?f (assert(rules (fact-is be-signed)(value attach:-all-materials)(compare-value invigilator-of))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-signed)(eq ?f1:value Attach:-All-materials)(eq ?f1:compare-value Invigilator-of))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-signed)(eq ?f1:value attach:-all-materials)(eq ?f1:compare-value invigilator-of))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300819678-0
+(defrule gen-1494308043352-0
 ?adr<-(rules (fact-is be-reflected)(value academic-year)(compare-value proficiency-grade))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be-evaluated)(value Adherence-to-discipline-norms)(compare-value end-of))))
+(bind ?f (assert(rules (fact-is be-evaluated)(value adherence-to-discipline-norms)(compare-value end-of))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-evaluated)(eq ?f1:value Adherence-to-discipline-norms)(eq ?f1:compare-value end-of))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-evaluated)(eq ?f1:value adherence-to-discipline-norms)(eq ?f1:compare-value end-of))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300820888-0
-?adr<-(rules (fact-is be)(value PROCEDURE-FOR-PROCESSING-CASES-OF-INDISCIPLINE-student)(compare-value guilty-of-misconduct-breach-of-discipline))
+(defrule gen-1494308044382-0
+?adr<-(rules (fact-is be)(value procedure-for-processing-cases-of-indiscipline-student)(compare-value guilty-of-misconduct-breach-of-discipline))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is violates)(value he)(compare-value provisions-of-standing-orders-by-Institute))))
+(bind ?f (assert(rules (fact-is violates)(value he)(compare-value provisions-of-standing-orders-by-institute))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is violates)(eq ?f1:value he)(eq ?f1:compare-value provisions-of-standing-orders-by-Institute))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is violates)(eq ?f1:value he)(eq ?f1:compare-value provisions-of-standing-orders-by-institute))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-gen-1494300822418-0
+(defrule gen-1494308045872-0
 ?adr<-(rules (fact-is considering)(compare-value case))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is received-observed-be-referred-to)(value case-of-indiscipline)(compare-value Dean-Students))))
+(bind ?f (assert(rules (fact-is received-observed-be-referred-to)(value case-of-indiscipline)(compare-value dean-students))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is received-observed-be-referred-to)(eq ?f1:value case-of-indiscipline)(eq ?f1:compare-value Dean-Students))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is received-observed-be-referred-to)(eq ?f1:value case-of-indiscipline)(eq ?f1:compare-value dean-students))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300825578-0
-?adr<-(rules (fact-is suspend)(value Vice-Chancellor)(compare-value student-for-act-of-indiscipline-detrimental-to-healthy-atmosphere-/-law-order-in-campus))
+(defrule gen-1494308048912-0
+?adr<-(rules (fact-is suspend)(value vice-chancellor)(compare-value student-for-act-of-indiscipline-detrimental-to-healthy-atmosphere-/-law-order-in-campus))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is exists)(value his-judgment-prima-facie-case-of-breach-of-discipline)(compare-value student-institute-inquiry-by-Proctorial-Board))))
+(bind ?f (assert(rules (fact-is exists)(value his-judgment-prima-facie-case-of-breach-of-discipline)(compare-value student-institute-inquiry-by-proctorial-board))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is exists)(eq ?f1:value his-judgment-prima-facie-case-of-breach-of-discipline)(eq ?f1:compare-value student-institute-inquiry-by-Proctorial-Board))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is exists)(eq ?f1:value his-judgment-prima-facie-case-of-breach-of-discipline)(eq ?f1:compare-value student-institute-inquiry-by-proctorial-board))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300827118-0
+(defrule gen-1494308050472-0
 ?adr<-(rules (fact-is containing)(compare-value substance-of-charge-imputation))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is issue)(value PROCEDURE-FOR-ENQUIRY-Proctorial-Board-on-receipt-of-case)(compare-value notice))))
+(bind ?f (assert(rules (fact-is issue)(value procedure-for-enquiry-proctorial-board-on-receipt-of-case)(compare-value notice))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is issue)(eq ?f1:value PROCEDURE-FOR-ENQUIRY-Proctorial-Board-on-receipt-of-case)(eq ?f1:compare-value notice))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is issue)(eq ?f1:value procedure-for-enquiry-proctorial-board-on-receipt-of-case)(eq ?f1:compare-value notice))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300828718-0
+(defrule gen-1494308052012-0
 ?adr<-(rules (fact-is appear)(value student)(compare-value committee-in-person-to))
 =>
 (join-ands-start ?adr)
@@ -1131,7 +1131,7 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300830298-0
+(defrule gen-1494308053582-0
 ?adr<-(rules (fact-is submit)(value incident)(compare-value report))
 =>
 (join-ands-start ?adr)
@@ -1142,30 +1142,30 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300832860-0
+(defrule gen-1494308055602-0
 ?adr<-(rules (fact-is decide)(value enquiry-committee)(compare-value quantum-of-punishment-to))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is consider)(value DSWVice-Chancellor)(compare-value report-of))))
+(bind ?f (assert(rules (fact-is consider)(value dswvice-chancellor)(compare-value report-of))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is consider)(eq ?f1:value DSWVice-Chancellor)(eq ?f1:compare-value report-of))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is consider)(eq ?f1:value dswvice-chancellor)(eq ?f1:compare-value report-of))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300835142-0
-?adr<-(rules (fact-is proposes-to-take)(value charges-proposed-penalty-clauses-under-Institute)(compare-value action))
+(defrule gen-1494308057612-0
+?adr<-(rules (fact-is proposes-to-take)(value charges-proposed-penalty-clauses-under-institute)(compare-value action))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is inform)(value case-of-proposed-punishment-of-rustication-expulsion-Registrar)(compare-value student-in-writing-of))))
+(bind ?f (assert(rules (fact-is inform)(value case-of-proposed-punishment-of-rustication-expulsion-registrar)(compare-value student-in-writing-of))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is inform)(eq ?f1:value case-of-proposed-punishment-of-rustication-expulsion-Registrar)(eq ?f1:compare-value student-in-writing-of))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is inform)(eq ?f1:value case-of-proposed-punishment-of-rustication-expulsion-registrar)(eq ?f1:compare-value student-in-writing-of))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300836782-0
-?adr<-(rules (fact-is Cause”-why-proposed)(value “Show)(compare-value penalty))
+(defrule gen-1494308059132-0
+?adr<-(rules (fact-is cause”-why-proposed)(value “show)(compare-value penalty))
 =>
 (join-ands-start ?adr)
 (bind ?f (assert(rules (fact-is be-given)(value student)(compare-value 5-days-notice-to))))
@@ -1175,29 +1175,29 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300840038-0
+(defrule gen-1494308061652-0
 ?adr<-(rules (fact-is be-presumed)(compare-value student))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is is-received)(value Case-reply)(compare-value stipulated-time))))
+(bind ?f (assert(rules (fact-is is-received)(value case-reply)(compare-value stipulated-time))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is-received)(eq ?f1:value Case-reply)(eq ?f1:compare-value stipulated-time))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is-received)(eq ?f1:value case-reply)(eq ?f1:compare-value stipulated-time))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300844718-0
+(defrule gen-1494308066232-0
 ?adr<-(rules (fact-is suspended)(compare-value fine-operative))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is is-found)(value concerned-student)(compare-value guilty-of-act-of-indiscipline-during-remaining-period-of-study-in-Institute))))
+(bind ?f (assert(rules (fact-is is-found)(value concerned-student)(compare-value guilty-of-act-of-indiscipline-during-remaining-period-of-study-in-institute))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is-found)(eq ?f1:value concerned-student)(eq ?f1:compare-value guilty-of-act-of-indiscipline-during-remaining-period-of-study-in-Institute))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is-found)(eq ?f1:value concerned-student)(eq ?f1:compare-value guilty-of-act-of-indiscipline-during-remaining-period-of-study-in-institute))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300849950-0
+(defrule gen-1494308070312-0
 ?adr<-(rules (fact-is forfeit)(compare-value amount))
 =>
 (join-ands-start ?adr)
@@ -1208,30 +1208,30 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300853270-0
+(defrule gen-1494308073382-0
 ?adr<-(rules (fact-is be-required-to-apply)(compare-value afresh-for))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is expelled)(value Student)(compare-value complete-semester))))
+(bind ?f (assert(rules (fact-is expelled)(value student)(compare-value complete-semester))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is expelled)(eq ?f1:value Student)(eq ?f1:compare-value complete-semester))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is expelled)(eq ?f1:value student)(eq ?f1:compare-value complete-semester))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300855854-0
-?adr<-(rules (fact-is awarded)(value DISCIPLINARY-GROUP-OF-MARKS-disciplinary-grade)(compare-value end-of))
+(defrule gen-1494308075432-0
+?adr<-(rules (fact-is awarded)(value disciplinary-group-of-marks-disciplinary-grade)(compare-value end-of))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is AWARDING)(value PROCEDURE-FOR)(compare-value GRADES-FOR))))
+(bind ?f (assert(rules (fact-is awarding)(value procedure-for)(compare-value grades-for))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is AWARDING)(eq ?f1:value PROCEDURE-FOR)(eq ?f1:compare-value GRADES-FOR))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is awarding)(eq ?f1:value procedure-for)(eq ?f1:compare-value grades-for))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300857525-0
-?adr<-(rules (fact-is get)(value student)(compare-value A+-grade))
+(defrule gen-1494308076932-0
+?adr<-(rules (fact-is get)(value student)(compare-value a+-grade))
 =>
 (join-ands-start ?adr)
 (bind ?f (assert(rules (fact-is is-recorded)(value act-of-indiscipline))))
@@ -1241,7 +1241,7 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300859172-0
+(defrule gen-1494308078422-0
 ?adr<-(rules (fact-is awarded-are-given)(compare-value table))
 =>
 (join-ands-start ?adr)
@@ -1252,8 +1252,8 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300860838-0
-?adr<-(rules (fact-is be-dealt)(value complete-as-case)(compare-value own-merit-by-Competent-Authority))
+(defrule gen-1494308079932-0
+?adr<-(rules (fact-is be-dealt)(value complete-as-case)(compare-value own-merit-by-competent-authority))
 =>
 (join-ands-start ?adr)
 (bind ?f (assert(rules (fact-is is-neither)(value list)(compare-value comprehensive))))
@@ -1263,7 +1263,7 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300864406-0
+(defrule gen-1494308082982-0
 ?adr<-(rules (fact-is based)(compare-value overall-adherence-to-discipline-conduct-by-students-during-entire-programme))
 =>
 (join-ands-start ?adr)
@@ -1274,40 +1274,40 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300867312-0
+(defrule gen-1494308084992-0
 ?adr<-(rules (fact-is displayed)(compare-value notice-boards-in-usual-manner))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be-notified)(value amendments-additions-to-Standing-Orders)(compare-value notices))))
+(bind ?f (assert(rules (fact-is be-notified)(value amendments-additions-to-standing-orders)(compare-value notices))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-notified)(eq ?f1:value amendments-additions-to-Standing-Orders)(eq ?f1:compare-value notices))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-notified)(eq ?f1:value amendments-additions-to-standing-orders)(eq ?f1:compare-value notices))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300883632-0
+(defrule gen-1494308098652-0
 ?adr<-(rules (fact-is decided)(value monetary-fine-as)(compare-value time-to))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is invite)(value Loss-of-I-card)(compare-value fine-in-disciplinary-grade))))
+(bind ?f (assert(rules (fact-is invite)(value loss-of-i-card)(compare-value fine-in-disciplinary-grade))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is invite)(eq ?f1:value Loss-of-I-card)(eq ?f1:compare-value fine-in-disciplinary-grade))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is invite)(eq ?f1:value loss-of-i-card)(eq ?f1:compare-value fine-in-disciplinary-grade))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300888723-0
+(defrule gen-1494308103232-0
 ?adr<-(rules (fact-is are)(value classes)(compare-value liable-to))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is fail-to-make)(value Students)(compare-value sufficient-progress-in-studies-attendance-in))))
+(bind ?f (assert(rules (fact-is fail-to-make)(value students)(compare-value sufficient-progress-in-studies-attendance-in))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is fail-to-make)(eq ?f1:value Students)(eq ?f1:compare-value sufficient-progress-in-studies-attendance-in))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is fail-to-make)(eq ?f1:value students)(eq ?f1:compare-value sufficient-progress-in-studies-attendance-in))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300889915-0
+(defrule gen-1494308104262-0
 ?adr<-(rules (fact-is be-regarded)(value it)(compare-value mass-absenteeism-act-of-indiscipline))
 =>
 (join-ands-start ?adr)
@@ -1318,19 +1318,19 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300891564-0
+(defrule gen-1494308105742-0
 ?adr<-(rules (fact-is indulging)(compare-value mass))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be-taken)(value Disciplinary-action)(compare-value students))))
+(bind ?f (assert(rules (fact-is be-taken)(value disciplinary-action)(compare-value students))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-taken)(eq ?f1:value Disciplinary-action)(eq ?f1:compare-value students))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-taken)(eq ?f1:value disciplinary-action)(eq ?f1:compare-value students))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300893249-0
-?adr<-(rules (fact-is issued)(compare-value University))
+(defrule gen-1494308107272-0
+?adr<-(rules (fact-is issued)(compare-value university))
 =>
 (join-ands-start ?adr)
 (bind ?f (assert(rules (fact-is disobey)(value student)(compare-value order))))
@@ -1340,8 +1340,8 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300899775-0
-?adr<-(rules (fact-is threaten)(value Examinations-tests-attempt)(compare-value staff-to))
+(defrule gen-1494308113372-0
+?adr<-(rules (fact-is threaten)(value examinations-tests-attempt)(compare-value staff-to))
 =>
 (join-ands-start ?adr)
 (bind ?f (assert(rules (fact-is use)(value students)(compare-value unfair-means-at))))
@@ -1351,7 +1351,7 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300903272-0
+(defrule gen-1494308116382-0
 ?adr<-(rules (fact-is render)(value they)(compare-value liable-to-penalties-as-in-force-from-time-to-time))
 =>
 (join-ands-start ?adr)
@@ -1362,18 +1362,18 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300907317-0
+(defrule gen-1494308120032-0
 ?adr<-(rules (fact-is have-to-replace)(compare-value damaged-property-good))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is facing)(value Such-student-in-addition-to)(compare-value disciplinary-action))))
+(bind ?f (assert(rules (fact-is facing)(value such-student-in-addition-to)(compare-value disciplinary-action))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is facing)(eq ?f1:value Such-student-in-addition-to)(eq ?f1:compare-value disciplinary-action))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is facing)(eq ?f1:value such-student-in-addition-to)(eq ?f1:compare-value disciplinary-action))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300910016-0
+(defrule gen-1494308122562-0
 ?adr<-(rules (fact-is concerned)(value students))
 =>
 (join-ands-start ?adr)
@@ -1384,29 +1384,29 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300918420-0
+(defrule gen-1494308129772-0
 ?adr<-(rules (fact-is be-denied)(compare-value entry-to))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is wearing)(value Students)(compare-value prescribed-dress-code))))
+(bind ?f (assert(rules (fact-is wearing)(value students)(compare-value prescribed-dress-code))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is wearing)(eq ?f1:value Students)(eq ?f1:compare-value prescribed-dress-code))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is wearing)(eq ?f1:value students)(eq ?f1:compare-value prescribed-dress-code))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300927485-0
+(defrule gen-1494308137564-0
 ?adr<-(rules (fact-is is-not-permitted-lead-to)(compare-value disciplinary-action))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is making)(value Tearing-folding-cutting-of-library-books)(compare-value mark-on))))
+(bind ?f (assert(rules (fact-is making)(value tearing-folding-cutting-of-library-books)(compare-value mark-on))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is making)(eq ?f1:value Tearing-folding-cutting-of-library-books)(eq ?f1:compare-value mark-on))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is making)(eq ?f1:value tearing-folding-cutting-of-library-books)(eq ?f1:compare-value mark-on))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300929404-0
+(defrule gen-1494308139134-0
 ?adr<-(rules (fact-is be-brought-to)(compare-value notice-of))
 =>
 (join-ands-start ?adr)
@@ -1417,62 +1417,62 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300935402-0
+(defrule gen-1494308143734-0
 ?adr<-(rules (fact-is be-deposited)(compare-value entrance-gate))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is belonging-to)(value Personal-property-books-other-than)(compare-value LRC))))
+(bind ?f (assert(rules (fact-is belonging-to)(value personal-property-books-other-than)(compare-value lrc))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is belonging-to)(eq ?f1:value Personal-property-books-other-than)(eq ?f1:compare-value LRC))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is belonging-to)(eq ?f1:value personal-property-books-other-than)(eq ?f1:compare-value lrc))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300938408-0
-?adr<-(rules (fact-is report-to)(value new-student-on-arrival)(compare-value Hostel-Warden-Administrator))
+(defrule gen-1494308146294-0
+?adr<-(rules (fact-is report-to)(value new-student-on-arrival)(compare-value hostel-warden-administrator))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is STANDING)(compare-value ORDERS-FOR-HOSTEL-STUDENTS))))
+(bind ?f (assert(rules (fact-is standing)(compare-value orders-for-hostel-students))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is STANDING)(eq ?f1:compare-value ORDERS-FOR-HOSTEL-STUDENTS)(eq ?f1:value none))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is standing)(eq ?f1:compare-value orders-for-hostel-students)(eq ?f1:value none))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300940647-0
-?adr<-(rules (fact-is occupying)(value Hostel-inmates:-At-time-of)(compare-value room-student))
+(defrule gen-1494308147824-0
+?adr<-(rules (fact-is occupying)(value hostel-inmates:-at-time-of)(compare-value room-student))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is following-are-Standing)(compare-value Orders-for-compliance-by))))
+(bind ?f (assert(rules (fact-is following-are-standing)(compare-value orders-for-compliance-by))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is following-are-Standing)(eq ?f1:compare-value Orders-for-compliance-by)(eq ?f1:value none))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is following-are-standing)(eq ?f1:compare-value orders-for-compliance-by)(eq ?f1:value none))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300945735-0
+(defrule gen-1494308152124-0
 ?adr<-(rules (fact-is including)(compare-value laptops))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is ensure)(value They)(compare-value valuables))))
+(bind ?f (assert(rules (fact-is ensure)(value they)(compare-value valuables))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is ensure)(eq ?f1:value They)(eq ?f1:compare-value valuables))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is ensure)(eq ?f1:value they)(eq ?f1:compare-value valuables))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300948158-0
-?adr<-(rules (fact-is enter-leave)(value security-staff-time)(compare-value Hostel-gate))
+(defrule gen-1494308154204-0
+?adr<-(rules (fact-is enter-leave)(value security-staff-time)(compare-value hostel-gate))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is show)(value Students)(compare-value ID-card-to))))
+(bind ?f (assert(rules (fact-is show)(value students)(compare-value id-card-to))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is show)(eq ?f1:value Students)(eq ?f1:compare-value ID-card-to))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is show)(eq ?f1:value students)(eq ?f1:compare-value id-card-to))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300951303-0
+(defrule gen-1494308156774-0
 ?adr<-(rules (fact-is including)(compare-value rustication-from))
 =>
 (join-ands-start ?adr)
@@ -1483,40 +1483,40 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300953979-0
-?adr<-(rules (fact-is possessing)(value lethal-weapon-with-in-Hostel-premises-though)(compare-value license-for))
+(defrule gen-1494308158774-0
+?adr<-(rules (fact-is possessing)(value lethal-weapon-with-in-hostel-premises-though)(compare-value license-for))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is are-not-permitted-to-keep)(value Students)(compare-value fire-arms))))
+(bind ?f (assert(rules (fact-is are-not-permitted-to-keep)(value students)(compare-value fire-arms))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is are-not-permitted-to-keep)(eq ?f1:value Students)(eq ?f1:compare-value fire-arms))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is are-not-permitted-to-keep)(eq ?f1:value students)(eq ?f1:compare-value fire-arms))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300957662-0
+(defrule gen-1494308161874-0
 ?adr<-(rules (fact-is cabling)(compare-value outlets-fittings-additional-electrical-appliances))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is fiddling)(value Hostel-inmates)(compare-value electric-connections-computer))))
+(bind ?f (assert(rules (fact-is fiddling)(value hostel-inmates)(compare-value electric-connections-computer))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is fiddling)(eq ?f1:value Hostel-inmates)(eq ?f1:compare-value electric-connections-computer))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is fiddling)(eq ?f1:value hostel-inmates)(eq ?f1:compare-value electric-connections-computer))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300963274-0
+(defrule gen-1494308165954-0
 ?adr<-(rules (fact-is allotted-to)(compare-value hostel))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is permitted-be-allowed-to-occupy)(value Students-unless)(compare-value rooms))))
+(bind ?f (assert(rules (fact-is permitted-be-allowed-to-occupy)(value students-unless)(compare-value rooms))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is permitted-be-allowed-to-occupy)(eq ?f1:value Students-unless)(eq ?f1:compare-value rooms))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is permitted-be-allowed-to-occupy)(eq ?f1:value students-unless)(eq ?f1:compare-value rooms))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300967788-0
+(defrule gen-1494308169604-0
 ?adr<-(rules (fact-is hand)(compare-value charge-of-rooms))
 =>
 (join-ands-start ?adr)
@@ -1527,8 +1527,8 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300968962-0
-?adr<-(rules (fact-is is-authorized-to-break)(value Warden-/-Administrator)(compare-value open-locked-room-inventory-of-articles))
+(defrule gen-1494308170604-0
+?adr<-(rules (fact-is is-authorized-to-break)(value warden-/-administrator)(compare-value open-locked-room-inventory-of-articles))
 =>
 (join-ands-start ?adr)
 (bind ?f (assert(rules (fact-is fails-to-do-so)(value student))))
@@ -1538,18 +1538,18 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300972114-0
-?adr<-(rules (fact-is take)(value nature-to-Warden-Administrator)(compare-value necessary-action))
+(defrule gen-1494308173306-0
+?adr<-(rules (fact-is take)(value nature-to-warden-administrator)(compare-value necessary-action))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is refer)(value Hostel-inmates)(compare-value difficulties-of))))
+(bind ?f (assert(rules (fact-is refer)(value hostel-inmates)(compare-value difficulties-of))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is refer)(eq ?f1:value Hostel-inmates)(eq ?f1:compare-value difficulties-of))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is refer)(eq ?f1:value hostel-inmates)(eq ?f1:compare-value difficulties-of))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300975724-0
+(defrule gen-1494308176876-0
 ?adr<-(rules (fact-is keep)(compare-value pets))
 =>
 (join-ands-start ?adr)
@@ -1560,7 +1560,7 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300981758-0
+(defrule gen-1494308182436-0
 ?adr<-(rules (fact-is specified)(compare-value times-unless))
 =>
 (join-ands-start ?adr)
@@ -1571,19 +1571,19 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300983429-0
+(defrule gen-1494308183966-0
 ?adr<-(rules (fact-is allotted-to)(compare-value seven-days-of-registration))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is does-not-occupy)(value student)(compare-value Hostel-room))))
+(bind ?f (assert(rules (fact-is does-not-occupy)(value student)(compare-value hostel-room))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is does-not-occupy)(eq ?f1:value student)(eq ?f1:compare-value Hostel-room))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is does-not-occupy)(eq ?f1:value student)(eq ?f1:compare-value hostel-room))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300986139-0
-?adr<-(rules (fact-is have-to-abide)(compare-value Hostel-Rules-in-vogue))
+(defrule gen-1494308186036-0
+?adr<-(rules (fact-is have-to-abide)(compare-value hostel-rules-in-vogue))
 =>
 (join-ands-start ?adr)
 (bind ?f (assert(rules (fact-is staying)(value students)(compare-value hostels-during-summer-vacations))))
@@ -1593,51 +1593,51 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494300988692-0
+(defrule gen-1494308188076-0
 ?adr<-(rules (fact-is prescribed)(value food-beyond)(compare-value timings-in))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is get)(value They)(compare-value entry))))
+(bind ?f (assert(rules (fact-is get)(value they)(compare-value entry))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is get)(eq ?f1:value They)(eq ?f1:compare-value entry))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is get)(eq ?f1:value they)(eq ?f1:compare-value entry))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300990798-0
-?adr<-(rules (fact-is be-expelled)(compare-value Hostel))
+(defrule gen-1494308190116-0
+?adr<-(rules (fact-is be-expelled)(compare-value hostel))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is found-indulged-ragging)(value Student))))
+(bind ?f (assert(rules (fact-is found-indulged-ragging)(value student))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is found-indulged-ragging)(eq ?f1:value Student)(eq ?f1:compare-value none))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is found-indulged-ragging)(eq ?f1:value student)(eq ?f1:compare-value none))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300996148-0
+(defrule gen-1494308195409-0
 ?adr<-(rules (fact-is repeated)(compare-value offences))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be-expelled)(value student)(compare-value Hostel-in-case-of))))
+(bind ?f (assert(rules (fact-is be-expelled)(value student)(compare-value hostel-in-case-of))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-expelled)(eq ?f1:value student)(eq ?f1:compare-value Hostel-in-case-of))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-expelled)(eq ?f1:value student)(eq ?f1:compare-value hostel-in-case-of))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300997705-0
+(defrule gen-1494308196949-0
 ?adr<-(rules (fact-is vacate)(value semester-as-such)(compare-value rooms-within-three-days-of-conclusion-of))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is are-charged)(value students)(compare-value Hostel-fee-for))))
+(bind ?f (assert(rules (fact-is are-charged)(value students)(compare-value hostel-fee-for))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is are-charged)(eq ?f1:value students)(eq ?f1:compare-value Hostel-fee-for))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is are-charged)(eq ?f1:value students)(eq ?f1:compare-value hostel-fee-for))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494300999250-0
+(defrule gen-1494308198479-0
 ?adr<-(rules (fact-is attract)(value competent-authority)(compare-value disciplinary-action-payment-at-enhanced-rates-on-rates-as-by-authority-for))
 =>
 (join-ands-start ?adr)
@@ -1648,35 +1648,35 @@
 )(join-ands ?f)
 )
 
-(defrule gen-1494301000804-0
+(defrule gen-1494308200029-0
 ?adr<-(rules (fact-is face)(compare-value disciplinary-action-in))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is violating)(value Students)(compare-value above-guidelines))))
+(bind ?f (assert(rules (fact-is violating)(value students)(compare-value above-guidelines))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is violating)(eq ?f1:value Students)(eq ?f1:compare-value above-guidelines))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is violating)(eq ?f1:value students)(eq ?f1:compare-value above-guidelines))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494301009869-0
-?adr<-(rules (fact-is be-de-registered)(value Conditions-for-Progression-Termination-of-Registration-student))
+(defrule gen-1494308208699-0
+?adr<-(rules (fact-is be-de-registered)(value conditions-for-progression-termination-of-registration-student))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is /-fails-to-meet-following)(value he)(compare-value criteria-for-continuation-of-Program:-to-requirements-for-progression-as-in-Academic-System-for-respective-phase’s))))
+(bind ?f (assert(rules (fact-is /-fails-to-meet-following)(value he)(compare-value criteria-for-continuation-of-program:-to-requirements-for-progression-as-in-academic-system-for-respective-phase’s))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is /-fails-to-meet-following)(eq ?f1:value he)(eq ?f1:compare-value criteria-for-continuation-of-Program:-to-requirements-for-progression-as-in-Academic-System-for-respective-phase’s))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is /-fails-to-meet-following)(eq ?f1:value he)(eq ?f1:compare-value criteria-for-continuation-of-program:-to-requirements-for-progression-as-in-academic-system-for-respective-phase’s))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
 
-(defrule gen-1494301012527-0
+(defrule gen-1494308211239-0
 ?adr<-(rules (fact-is fails-to-complete)(value student)(compare-value requirements-of))
 =>
 (join-ands-start ?adr)
-(bind ?f (assert(rules (fact-is be-awarded)(value Degree)(compare-value case))))
+(bind ?f (assert(rules (fact-is be-awarded)(value degree)(compare-value case))))
 (if (eq ?f FALSE) then 
-(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-awarded)(eq ?f1:value Degree)(eq ?f1:compare-value case))
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-awarded)(eq ?f1:value degree)(eq ?f1:compare-value case))
 (bind ?f ?f1))
 )(join-ands ?f)
 )
