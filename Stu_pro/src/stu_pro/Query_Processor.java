@@ -73,7 +73,7 @@ public class Query_Processor implements Global_variables{
                 Conclusion_Query conclusion_object=new Conclusion_Query(); 
                 clips.load(template);
                 clips.load(rule_base); //rule base
-
+                clips.load(learn_rules1);
                 Answer=conclusion_object.conclusion_query(y , y1 , clips);
             }else if(y.contains("t/f")){
                 True_False_Query tfq_object=new True_False_Query();
@@ -113,7 +113,7 @@ public class Query_Processor implements Global_variables{
                 Conclusion_Query conclusion_object=new Conclusion_Query(); 
                 clips.load(template);
                 clips.load(rule_base); //rule base
-
+                clips.load(learn_rules1);
                 Answer=conclusion_object.conclusion_query(y , y1 , clips);
             }else if(y.contains("t/f")){
                 True_False_Query tfq_object=new True_False_Query();
@@ -125,7 +125,7 @@ public class Query_Processor implements Global_variables{
                 Conclusion_Query conclusion_object=new Conclusion_Query(); 
                 clips.load(template);
                 clips.load(rule_base); //rule base
-
+                clips.load(learn_rules1);
                 Answer=conclusion_object.conclusion_query(y , y1 , clips);
                 if(Answer.contains("Not able to infer exact query.")){
                     load_facts(clips);

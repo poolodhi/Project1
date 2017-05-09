@@ -33,7 +33,7 @@ public class BC_fileprocess implements Global_variables{
         }
         
     }
-    public void fileprocess(String filename){
+    public void fileprocess(String sourcefilename,String destfilename){
         
         String function_start="(join-ands-start ?adr)";
         String if_condition_part1="(if (eq ?f FALSE) then \n" +"(do-for-fact ((?f1 rules))";
@@ -50,7 +50,7 @@ public class BC_fileprocess implements Global_variables{
         
         try{
         
-            BufferedReader br = new BufferedReader(new FileReader(rule_base));
+            BufferedReader br = new BufferedReader(new FileReader(sourcefilename));
             StringBuilder sb = new StringBuilder();
             String line = br.readLine();
 
@@ -200,7 +200,7 @@ public class BC_fileprocess implements Global_variables{
             }
             //String everything = sb.toString();
             //System.out.println(everything);
-            write_in_file(sb,filename);
+            write_in_file(sb,destfilename);
         }catch(FileNotFoundException e){
             System.out.println(rule_base+"File not found");
         }catch(IOException e){

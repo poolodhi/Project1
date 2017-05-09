@@ -262,6 +262,7 @@ public class Conclusion_Query implements Global_variables{
                     int totaloldfacts=0;
                 clips2.load(template);
                 clips2.load(fact_base); 
+                clips2.load(learn_facts1);
                 clips2.reset();
                 clips2.run();
                 //clips2.eval("(facts)");

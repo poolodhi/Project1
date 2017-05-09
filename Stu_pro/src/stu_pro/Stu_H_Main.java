@@ -9,6 +9,8 @@ import java.io.IOException;
 import java.util.Scanner;
 import static stu_pro.Global_variables.bc_rule_base;
 import static stu_pro.Global_variables.bc_rule_learn;
+import static stu_pro.Global_variables.learn_rules1;
+import static stu_pro.Global_variables.rule_base;
 /**
  *
  * @author MR. V.P. SINGH
@@ -22,8 +24,8 @@ public class Stu_H_Main {
         database d=new database();
         d.create_database();
         BC_fileprocess b=new BC_fileprocess();
-        b.fileprocess(bc_rule_base);
-        b.fileprocess(bc_rule_learn);
+        b.fileprocess(rule_base,bc_rule_base);
+        b.fileprocess(learn_rules1,bc_rule_learn);
     }
     public static void main() throws IOException, Exception {
         Stu_H_Main t=new Stu_H_Main();
