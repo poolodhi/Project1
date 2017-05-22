@@ -79,9 +79,9 @@ public class writetofile implements global_variables {
             // true = append file
             fw = new FileWriter(file.getAbsoluteFile(), true);
             bw = new BufferedWriter(fw);
-            bw.write(starting);
+            //bw.write(starting);
             bw.write(ruledata.toString());
-            bw.write(ending);
+            //bw.write(ending);
             System.out.println("Learned rule");
             ruledata.setLength(0);
             } catch (IOException e) {

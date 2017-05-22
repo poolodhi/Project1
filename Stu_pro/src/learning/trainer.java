@@ -100,7 +100,10 @@ public class trainer implements global_variables{
             c.wherereadfile(text);
             }else if(predicted_value.equals("what")){
             c.whatreadfile(text);
+            }else if(predicted_value.equals("what-happen")){
+            c.whathappenreadfile(text);
             }
+            
             
         }catch(Exception e){
             e.printStackTrace();
