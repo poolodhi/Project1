@@ -458,7 +458,7 @@
 (rules (fact-is arrived)(value hcl-technologies)(compare-value jbs-campus-for-placements))
 (rules (fact-is were-selected)(value students)(compare-value profiles-of-financial-analyst-program-management-office-presales-business-analyst-quality-transformation-specialists-fnpa-procurement-risk-compliance-delivery-management-specialists))
 )
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;------------------------------------------------------------------------------------------------
 (deffacts facts1495438807705
 (rules (fact-is mhrd)(value nirf)(compare-value rankings-2017:-jiit-india-rank-of-54-in-engineering-category-than-nit-new-iit))
 (rules (fact-is advanced)(value most)(compare-value facilities-to-students-academic-career-goals))
