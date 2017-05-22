@@ -223,7 +223,7 @@ public class Query_Processor implements Global_variables{
         }
         Answer_processor ap=new Answer_processor();
         Answer=ap.answer_processing(Answer);
-        System.out.println(Answer);
+        System.out.println("Answer:"+Answer);
         return Answer;
         
         //System.out.println("\nIf you did not recived desired answer then Please try to improve your query.");  

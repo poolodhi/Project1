@@ -64,7 +64,8 @@ public class Fact_query {
                       ans+=value1+", ";
                   }
                 }
-              System.out.println("\n"+ans+fact_is.replace("-", " ")+" ");
+              //System.out.println("\n"+ans+fact_is.replace("-", " ")+" ");
+              return "\n"+ans+fact_is+" ";
             }
             else{
                 String ans="",value1="",slot1,slot2,fact_is="",m;
@@ -112,6 +113,6 @@ public class Fact_query {
             //System.out.println("\n Not able to infer exact query. Please try to improve your query.");
             return "\n Not able to infer exact query.\n Please try to improve your query.";
         }
-        return "";
+        //return "";
     }
 }

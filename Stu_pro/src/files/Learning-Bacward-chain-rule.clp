@@ -1681,3 +1681,685 @@
 )(join-ands ?f)
 )
 
+(defrule gen-1495438805459-0
+?adr<-(rules (fact-is develop)(compare-value sports-skills-in-various-outdoor-indoor-games-like-football-cricket-basketball-ball-badminton-courts-volley-ball-athletics-chess-swimming-carrom))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is encourages)(value sports-club)(compare-value students-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is encourages)(eq ?f1:value sports-club)(eq ?f1:compare-value students-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495438813477-0
+?adr<-(rules (fact-is covering)(compare-value academic-block-business-school-cum-research-block-faculty-residences-student-hostels-annapurna))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is comprises)(value state-of-the-art-conditioned-campus)(compare-value smart-buildings-with-wi-fi-connectivity))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is comprises)(eq ?f1:value state-of-the-art-conditioned-campus)(eq ?f1:compare-value smart-buildings-with-wi-fi-connectivity))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495438816020-0
+?adr<-(rules (fact-is cater)(compare-value demands-of))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is understand)(value we)(compare-value order-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is understand)(eq ?f1:value we)(eq ?f1:compare-value order-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495438920883-0
+?adr<-(rules (fact-is get)(compare-value bachelors))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is entitle)(value dual-degree-programs)(compare-value students-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is entitle)(eq ?f1:value dual-degree-programs)(eq ?f1:compare-value students-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495438974563-0
+?adr<-(rules (fact-is doing)(compare-value business-display-individual-corporate-social-responsibility-conscious-of-sustainable-business))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is look)(value mba-graduates-of-jbs)(compare-value ethical-way-of))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is look)(eq ?f1:value mba-graduates-of-jbs)(eq ?f1:compare-value ethical-way-of))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439001598-0
+?adr<-(rules (fact-is set)(compare-value own))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is take)(value few-students)(compare-value challenge-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is take)(eq ?f1:value few-students)(eq ?f1:compare-value challenge-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439020162-0
+?adr<-(rules (fact-is is)(value today)(compare-value team-of-nineteen))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is started)(value department)(compare-value single-faculty))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is started)(eq ?f1:value department)(eq ?f1:compare-value single-faculty))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439026230-0
+?adr<-(rules (fact-is conferences)(value research-work-workshops-faculty-development-programs-guest-lectures))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is need-to-update)(value we))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is need-to-update)(eq ?f1:value we)(eq ?f1:compare-value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439037369-0
+?adr<-(rules (fact-is involved)(value broader-social-cultural-economic-ethical-humane-issues)(compare-value social-change))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is are-meant-to-sensitize-to)(value they))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is are-meant-to-sensitize-to)(eq ?f1:value they)(eq ?f1:compare-value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439064341-0
+?adr<-(rules (fact-is interested)(compare-value other-related-areas))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is given-below-be-pref-erred-however)(value research-scholars-in-areas)(compare-value scholars))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is given-below-be-pref-erred-however)(eq ?f1:value research-scholars-in-areas)(eq ?f1:compare-value scholars))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439147411-0
+?adr<-(rules (fact-is acquainted)(compare-value placement-procedures-placement-records-of-university-to-to))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is was-not-only-to-make)(value motive-behind-talk)(compare-value students))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is was-not-only-to-make)(eq ?f1:value motive-behind-talk)(eq ?f1:compare-value students))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439163041-0
+?adr<-(rules (fact-is is-primed-to-be)(compare-value next-economic-powerhouse-only-country))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is spoke)(compare-value major-reasons))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is spoke)(eq ?f1:compare-value major-reasons)(eq ?f1:value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439295305-0
+?adr<-(rules (fact-is occurs)(value prevalent-form-of-plagiarism))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is neglects-to-credit)(value writer)(compare-value author-textual-sources-in))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is neglects-to-credit)(eq ?f1:value writer)(eq ?f1:compare-value author-textual-sources-in))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439300001-0
+?adr<-(rules (fact-is be-merely)(compare-value due-to))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is do-not-want)(value we)(compare-value finding-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is do-not-want)(eq ?f1:value we)(eq ?f1:compare-value finding-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439341163-0
+?adr<-(rules (fact-is file)(compare-value patent-various-govt))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is motivated)(value he)(compare-value audience-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is motivated)(eq ?f1:value he)(eq ?f1:compare-value audience-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439370713-0
+?adr<-(rules (fact-is be-controlled)(value incurable-neurological-disorders-progression)(compare-value synthetic-drugs))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is is-considered)(value parkinson’s-disease)(compare-value one-of))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is-considered)(eq ?f1:value parkinson’s-disease)(eq ?f1:compare-value one-of))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439392433-0
+?adr<-(rules (fact-is work-motivate)(value way-scientists)(compare-value students-to))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is hoped)(value sharma)(compare-value exposure-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is hoped)(eq ?f1:value sharma)(eq ?f1:compare-value exposure-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439430283-0
+?adr<-(rules (fact-is paid)(compare-value seats))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is do-not-fall)(compare-value prey-to-false-assurance-of))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is do-not-fall)(eq ?f1:compare-value prey-to-false-assurance-of)(eq ?f1:value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439431853-0
+?adr<-(rules (fact-is paid)(compare-value seats))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is do-not-fall)(compare-value prey-to-false-assurance-of))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is do-not-fall)(eq ?f1:compare-value prey-to-false-assurance-of)(eq ?f1:value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439443673-0
+?adr<-(rules (fact-is share)(compare-value 1400-eligible-students))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is are)(value we)(compare-value proud-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is are)(eq ?f1:value we)(eq ?f1:compare-value proud-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439458233-0
+?adr<-(rules (fact-is do-not-realize)(compare-value transiency-of-youth-on-glory-charm-second-youth-wake))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is are)(compare-value two-categories:))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is are)(eq ?f1:compare-value two-categories:)(eq ?f1:value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439461475-0
+?adr<-(rules (fact-is be)(value it)(compare-value fun))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is be-as)(value it)(compare-value comfortable-as-home?))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-as)(eq ?f1:value it)(eq ?f1:compare-value comfortable-as-home?))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439486767-0
+?adr<-(rules (fact-is like-band)(compare-value events-street))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is participate)(value students-of-society)(compare-value inter-college-events))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is participate)(eq ?f1:value students-of-society)(eq ?f1:compare-value inter-college-events))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439491507-0
+?adr<-(rules (fact-is gives)(value nukkad))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is gets-to)(value stage)(compare-value sentimentality-with-beautiful-subtlety-street))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is gets-to)(eq ?f1:value stage)(eq ?f1:compare-value sentimentality-with-beautiful-subtlety-street))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439493067-0
+?adr<-(rules (fact-is has-helped)(compare-value team-to))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is existing)(compare-value warmth-care-that-members-for-other))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is existing)(eq ?f1:compare-value warmth-care-that-members-for-other)(eq ?f1:value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439494107-0
+?adr<-(rules (fact-is encourage)(compare-value freshers-to))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is conduct)(value we)(compare-value auditions-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is conduct)(eq ?f1:value we)(eq ?f1:compare-value auditions-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439497807-0
+?adr<-(rules (fact-is are)(value domain)(compare-value confident-passionate-spark-in-to))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is welcome)(value we)(compare-value people-from))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is welcome)(eq ?f1:value we)(eq ?f1:compare-value people-from))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439499387-0
+?adr<-(rules (fact-is collegiate)(compare-value success!))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is be)(value involvement)(compare-value key-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be)(eq ?f1:value involvement)(eq ?f1:compare-value key-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439500497-0
+?adr<-(rules (fact-is connect)(compare-value students-faculty-staff-valuable-experience-to-resume))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is gain)(value you)(compare-value confidence-as))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is gain)(eq ?f1:value you)(eq ?f1:compare-value confidence-as))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439506267-0
+?adr<-(rules (fact-is be)(compare-value life-of-dire-hardship))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is render)(value life-without-services))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is render)(eq ?f1:value life-without-services)(eq ?f1:compare-value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439514617-0
+?adr<-(rules (fact-is understanding-existing)(compare-value gadgets-own-devices))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is assist)(value it)(compare-value students-in))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is assist)(eq ?f1:value it)(eq ?f1:compare-value students-in))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439521109-0
+?adr<-(rules (fact-is be)(value multimedia-development)(compare-value area-for))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is have)(value you)(compare-value creative-desgn-skills))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is have)(eq ?f1:value you)(eq ?f1:compare-value creative-desgn-skills))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439540463-0
+?adr<-(rules (fact-is keeps)(compare-value evil-spirits))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is believe)(value they))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is believe)(eq ?f1:value they)(eq ?f1:compare-value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439551423-0
+?adr<-(rules (fact-is experience-live)(value young-students-of-today-to)(compare-value passion))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is provides)(value other-hand)(compare-value ample-opportunities-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is provides)(eq ?f1:value other-hand)(eq ?f1:compare-value ample-opportunities-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439563504-0
+?adr<-(rules (fact-is discussed)(value he)(compare-value consequences-that-in-near-future))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is are-not-taken)(value preventive-measures))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is are-not-taken)(eq ?f1:value preventive-measures)(eq ?f1:compare-value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439564034-0
+?adr<-(rules (fact-is showed)(compare-value videos-on))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is substantiate)(compare-value points))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is substantiate)(eq ?f1:compare-value points)(eq ?f1:value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439565604-0
+?adr<-(rules (fact-is debate)(compare-value question-without))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is is)(value “it)(compare-value better-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is)(eq ?f1:value “it)(eq ?f1:compare-value better-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439606044-0
+?adr<-(rules (fact-is have)(compare-value more-than-160-alumni-participants-from))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is was-indeed)(value it)(compare-value great-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is was-indeed)(eq ?f1:value it)(eq ?f1:compare-value great-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439607064-0
+?adr<-(rules (fact-is sharing)(compare-value stage-to))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is resumed)(value tea-break-event)(compare-value alumni))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is resumed)(eq ?f1:value tea-break-event)(eq ?f1:compare-value alumni))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439612324-0
+?adr<-(rules (fact-is are)(value ground-magical-atmosphere)(compare-value ready-to))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is glittering)(compare-value lights-in))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is glittering)(eq ?f1:compare-value lights-in)(eq ?f1:value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439614434-0
+?adr<-(rules (fact-is give)(compare-value tips-to-students))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is conducted)(compare-value hr-workshop-campus-to-corporate-–-building-brand-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is conducted)(eq ?f1:compare-value hr-workshop-campus-to-corporate-–-building-brand-to)(eq ?f1:value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439622354-0
+?adr<-(rules (fact-is wear)(compare-value best-smile))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is come)(compare-value nostalgic-glow-on-face))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is come)(eq ?f1:compare-value nostalgic-glow-on-face)(eq ?f1:value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439622874-0
+?adr<-(rules (fact-is be-making)(compare-value first-year-book-hope-part-of))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is are-also-pleased-to-inform)(value we))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is are-also-pleased-to-inform)(eq ?f1:value we)(eq ?f1:compare-value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439623914-0
+?adr<-(rules (fact-is fill)(compare-value quote-to))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is require-to)(value we))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is require-to)(eq ?f1:value we)(eq ?f1:compare-value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439624434-0
+?adr<-(rules (fact-is show)(value movie)(compare-value originality-of-own))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is quote)(value you)(compare-value favourite-character-from))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is quote)(eq ?f1:value you)(eq ?f1:compare-value favourite-character-from))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439625454-0
+?adr<-(rules (fact-is love-to-put)(compare-value name))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is reflects)(value it)(compare-value personality-smile-on-face-after-20-years))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is reflects)(eq ?f1:value it)(eq ?f1:compare-value personality-smile-on-face-after-20-years))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439634914-0
+?adr<-(rules (fact-is have)(compare-value alumnus-of))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is were-also)(value we)(compare-value lucky-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is were-also)(eq ?f1:value we)(eq ?f1:compare-value lucky-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439660434-0
+?adr<-(rules (fact-is identify-then-simplify)(compare-value challenging-issues))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is makes)(compare-value imperative-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is makes)(eq ?f1:compare-value imperative-to)(eq ?f1:value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439663044-0
+?adr<-(rules (fact-is given)(value courses)(compare-value undergraduate-postgraduate-levels))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is constitute)(value elementary-methods-of-numerical-computation)(compare-value important-ingredient-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is constitute)(eq ?f1:value elementary-methods-of-numerical-computation)(eq ?f1:compare-value important-ingredient-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439754414-0
+?adr<-(rules (fact-is use)(compare-value blog-facility))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is want-to)(value we))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is want-to)(eq ?f1:value we)(eq ?f1:compare-value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439754944-0
+?adr<-(rules (fact-is have-been-provided-to)(compare-value blog:))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is following)(compare-value options))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is following)(eq ?f1:compare-value options)(eq ?f1:value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439755484-0
+?adr<-(rules (fact-is write)(compare-value messages))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is is-where)(value a-“create-blog”))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is-where)(eq ?f1:value a-“create-blog”)(eq ?f1:compare-value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439763454-0
+?adr<-(rules (fact-is shared)(compare-value journey-with-that-many-more-such-success-stories))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is like-to-present)(value we)(compare-value success-stories-of-alumnus))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is like-to-present)(eq ?f1:value we)(eq ?f1:compare-value success-stories-of-alumnus))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439775854-0
+?adr<-(rules (fact-is share)(compare-value registration-details-on-social-networking-sites))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is want-to)(value we))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is want-to)(eq ?f1:value we)(eq ?f1:compare-value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439776934-0
+?adr<-(rules (fact-is hear)(compare-value success-stories-of-alumni-same-in-upcoming-newsletters))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is be-very)(value we)(compare-value proud-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-very)(eq ?f1:value we)(eq ?f1:compare-value proud-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439782704-0
+?adr<-(rules (fact-is are)(compare-value ours-to-part-of-journey))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is cherish)(value we)(compare-value achievements-like))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is cherish)(eq ?f1:value we)(eq ?f1:compare-value achievements-like))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439853594-0
+?adr<-(rules (fact-is driven)(compare-value impartial-rankings))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is has-given)(value edu-rand)(compare-value first-scientific-data))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is has-given)(eq ?f1:value edu-rand)(eq ?f1:compare-value first-scientific-data))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439884146-0
+?adr<-(rules (fact-is has-been-obtained)(compare-value ugc-vide-letter-nof42-1))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is starting)(value necessary-approval-for)(compare-value extended-campus))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is starting)(eq ?f1:value necessary-approval-for)(eq ?f1:compare-value extended-campus))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495439922606-0
+?adr<-(rules (fact-is cater)(compare-value demands-of))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is understand)(value we)(compare-value order-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is understand)(eq ?f1:value we)(eq ?f1:compare-value order-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495440278577-0
+?adr<-(rules (fact-is bringing)(value researchers-towards)(compare-value newer-efficient-techniques))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is give)(value it)(compare-value impetus-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is give)(eq ?f1:value it)(eq ?f1:compare-value impetus-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495440338557-0
+?adr<-(rules (fact-is be-required)(compare-value registration-purpose:))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is following)(compare-value information))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is following)(eq ?f1:compare-value information)(eq ?f1:value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495440486697-0
+?adr<-(rules (fact-is encountered)(compare-value solutions))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is proposes-to-discuss)(value it)(compare-value practical-challenges))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is proposes-to-discuss)(eq ?f1:value it)(eq ?f1:compare-value practical-challenges))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+

@@ -195,7 +195,7 @@ public class Background extends javax.swing.JFrame implements Global_variables{
         jScrollPane1.setViewportView(jTextArea1);
 
         getContentPane().add(jScrollPane1);
-        jScrollPane1.setBounds(50, 440, 510, 160);
+        jScrollPane1.setBounds(50, 440, 590, 160);
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
@@ -325,6 +325,18 @@ public class Background extends javax.swing.JFrame implements Global_variables{
     jTextField3.setText("");
     jTextField4.setText("");   
     */
+    if(result.length()>40){
+    String a[]=result.split(" ");
+    result="";
+    int count=0;
+    for(String s:a ){
+    result+=s+" ";
+    count++;
+    if(count>=7){
+        result+="\n";count=0;
+    }
+    }
+    }
     jTextArea1.setText(String.valueOf(result));
     }//GEN-LAST:event_jButton1ActionPerformed
     protected void updateState(){
