@@ -159,7 +159,8 @@ public class Crawl1 implements global_variables{
         for (Element link : links){
             if(!link.attr("href").isEmpty()){
                 String l=link.attr("href");
-                if(!hyperlinks.contains(l) && !l.contains("javascript") && !l.contains("mailto")){
+                if(!hyperlinks.contains(l) && !l.contains("javascript") && !l.contains("mailto") 
+                        && !l.contains("/phd-thesis-submitted")){
                     hyperlinks.add(l);
                     if(!l.startsWith("http")){
                     linkslist.add(currentlink+l);
