@@ -2363,3 +2363,234 @@
 )(join-ands ?f)
 )
 
+(defrule gen-1495462695997-0
+?adr<-(rules (fact-is get)(compare-value bachelors))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is entitle)(value dual-degree-programs)(compare-value students-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is entitle)(eq ?f1:value dual-degree-programs)(eq ?f1:compare-value students-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495462702969-0
+?adr<-(rules (fact-is paid)(compare-value seats))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is do-not-fall)(compare-value prey-to-false-assurance-of))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is do-not-fall)(eq ?f1:compare-value prey-to-false-assurance-of)(eq ?f1:value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474704986-0
+?adr<-(rules (fact-is share)(compare-value 1400-eligible-students))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is are)(value we)(compare-value proud-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is are)(eq ?f1:value we)(eq ?f1:compare-value proud-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474867669-0
+?adr<-(rules (fact-is like)(compare-value salaries-upto-rs-9-lac-pa))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is got)(value note:-183-students)(compare-value offers-with-more-than-70-companies))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is got)(eq ?f1:value note:-183-students)(eq ?f1:compare-value offers-with-more-than-70-companies))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474872851-0
+?adr<-(rules (fact-is described)(value practices))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is using)(compare-value website-consent-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is using)(eq ?f1:compare-value website-consent-to)(eq ?f1:value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474874134-0
+?adr<-(rules (fact-is constitutes)(value privacy-policy)(compare-value acceptance-of))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is following)(value your-continued-use-of-website)(compare-value changes-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is following)(eq ?f1:value your-continued-use-of-website)(eq ?f1:compare-value changes-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474881727-0
+?adr<-(rules (fact-is be-collected-used)(value it)(compare-value others))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is disclose)(value you)(compare-value personal-information-other-sensitive-data-through-such-channels))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is disclose)(eq ?f1:value you)(eq ?f1:compare-value personal-information-other-sensitive-data-through-such-channels))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474885803-0
+?adr<-(rules (fact-is regarding)(value other-research)(compare-value opinion-of))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is use)(value we)(compare-value personal-information-to-contact-via-surveys))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is use)(eq ?f1:value we)(eq ?f1:compare-value personal-information-to-contact-via-surveys))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474889225-0
+?adr<-(rules (fact-is account)(compare-value sign-up-process))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is informing)(value you-of-marketing-offers-from-business-partners-by))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is informing)(eq ?f1:value you-of-marketing-offers-from-business-partners-by)(eq ?f1:compare-value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474889922-0
+?adr<-(rules (fact-is regarding)(compare-value changes))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is does-not-apply-to)(value your-opt-out)(compare-value communications-from-jbs))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is does-not-apply-to)(eq ?f1:value your-opt-out)(eq ?f1:compare-value communications-from-jbs))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474893685-0
+?adr<-(rules (fact-is deliver)(compare-value viruses-to-computer))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is be-used-to-run)(value cookies)(compare-value programs))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is be-used-to-run)(eq ?f1:value cookies)(eq ?f1:compare-value programs))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474894416-0
+?adr<-(rules (fact-is issued)(value domain)(compare-value cookie-to))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is are-uniquely-assigned-to-only-be-read)(value cookies)(compare-value web-server-in))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is are-uniquely-assigned-to-only-be-read)(eq ?f1:value cookies)(eq ?f1:compare-value web-server-in))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474895776-0
+?adr<-(rules (fact-is accept-decline)(compare-value cookies))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is have)(value you)(compare-value ability-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is have)(eq ?f1:value you)(eq ?f1:compare-value ability-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474897913-0
+?adr<-(rules (fact-is understand)(compare-value user-preferences-advertisements-to))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is use)(value we)(compare-value third-parties-to))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is use)(eq ?f1:value we)(eq ?f1:compare-value third-parties-to))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474900613-0
+?adr<-(rules (fact-is including)(compare-value limitation-communications))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is are-not-obligated-to-monitor-retain)(value we)(compare-value data-through-servers))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is are-not-obligated-to-monitor-retain)(eq ?f1:value we)(eq ?f1:compare-value data-through-servers))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474901302-0
+?adr<-(rules (fact-is have)(compare-value expectation-of-privacy-with-respect-to))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is acknowledge-agree)(value you))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is acknowledge-agree)(eq ?f1:value you)(eq ?f1:compare-value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474904667-0
+?adr<-(rules (fact-is result)(compare-value disclosure-of-personal-information))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is are)(compare-value many-factors-beyond-control))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is are)(eq ?f1:compare-value many-factors-beyond-control)(eq ?f1:value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474905347-0
+?adr<-(rules (fact-is relating-to)(value representations)(compare-value security-of))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is ensure-disclaim)(value result)(compare-value warranties))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is ensure-disclaim)(eq ?f1:value result)(eq ?f1:compare-value warranties))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474906708-0
+?adr<-(rules (fact-is delete)(compare-value personal-information))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is review)(value you)(compare-value correct-update))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is review)(eq ?f1:value you)(eq ?f1:compare-value correct-update))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474908654-0
+?adr<-(rules (fact-is be-deleted)(value age)(compare-value user-account-unless))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is please-note)(compare-value certain-personal-information-such-as-date-of-birth))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is please-note)(eq ?f1:compare-value certain-personal-information-such-as-date-of-birth)(eq ?f1:value none))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+
+(defrule gen-1495474910029-0
+?adr<-(rules (fact-is reserve)(value we)(compare-value right-to-personal-information-after-account-cancellation))
+=>
+(join-ands-start ?adr)
+(bind ?f (assert(rules (fact-is is)(value such-information)(compare-value necessary-to-disputes-to-with-legal-requirements))))
+(if (eq ?f FALSE) then 
+(do-for-fact ((?f1 rules))(and (eq ?f1:fact-is is)(eq ?f1:value such-information)(eq ?f1:compare-value necessary-to-disputes-to-with-legal-requirements))
+(bind ?f ?f1))
+)(join-ands ?f)
+)
+

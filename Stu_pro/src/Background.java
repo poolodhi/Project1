@@ -332,7 +332,7 @@ public class Background extends javax.swing.JFrame implements Global_variables{
     for(String s:a ){
     result+=s+" ";
     count++;
-    if(count>=7){
+    if(count>=10){
         result+="\n";count=0;
     }
     }
